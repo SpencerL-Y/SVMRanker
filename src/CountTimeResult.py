@@ -8,9 +8,9 @@ import signal
 import time
 import re
 
+train_expression = re.compile(r"train_ranking_functioning time = ")
 
 dirName = sys.argv[1]
-targetCSV = sys.argv[2]
 
 fileList = os.listdir(dirName)
 for name in fileList:
@@ -19,11 +19,5 @@ for name in fileList:
             changed = False
             print(dirName + name)
             for line in f:
-                if line.find("INF-INITE") != -1:
-                    print("INF-INITE")
-                    wf = open(targetCSV, "a")
-                    wf.write(name.split(".", 1)[0] + "," + "N\n")
-                    wf.close()
-                    changed = True
-                    break
-
+                match = train_expression.search(line)
+                #print(match.group(0))
