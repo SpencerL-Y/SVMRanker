@@ -60,7 +60,7 @@ def LearnRanker(templateFilePath, indexOfTemplate, x, y):
     #f.write('Time For %s Is ---> %f ms\n' %(templateFilePath,float((newtime-oldtime).total_seconds())*1000 ))
 
     #f.close()
-    if ret== 'FINITE':
+    if ret== 'TERMINATE':
         print(rf)
         # print('#num_pos = ', rf.get_num_of_pos(), ' #num_neg = ', rf.get_num_of_neg())
     return ret,new_x,new_y

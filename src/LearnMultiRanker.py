@@ -29,10 +29,10 @@ def LearnRankerNoBoundLoopBody(L_test, x, y):
     )
     #ret, new_x, new_y = train_ranking_function(L_test, rf, x, y)
     ret, new_x, new_y = train_ranking_function_strategic(L_test, rf, x, y)
-    if ret == 'FINITE':
+    if ret == 'TERMINATE':
         no_bound_return = 'CORRECT'
-    elif ret == 'INF-INITE':
-        no_bound_return = 'INF-INITE'
+    elif ret == 'NONTERM':
+        no_bound_return = 'NONTERM'
     else:
         no_bound_return = 'FALSE'
     return no_bound_return, rf
@@ -67,7 +67,7 @@ def train_multi_ranking_function_incremental(L, x, y, depthBound=2, strategic="M
         print("-------------INCREASE TIMES:", i)
         print("--------LEARN BOUNDED")
         ret, rf = LearnRankerBoundedLoopBody(L_current, x, y)
-        if(ret == 'FINITE' or ret == 'INF-INITE'):
+        if(ret == 'TERMINATE' or ret == 'NONTERM'):
             rf_list.append(rf)
             printSummary(i+1, ret, rf_list)
             return rf_list
@@ -117,10 +117,10 @@ def train_multi_ranking_function_backtracking_loopbody(L, x, y, rf_list, templat
                     templateNum += 1
                 else:
                     return result, rf_list
-            elif ret == 'INF-INITE':
+            elif ret == 'NONTERM':
                 rf_list.append(rf)
                 rf_list = []
-                return 'INF-INITE', rf_list
+                return 'NONTERM', rf_list
             elif ret == 'FALSE':
                 templateNum += 1
         return 'UNKNOWN', rf_list

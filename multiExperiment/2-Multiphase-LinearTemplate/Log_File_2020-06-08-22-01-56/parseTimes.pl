@@ -33,10 +33,10 @@ for ($example = 0; $example < 172; $example++) {
 			if ($_ =~ /verifying time = ([1234567890.]+) ms/) {
 				$time_Z3 = $time_Z3 + $1;
 			}
-			if ($_ =~ /FINITE/) {
+			if ($_ =~ /TERMINATE/) {
 				$result = "Y";
 			}
-			if ($_ =~ /INF-INITE/) {
+			if ($_ =~ /NONTERM/) {
 				$result = "N";
 			}
 			if ($_ =~ /sampling time = ([1234567890.]+) ms/) {

@@ -78,10 +78,10 @@ def main():
         # f = open(log_file,'a')
         # f.write(Log)
         # f.close()
-        if ret== 'FINITE':
+        if ret== 'TERMINATE':
             finite_num +=1
         #     print('#num_pos = ', rf.get_num_of_pos(), ' #num_neg = ', rf.get_num_of_neg())
-        elif ret == 'INF-INITE':
+        elif ret == 'NONTERM':
             infinite_num +=1
         elif ret == 'UNKNOWN':
             unknow_num +=1

@@ -132,7 +132,7 @@ def train_ranking_function(rf, no, m=4, h=0.5, n=2):
         if Is_inf:
             Log += "it is not terminated, an infinite loop with initial condition:\n"
             Log += inf_model+'\n'
-            return "INF-INITE"
+            return "NONTERM"
         # check(n, coef)
         h_t = time.time()
         Log += "ranking function : " + str(rf)+"\n"
@@ -144,7 +144,7 @@ def train_ranking_function(rf, no, m=4, h=0.5, n=2):
         s_t - st, et - ct, h_t - ht))
         if ret[0]:
             Log += "Found Ranking Fcuntion\n"
-            return "FINITE"
+            return "TERMINATE"
         elif ret[1] is not None:
             # add more points
             Log += "Not Found Ranking Fcuntion\n"
@@ -262,7 +262,7 @@ def main():
         f = open(log_file,'a')
         f.write(Log)
         f.close()
-        if ret== 'FINITE':
+        if ret== 'TERMINATE':
             print(rf)
             print('#num_pos = ', rf.get_num_of_pos(), ' #num_neg = ', rf.get_num_of_neg())
         new_num_solved.append(ret != 'UNKNOWN')
