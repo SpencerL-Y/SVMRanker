@@ -44,7 +44,7 @@ echo $1$2
 INIT_PATH=$1
 echo $INIT_PATH
 starttime=`date +'%Y-%m-%d-%H-%M-%S'`
-Log_FILE=$2"/Log_File_"$starttime
+Log_FILE=$2"./Log_File_"$starttime
 `mkdir -p $Log_FILE`
 `touch $Log_FILE"/summarize.log"`
 echo "" >> ${Log_FILE}"/AnalysisTimeForTraining.log"

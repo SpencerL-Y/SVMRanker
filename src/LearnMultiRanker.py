@@ -162,7 +162,7 @@ def LearnMultiRanker(L, db, cuttingStrategy, nestedPhase, x, y, isReal):
     L_loop = L
     L_loop[3] = nestedPhase
     #TemplateVector = T
-    if L[2] < 10:
+    if L[2] < 4:
         templateStrategy = "SINGLEFULL"
     else:
         templateStrategy = "FULL"

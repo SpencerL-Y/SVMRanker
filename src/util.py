@@ -10,6 +10,8 @@ from sklearn.svm import LinearSVC
 from z3 import *
 import signal
 import time
+from sklearn.exceptions import ConvergenceWarning 
+import warnings
 
 
 from polynomial.Polynomial import Polynomial
@@ -20,7 +22,7 @@ from NestedNoBoundTemplate import NestedNoBoundTemplate
 from NestedTemplate import NestedTemplate
 from FindMultiphaseUtil import *
 
-
+#warnings.filterwarnings(action="ignore", category=ConvergenceWarning)
 
 def get_time_interval(s,e):
 	return float((e-s).total_seconds())*1000

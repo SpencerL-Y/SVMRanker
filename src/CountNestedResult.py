@@ -11,6 +11,7 @@ import time
 dirName = sys.argv[1]
 targetCSV = sys.argv[2]
 
+os.system("rm " + targetCSV)
 fileList = os.listdir(dirName)
 for name in fileList:
     if name.endswith(".bpl.log"):
@@ -21,28 +22,35 @@ for name in fileList:
                 if line.find("NONTERM") != -1:
                     print("NONTERM")
                     wf = open(targetCSV, "a")
-                    wf.write(name.split(".", 1)[0] + "," + "N\n")
+                    wf.write(name + "," + "N\n")
                     wf.close()
                     changed = True
                     break
                 elif line.find("TERMINATE") != -1:
                     print("TERMINATE")
                     wf = open(targetCSV, "a")
-                    wf.write(name.split(".", 1)[0] + "," + "Y\n")
+                    wf.write(name + "," + "Y\n")
                     wf.close()
                     changed = True
                     break
                 elif line.find("UNKNOWN") != -1:
                     print("UNKNOWN")
                     wf = open(targetCSV, "a")
-                    wf.write(name.split(".", 1)[0] + "," + "U\n")
+                    wf.write(name + "," + "U\n")
+                    wf.close()
+                    changed = True
+                    break
+                elif line.find("java.lang.RuntimeException") != -1:
+                    print("ERROR")
+                    wf = open(targetCSV, "a")
+                    wf.write(name + "," + "E\n")
                     wf.close()
                     changed = True
                     break
             if not changed:
                 print("UNKNOWN")
                 wf = open(targetCSV, "a")
-                wf.write(name.split(".", 1)[0] + "," + "U\n")
+                wf.write(name + "," + "U\n")
                 wf.close()
                 changed = True
 
