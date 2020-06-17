@@ -1,0 +1,111 @@
+------Using Template 0 -----------
+3 [3]
+m: 2.5 h: 0.5
+*****************************************************
+
+sample_points  2.5 0.5 2 [0, 0]
+NUMGX  2
+INDEX:  0 [0, 0] [0.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0.0, -1.0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  2
+sample_points  5.0 0.75 2 [0, 0]
+point: [0.25, 4.0]
+NUMGX  2
+INDEX:  0 [0.25, 4.0] [-60.0625, -1.2]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.25, 4.0] [-60.0625, -1.2]
+YIELD SVM POINT
+negtive
+point: [0.25, 4.75]
+NUMGX  2
+INDEX:  0 [0.25, 4.75] [-85.5625, -1.3614130434782608]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.25, 4.75] [-85.5625, -1.3614130434782608]
+YIELD SVM POINT
+negtive
+point: [0.25, 5.5]
+NUMGX  2
+INDEX:  0 [0.25, 5.5] [-115.5625, -1.5288461538461537]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.25, 5.5] [-115.5625, -1.5288461538461537]
+YIELD SVM POINT
+negtive
+point: [1.0, 4.75]
+NUMGX  2
+INDEX:  0 [1.0, 4.75] [-86.5, -4.923913043478261]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 4.75] [-86.5, -4.923913043478261]
+YIELD SVM POINT
+negtive
+point: [1.0, 5.5]
+NUMGX  2
+INDEX:  0 [1.0, 5.5] [-116.5, -5.653846153846154]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 5.5] [-116.5, -5.653846153846154]
+YIELD SVM POINT
+negtive
+point: [1.75, 5.5]
+NUMGX  2
+INDEX:  0 [1.75, 5.5] [-118.5625, -9.778846153846153]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.75, 5.5] [-118.5625, -9.778846153846153]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [0.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0.0, -1.0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  16
+2020-06-14-15-24-44   >>>>   End sampling point
+
+sampling time = 9.514 ms,
+
+
+       ########################################         
+
+iteration 0 with 16 examples
+
+2020-06-14-15-24-44   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-14-15-24-44   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.052 ms
+
+
+2020-06-14-15-24-44   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.8, 0.8]
+valid ranking function
+close alarm signal.
+ranking function : 0.8 *  x[1]^1.0 + 0.8 * 1
+
+2020-06-14-15-24-44   >>>>   End verify ranking function
+
+verifying time = 26.033 ms
+
+
+Found Ranking Function: 0.8 *  x[1]^1.0 + 0.8 * 1
+
+0.8 *  x[1]^1.0 + 0.8 * 1
+FINITE
+Time For Template 0 Is--->-76.270000 ms
+
+Time For ../Program_non/160.bpl Is ---> 379.577000 ms
+
+Program is terminating

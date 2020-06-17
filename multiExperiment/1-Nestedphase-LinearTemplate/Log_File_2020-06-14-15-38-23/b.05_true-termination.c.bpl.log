@@ -1,0 +1,88 @@
+------Using Template 0 -----------
+3 [3]
+m: 5 h: 1
+*****************************************************
+
+sample_points  5 1 2 [0, 0]
+point: [2, 1]
+NUMGX  2
+INDEX:  0 [2, 1] [1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2, 1] [1, 0]
+YIELD SVM POINT
+negtive
+point: [4, 2]
+NUMGX  2
+INDEX:  0 [4, 2] [3, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [4, 2] [3, 0]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [-1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [-1, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  6
+sample_points  10 1.5 2 [0, 0]
+NUMGX  2
+INDEX:  0 [0, 0] [-1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [-1, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  8
+sample_points  20 2.25 2 [0, 0]
+NUMGX  2
+INDEX:  0 [0, 0] [-1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [-1, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  10
+2020-06-14-15-41-12   >>>>   End sampling point
+
+sampling time = 4.207 ms,
+
+
+       ########################################         
+
+iteration 0 with 10 examples
+
+2020-06-14-15-41-12   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-14-15-41-12   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.558 ms
+
+
+2020-06-14-15-41-12   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.9, 0.1, 0.9]
+valid ranking function
+close alarm signal.
+ranking function : 0.9 *  x[0]^1.0 + 0.1 *  x[1]^1.0 + 0.9 * 1
+
+2020-06-14-15-41-12   >>>>   End verify ranking function
+
+verifying time = 8.998 ms
+
+
+Found Ranking Function: 0.9 *  x[0]^1.0 + 0.1 *  x[1]^1.0 + 0.9 * 1
+
+0.9 *  x[0]^1.0 + 0.1 *  x[1]^1.0 + 0.9 * 1
+FINITE
+Time For Template 0 Is--->-25.291000 ms
+
+Time For ../Program_non/b.05_true-termination.c.bpl Is ---> 213.433000 ms
+
+Program is terminating
