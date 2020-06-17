@@ -37,7 +37,7 @@ from LearnMultiRanker import *
 from OneLoop import L
 rank_oldtime=datetime.datetime.now()
 
-result, rf_list = LearnMultiRanker(L, 5, "MINI", 1, (), (), True)
+result, rf_list = LearnMultiRanker(L, 2, "MINI", 1, (), (), True)
 if result == "TERMINATE":
     printSummary(len(rf_list), result, rf_list)
 else:
