@@ -9,3 +9,5 @@ lambda x :[( x[0]+ 1), ],
 lambda x :(And( True, True)),
 False,
 ]
+T = [
+[1, 0]]

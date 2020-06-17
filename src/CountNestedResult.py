@@ -11,7 +11,7 @@ import time
 dirName = sys.argv[1]
 targetCSV = sys.argv[2]
 
-os.system("rm " + targetCSV)
+#os.system("rm " + targetCSV)
 fileList = os.listdir(dirName)
 for name in fileList:
     if name.endswith(".bpl.log"):
