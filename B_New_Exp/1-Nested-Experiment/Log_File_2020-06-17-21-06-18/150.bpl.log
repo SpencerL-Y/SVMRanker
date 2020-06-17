@@ -1,0 +1,223 @@
+------Using Template 0 -----------
+3 [3]
+m: 2.5 h: 0.5
+*****************************************************
+
+sample_points  2.5 0.5 2 [0, 0]
+point: [1.0, 0.0]
+NUMGX  2
+INDEX:  0 [1.0, 0.0] [0.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 0.0] [0.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [1.5, -0.5]
+NUMGX  2
+INDEX:  0 [1.5, -0.5] [-0.5, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -0.5] [-0.5, -1.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 0.0]
+NUMGX  2
+INDEX:  0 [1.5, 0.0] [0.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 0.0] [0.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 0.5]
+NUMGX  2
+INDEX:  0 [1.5, 0.5] [0.5, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 0.5] [0.5, -0.5]
+YIELD SVM POINT
+negtive
+point: [2.0, -1.0]
+NUMGX  2
+INDEX:  0 [2.0, -1.0] [-1.0, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -1.0] [-1.0, -2.0]
+YIELD SVM POINT
+negtive
+point: [2.0, -0.5]
+NUMGX  2
+INDEX:  0 [2.0, -0.5] [-0.5, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -0.5] [-0.5, -1.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 0.0]
+NUMGX  2
+INDEX:  0 [2.0, 0.0] [0.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 0.0] [0.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 0.5]
+NUMGX  2
+INDEX:  0 [2.0, 0.5] [0.5, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 0.5] [0.5, -0.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.0]
+NUMGX  2
+INDEX:  0 [2.0, 1.0] [1.0, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.0] [1.0, 0.0]
+YIELD SVM POINT
+negtive
+point: [2.5, -1.5]
+NUMGX  2
+INDEX:  0 [2.5, -1.5] [-1.5, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -1.5] [-1.5, -2.5]
+YIELD SVM POINT
+negtive
+point: [2.5, -1.0]
+NUMGX  2
+INDEX:  0 [2.5, -1.0] [-1.0, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -1.0] [-1.0, -2.0]
+YIELD SVM POINT
+negtive
+point: [2.5, -0.5]
+NUMGX  2
+INDEX:  0 [2.5, -0.5] [-0.5, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -0.5] [-0.5, -1.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 0.0]
+NUMGX  2
+INDEX:  0 [2.5, 0.0] [0.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 0.0] [0.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 0.5]
+NUMGX  2
+INDEX:  0 [2.5, 0.5] [0.5, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 0.5] [0.5, -0.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.0]
+NUMGX  2
+INDEX:  0 [2.5, 1.0] [1.0, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.0] [1.0, 0.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.5]
+NUMGX  2
+INDEX:  0 [2.5, 1.5] [1.5, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.5] [1.5, 0.5]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0, -1.0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  34
+2020-06-17-21-07-01   >>>>   End sampling point
+
+sampling time = 11.468 ms,
+
+
+       ########################################         
+
+iteration 0 with 34 examples
+
+2020-06-17-21-07-01   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-17-21-07-01   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.511 ms
+
+
+2020-06-17-21-07-01   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.4267, 0.5819, 0.7241]
+close alarm signal.
+ranking function : 0.4267 *  x[0]^1.0 + 0.5819 *  x[1]^1.0 + 0.7241 * 1
+
+2020-06-17-21-07-01   >>>>   End verify ranking function
+
+verifying time = 8.574 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[10, -9]
+
+NUMGX  2
+INDEX:  0 [10, -9] [-9, -10.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [10, -9] [-9, -10.0]
+YIELD SVM POINT
+negtive
+sampling time = 0.670 ms
+
+
+       ########################################         
+
+iteration 1 with 36 examples
+
+2020-06-17-21-07-01   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-17-21-07-01   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.296 ms
+
+
+2020-06-17-21-07-01   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.4954, 0.518, 0.6832]
+valid ranking function
+close alarm signal.
+ranking function : 0.4954 *  x[0]^1.0 + 0.518 *  x[1]^1.0 + 0.6832 * 1
+
+2020-06-17-21-07-01   >>>>   End verify ranking function
+
+verifying time = 6.668 ms
+
+
+Found Ranking Function: 0.4954 *  x[0]^1.0 + 0.518 *  x[1]^1.0 + 0.6832 * 1
+
+0.4954 *  x[0]^1.0 + 0.518 *  x[1]^1.0 + 0.6832 * 1
+TERMINATE
+Time For Template 0 Is--->-39.150000 ms
+
+Time For ../Program_non/150.bpl Is ---> 182.635000 ms
+
+Program is terminating
