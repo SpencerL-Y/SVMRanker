@@ -127,7 +127,7 @@ from  LearnRanker import *
 rank_oldtime=datetime.datetime.now()
 #os.system('rm -f '+os.path.join(path,javaOutputInfo))
 if int(Info[0]) == 0:
-	numOfTemplate = 1#8
+	numOfTemplate = 8
 	templateFullPath = os.path.join(path,templatePath,templateFileName)
 	if not os.path.exists(templateFullPath):
 		os.makedirs(templateFullPath)
