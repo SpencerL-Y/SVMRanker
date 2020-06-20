@@ -21,19 +21,22 @@ def generateTemplate(indexOfTemplate, numOfVar):
 	if indexOfTemplate == 0:
 		generateLinearTemplateFile(indexOfTemplate, 1,numOfVar)
 	elif indexOfTemplate == 1:
-		generateNonLinearTemplateFile(indexOfTemplate,1,numOfVar)
-	elif indexOfTemplate == 2:
 		generateLinearTemplateFile(indexOfTemplate, 3,numOfVar)
-	elif indexOfTemplate == 3:
-		generateNonLinearTemplateFile(indexOfTemplate,3,numOfVar)
-	elif indexOfTemplate == 4:
+	elif indexOfTemplate == 2:
 		generateLinearTemplateFile(indexOfTemplate, 5,numOfVar)
-	elif indexOfTemplate == 5:
-		generateNonLinearTemplateFile(indexOfTemplate,5,numOfVar)
-	elif indexOfTemplate == 6:
+	elif indexOfTemplate == 3:
 		generateLinearTemplateFile(indexOfTemplate, 7,numOfVar)
+	elif indexOfTemplate == 4:
+		generateNonLinearTemplateFile(indexOfTemplate,1,numOfVar)
+	elif indexOfTemplate == 5:
+		generateNonLinearTemplateFile(indexOfTemplate,3,numOfVar)
+	elif indexOfTemplate == 6:
+		generateNonLinearTemplateFile(indexOfTemplate,5,numOfVar)
 	elif indexOfTemplate == 7:
 		generateNonLinearTemplateFile(indexOfTemplate,7,numOfVar)
+
+		
+
 def generateNonLinearTemplateFile(indexOfTemplate, numOfG, numOfVar):
 	# if os.path.exists(os.path.join(templateFullPath,'template'+str(indexOfTemplate))):
 	# 	return
