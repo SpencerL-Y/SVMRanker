@@ -286,10 +286,17 @@ def train_ranking_function(L, rf, x, y,  m=5, h=0.5, n=2):
         
 	print("m:",m,"h:",h)
 	print("*****************************************************\n")
+
+	ht = datetime.datetime.now()
+	print(  str(get_time(ht))+"   >>>>   " + "Start fix point\n")
+	
 	if rt:
 		Is_inf,inf_model = rf.check_infinite_loop (n, L[-1], L[-2])
 	else:
 		Is_inf,inf_model =rf.check_infinite_loop (n, L[-2], L[-3],False)
+	
+	h_t = datetime.datetime.now()
+	print(  str(get_time(h_t))+"   >>>>   " + "End fix point\n")
 	if Is_inf:
 		print(  "it is not terminating, an  infinity loop with initial condition:\n")
 		print(  inf_model+'\n')
@@ -446,10 +453,16 @@ def train_ranking_function_strategic(L, rf, x, y,  m=5, h=0.5, n=2):
         
 	print("m:",m,"h:",h)
 	print("*****************************************************\n")
+	ht = datetime.datetime.now()
+	print(  str(get_time(ht))+"   >>>>   " + "Start fix point\n")
+	
 	if rt:
 		Is_inf,inf_model = rf.check_infinite_loop (n, L[-1], L[-2])
 	else:
 		Is_inf,inf_model =rf.check_infinite_loop (n, L[-2], L[-3],False)
+	
+	h_t = datetime.datetime.now()
+	print(  str(get_time(h_t))+"   >>>>   " + "End fix point\n")
 	if Is_inf:
 		print(  "it is not terminating, an infinite loop with initial condition:\n")
 		print(  inf_model+'\n')
