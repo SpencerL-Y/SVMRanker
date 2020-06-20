@@ -1,0 +1,4893 @@
+------Using Template 0 -----------
+3 [3]
+m: 5 h: 1
+*****************************************************
+
+2020-06-20-16-59-33   >>>>   Start fix point
+
+2020-06-20-16-59-33   >>>>   End fix point
+
+sample_points  5 1 2 [0, 0]
+point: [-4, 5]
+NUMGX  2
+INDEX:  0 [-4, 5] [-8, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-4, 5] [-8, 15]
+YIELD SVM POINT
+negtive
+point: [-3, 4]
+NUMGX  2
+INDEX:  0 [-3, 4] [-6, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-3, 4] [-6, 12]
+YIELD SVM POINT
+negtive
+point: [-3, 5]
+NUMGX  2
+INDEX:  0 [-3, 5] [-6, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-3, 5] [-6, 15]
+YIELD SVM POINT
+negtive
+point: [-2, 3]
+NUMGX  2
+INDEX:  0 [-2, 3] [-4, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 3] [-4, 9]
+YIELD SVM POINT
+negtive
+point: [-2, 4]
+NUMGX  2
+INDEX:  0 [-2, 4] [-4, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 4] [-4, 12]
+YIELD SVM POINT
+negtive
+point: [-2, 5]
+NUMGX  2
+INDEX:  0 [-2, 5] [-4, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 5] [-4, 15]
+YIELD SVM POINT
+negtive
+point: [-1, 2]
+NUMGX  2
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+point: [-1, 3]
+NUMGX  2
+INDEX:  0 [-1, 3] [-2, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 3] [-2, 9]
+YIELD SVM POINT
+negtive
+point: [-1, 4]
+NUMGX  2
+INDEX:  0 [-1, 4] [-2, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 4] [-2, 12]
+YIELD SVM POINT
+negtive
+point: [-1, 5]
+NUMGX  2
+INDEX:  0 [-1, 5] [-2, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 5] [-2, 15]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  22
+2020-06-20-16-59-33   >>>>   End sampling point
+
+sampling time = 7.658 ms,
+
+
+       ########################################         
+
+iteration 0 with 22 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.665 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.4]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 1.4 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 8.909 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 8]
+
+NUMGX  2
+INDEX:  0 [-1, 8] [-2, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 8] [-2, 24]
+YIELD SVM POINT
+negtive
+sampling time = 0.683 ms
+
+
+       ########################################         
+
+iteration 1 with 24 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.925 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, -0.1, 1.5]
+close alarm signal.
+ranking function :  - 0.1 *  x[1]^1.0 + 1.5 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 8.030 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 16]
+
+NUMGX  2
+INDEX:  0 [-1, 16] [-2, 48]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 16] [-2, 48]
+YIELD SVM POINT
+negtive
+sampling time = 0.670 ms
+
+
+       ########################################         
+
+iteration 2 with 26 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.724 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.2, -0.1, 1.8]
+close alarm signal.
+ranking function : 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.8 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.900 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 17]
+
+NUMGX  2
+INDEX:  0 [-1, 17] [-2, 51]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 17] [-2, 51]
+YIELD SVM POINT
+negtive
+sampling time = 0.685 ms
+
+
+       ########################################         
+
+iteration 3 with 28 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.767 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.2, -0.1, 1.9]
+close alarm signal.
+ranking function : 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.9 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 8.028 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 18]
+
+NUMGX  2
+INDEX:  0 [-1, 18] [-2, 54]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 18] [-2, 54]
+YIELD SVM POINT
+negtive
+sampling time = 0.679 ms
+
+
+       ########################################         
+
+iteration 4 with 30 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.823 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.2, -0.1, 1.9]
+close alarm signal.
+ranking function : 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.9 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.897 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 18]
+
+NUMGX  2
+INDEX:  0 [-1, 18] [-2, 54]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 18] [-2, 54]
+YIELD SVM POINT
+negtive
+sampling time = 0.678 ms
+
+
+       ########################################         
+
+iteration 5 with 32 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.859 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.3, -0.0, 2.0]
+close alarm signal.
+ranking function : 0.3 *  x[0]^1.0 + 2.0 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.777 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  2
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 0.678 ms
+
+
+       ########################################         
+
+iteration 6 with 34 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.844 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.1, -0.1, 2.1]
+close alarm signal.
+ranking function : 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 2.1 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.950 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 21]
+
+NUMGX  2
+INDEX:  0 [-1, 21] [-2, 63]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 21] [-2, 63]
+YIELD SVM POINT
+negtive
+sampling time = 0.673 ms
+
+
+       ########################################         
+
+iteration 7 with 36 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.877 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.1, -0.1, 2.1]
+close alarm signal.
+ranking function : 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 2.1 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.843 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 21]
+
+NUMGX  2
+INDEX:  0 [-1, 21] [-2, 63]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 21] [-2, 63]
+YIELD SVM POINT
+negtive
+sampling time = 0.756 ms
+
+
+       ########################################         
+
+iteration 8 with 38 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.925 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.1, -0.1, 2.1]
+close alarm signal.
+ranking function : 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 2.1 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.943 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 21]
+
+NUMGX  2
+INDEX:  0 [-1, 21] [-2, 63]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 21] [-2, 63]
+YIELD SVM POINT
+negtive
+sampling time = 0.686 ms
+
+
+       ########################################         
+
+iteration 9 with 40 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.948 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.2, -0.1, 2.1]
+close alarm signal.
+ranking function : 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 2.1 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.902 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 20]
+
+NUMGX  2
+INDEX:  0 [-1, 20] [-2, 60]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 20] [-2, 60]
+YIELD SVM POINT
+negtive
+sampling time = 0.686 ms
+
+
+       ########################################         
+
+iteration 10 with 42 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.965 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.2, -0.1, 2.2]
+close alarm signal.
+ranking function : 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 2.2 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 8.029 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 21]
+
+NUMGX  2
+INDEX:  0 [-1, 21] [-2, 63]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 21] [-2, 63]
+YIELD SVM POINT
+negtive
+sampling time = 0.675 ms
+
+
+       ########################################         
+
+iteration 11 with 44 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.994 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.2, -0.1, 2.2]
+close alarm signal.
+ranking function : 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 2.2 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.886 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 21]
+
+NUMGX  2
+INDEX:  0 [-1, 21] [-2, 63]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 21] [-2, 63]
+YIELD SVM POINT
+negtive
+sampling time = 0.674 ms
+
+
+       ########################################         
+
+iteration 12 with 46 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.029 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.2, -0.1, 2.2]
+close alarm signal.
+ranking function : 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 2.2 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 8.019 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 21]
+
+NUMGX  2
+INDEX:  0 [-1, 21] [-2, 63]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 21] [-2, 63]
+YIELD SVM POINT
+negtive
+sampling time = 0.678 ms
+
+
+       ########################################         
+
+iteration 13 with 48 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.046 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.2, -0.1, 2.2]
+close alarm signal.
+ranking function : 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 2.2 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.893 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 21]
+
+NUMGX  2
+INDEX:  0 [-1, 21] [-2, 63]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 21] [-2, 63]
+YIELD SVM POINT
+negtive
+sampling time = 0.680 ms
+
+
+       ########################################         
+
+iteration 14 with 50 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.089 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.2, -0.1, 2.2]
+close alarm signal.
+ranking function : 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 2.2 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.892 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 21]
+
+NUMGX  2
+INDEX:  0 [-1, 21] [-2, 63]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 21] [-2, 63]
+YIELD SVM POINT
+negtive
+sampling time = 0.674 ms
+
+
+       ########################################         
+
+iteration 15 with 52 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+5
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.118 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.2, -0.1, 2.2]
+close alarm signal.
+ranking function : 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 2.2 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.932 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 21]
+
+NUMGX  2
+INDEX:  0 [-1, 21] [-2, 63]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 21] [-2, 63]
+YIELD SVM POINT
+negtive
+sampling time = 0.695 ms
+
+
+       ########################################         
+
+iteration 16 with 54 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.142 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, -0.0, 2.0]
+[xi_0 = -1, xi_1 = 2]
+close alarm signal.
+ranking function : 2.0 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.020 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 2]
+
+NUMGX  2
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+sampling time = 0.746 ms
+
+
+       ########################################         
+
+iteration 17 with 56 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.125 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, -0.0, 2.0]
+[xi_0 = -1, xi_1 = 2]
+close alarm signal.
+ranking function : 2.0 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 7.035 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 2]
+
+NUMGX  2
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+sampling time = 0.677 ms
+
+
+       ########################################         
+
+iteration 18 with 58 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.145 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, -0.0, 2.0]
+[xi_0 = -1, xi_1 = 2]
+close alarm signal.
+ranking function : 2.0 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 6.957 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 2]
+
+NUMGX  2
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+sampling time = 0.677 ms
+
+
+       ########################################         
+
+iteration 19 with 60 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.149 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, -0.0, 2.0]
+[xi_0 = -1, xi_1 = 2]
+close alarm signal.
+ranking function : 2.0 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 6.958 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 2]
+
+NUMGX  2
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+sampling time = 0.716 ms
+
+
+Failed to prove it is terminating
+
+UNKNOWN
+Time For Template 0 Is--->-221.241000 ms
+
+------Using Template 1 -----------
+9 [3, 3, 3]
+m: 5 h: 1
+*****************************************************
+
+2020-06-20-16-59-33   >>>>   Start fix point
+
+2020-06-20-16-59-33   >>>>   End fix point
+
+sample_points  5 1 2 [0, 0]
+point: [-4, 5]
+NUMGX  4
+INDEX:  0 [-4, 5] [-8, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-4, 5] [-8, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-4, 5] [-8, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-4, 5] [-8, 15]
+YIELD SVM POINT
+negtive
+point: [-3, 4]
+NUMGX  4
+INDEX:  0 [-3, 4] [-6, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-3, 4] [-6, 12]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-3, 4] [-6, 12]
+YIELD SVM POINT
+positive
+INDEX:  3 [-3, 4] [-6, 12]
+YIELD SVM POINT
+negtive
+point: [-3, 5]
+NUMGX  4
+INDEX:  0 [-3, 5] [-6, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-3, 5] [-6, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-3, 5] [-6, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-3, 5] [-6, 15]
+YIELD SVM POINT
+negtive
+point: [-2, 3]
+NUMGX  4
+INDEX:  0 [-2, 3] [-4, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 3] [-4, 9]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 3] [-4, 9]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 3] [-4, 9]
+YIELD SVM POINT
+negtive
+point: [-2, 4]
+NUMGX  4
+INDEX:  0 [-2, 4] [-4, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 4] [-4, 12]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 4] [-4, 12]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 4] [-4, 12]
+YIELD SVM POINT
+negtive
+point: [-2, 5]
+NUMGX  4
+INDEX:  0 [-2, 5] [-4, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 5] [-4, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 5] [-4, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 5] [-4, 15]
+YIELD SVM POINT
+negtive
+point: [-1, 2]
+NUMGX  4
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+point: [-1, 3]
+NUMGX  4
+INDEX:  0 [-1, 3] [-2, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 3] [-2, 9]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 3] [-2, 9]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 3] [-2, 9]
+YIELD SVM POINT
+negtive
+point: [-1, 4]
+NUMGX  4
+INDEX:  0 [-1, 4] [-2, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 4] [-2, 12]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 4] [-2, 12]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 4] [-2, 12]
+YIELD SVM POINT
+negtive
+point: [-1, 5]
+NUMGX  4
+INDEX:  0 [-1, 5] [-2, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 5] [-2, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 5] [-2, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 5] [-2, 15]
+YIELD SVM POINT
+negtive
+NUMGX  4
+INDEX:  0 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+INDEX:  2 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  3 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  44
+2020-06-20-16-59-33   >>>>   End sampling point
+
+sampling time = 21.753 ms,
+
+
+       ########################################         
+
+iteration 0 with 44 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.096 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.2, -0.1, 1.0, -0.2, -0.2, 0.9, -0.2, -0.3, 0.8]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-33   >>>>   End verify ranking function
+
+verifying time = 14.826 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 13]
+
+NUMGX  4
+INDEX:  0 [-1, 13] [-2, 39]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 13] [-2, 39]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 13] [-2, 39]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 13] [-2, 39]
+YIELD SVM POINT
+negtive
+sampling time = 2.062 ms
+
+
+       ########################################         
+
+iteration 1 with 48 examples
+
+2020-06-20-16-59-33   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-33   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.210 ms
+
+
+2020-06-20-16-59-33   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.1, -0.1, -0.1, 1.0, -0.1, -0.2, 0.9]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1;  - 0.1 *  x[0]^1.0 + 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.593 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  4
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 2.005 ms
+
+
+       ########################################         
+
+iteration 2 with 52 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.266 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0, -0.0, 1.1, -0.1, -0.1, 1.0, -0.1, -0.2, 0.9]
+[xi_0 = -1, xi_1 = 11]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1; 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.549 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 11]
+
+NUMGX  4
+INDEX:  0 [-1, 11] [-2, 33]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 11] [-2, 33]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 11] [-2, 33]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 11] [-2, 33]
+YIELD SVM POINT
+negtive
+sampling time = 1.929 ms
+
+
+       ########################################         
+
+iteration 3 with 56 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.371 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.2, -0.1, -0.1, 1.0, -0.1, -0.2, 0.9]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1;  - 0.1 *  x[0]^1.0 + 1.2 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.797 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  4
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 1.925 ms
+
+
+       ########################################         
+
+iteration 4 with 60 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.368 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.2, -0.1, -0.1, 1.0, -0.1, -0.2, 0.9]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1;  - 0.1 *  x[0]^1.0 + 1.2 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.657 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  4
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 1.989 ms
+
+
+       ########################################         
+
+iteration 5 with 64 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.620 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.3, -0.1, -0.1, 1.0, -0.1, -0.2, 0.9]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1;  - 0.1 *  x[0]^1.0 + 1.3 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.622 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  4
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 1.940 ms
+
+
+       ########################################         
+
+iteration 6 with 68 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.748 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.3, -0.1, -0.1, 1.0, -0.1, -0.2, 0.9]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1;  - 0.1 *  x[0]^1.0 + 1.3 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.551 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  4
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 1.934 ms
+
+
+       ########################################         
+
+iteration 7 with 72 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.781 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.3, -0.1, -0.1, 1.0, -0.1, -0.2, 0.9]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1;  - 0.1 *  x[0]^1.0 + 1.3 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.849 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  4
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 1.995 ms
+
+
+       ########################################         
+
+iteration 8 with 76 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.993 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.3, -0.1, -0.1, 1.0, -0.1, -0.2, 0.9]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1;  - 0.1 *  x[0]^1.0 + 1.3 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.557 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  4
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 1.992 ms
+
+
+       ########################################         
+
+iteration 9 with 80 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.077 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.3, -0.1, -0.1, 1.0, -0.1, -0.2, 0.9]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1;  - 0.1 *  x[0]^1.0 + 1.3 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.533 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  4
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 1.933 ms
+
+
+       ########################################         
+
+iteration 10 with 84 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+5
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.170 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.3, -0.1, -0.1, 1.0, -0.1, -0.2, 0.9]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 1.0 * 1;  - 0.1 *  x[0]^1.0 + 1.3 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.604 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  4
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 1.941 ms
+
+
+       ########################################         
+
+iteration 11 with 88 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.108 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0886, -0.0472, 1.3391, -0.0884, -0.0952, 0.9826, -0.0988, -0.1852, 0.9264]
+[xi_0 = -1, xi_1 = 1227]
+close alarm signal.
+ranking function :  - 0.0988 *  x[0]^1.0 - 0.1852 *  x[1]^1.0 + 0.9264 * 1;  - 0.0884 *  x[0]^1.0 - 0.0952 *  x[1]^1.0 + 0.9826 * 1;  - 0.0886 *  x[0]^1.0 - 0.0472 *  x[1]^1.0 + 1.3391 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 12.808 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 1227]
+
+NUMGX  4
+INDEX:  0 [-1, 1227] [-2, 3681]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1227] [-2, 3681]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 1227] [-2, 3681]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 1227] [-2, 3681]
+YIELD SVM POINT
+negtive
+sampling time = 2.003 ms
+
+
+       ########################################         
+
+iteration 12 with 92 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.220 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.1819, -0.0077, 1.2114, 0.2163, -0.0369, 1.1956, 0.2241, -0.0787, 1.0188]
+[xi_0 = -49, xi_1 = 130]
+close alarm signal.
+ranking function : 0.2241 *  x[0]^1.0 - 0.0787 *  x[1]^1.0 + 1.0188 * 1; 0.2163 *  x[0]^1.0 - 0.0369 *  x[1]^1.0 + 1.1956 * 1; 0.1819 *  x[0]^1.0 - 0.0077 *  x[1]^1.0 + 1.2114 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 9.925 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-49, 130]
+
+NUMGX  4
+INDEX:  0 [-49, 130] [-98, 390]
+YIELD SVM POINT
+positive
+INDEX:  1 [-49, 130] [-98, 390]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-49, 130] [-98, 390]
+YIELD SVM POINT
+positive
+INDEX:  3 [-49, 130] [-98, 390]
+YIELD SVM POINT
+negtive
+sampling time = 2.008 ms
+
+
+       ########################################         
+
+iteration 13 with 96 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.110 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0106, -0.006, 1.0102, -0.1399, -0.0699, 1.3907, -0.0854, -0.1515, 1.1515]
+[xi_0 = -1, xi_1 = 94]
+close alarm signal.
+ranking function :  - 0.0854 *  x[0]^1.0 - 0.1515 *  x[1]^1.0 + 1.1515 * 1;  - 0.1399 *  x[0]^1.0 - 0.0699 *  x[1]^1.0 + 1.3907 * 1;  - 0.0106 *  x[0]^1.0 - 0.006 *  x[1]^1.0 + 1.0102 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 10.136 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 94]
+
+NUMGX  4
+INDEX:  0 [-1, 94] [-2, 282]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 94] [-2, 282]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 94] [-2, 282]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 94] [-2, 282]
+YIELD SVM POINT
+negtive
+sampling time = 2.011 ms
+
+
+       ########################################         
+
+iteration 14 with 100 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.254 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0118, -0.0078, 1.0299, -0.0054, -0.0297, 1.1094, 0.0949, -0.0925, 1.3934]
+[xi_0 = -2, xi_1 = 40]
+close alarm signal.
+ranking function : 0.0949 *  x[0]^1.0 - 0.0925 *  x[1]^1.0 + 1.3934 * 1;  - 0.0054 *  x[0]^1.0 - 0.0297 *  x[1]^1.0 + 1.1094 * 1;  - 0.0118 *  x[0]^1.0 - 0.0078 *  x[1]^1.0 + 1.0299 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 10.179 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-2, 40]
+
+NUMGX  4
+INDEX:  0 [-2, 40] [-4, 120]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 40] [-4, 120]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 40] [-4, 120]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 40] [-4, 120]
+YIELD SVM POINT
+negtive
+sampling time = 2.029 ms
+
+
+       ########################################         
+
+iteration 15 with 104 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.433 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0742, -0.0126, 1.1426, 0.0806, -0.0295, 1.0943, 0.1555, -0.0747, 1.2428]
+[xi_0 = -1, xi_1 = 75]
+close alarm signal.
+ranking function : 0.1555 *  x[0]^1.0 - 0.0747 *  x[1]^1.0 + 1.2428 * 1; 0.0806 *  x[0]^1.0 - 0.0295 *  x[1]^1.0 + 1.0943 * 1; 0.0742 *  x[0]^1.0 - 0.0126 *  x[1]^1.0 + 1.1426 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 10.004 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 75]
+
+NUMGX  4
+INDEX:  0 [-1, 75] [-2, 225]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 75] [-2, 225]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 75] [-2, 225]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 75] [-2, 225]
+YIELD SVM POINT
+negtive
+sampling time = 1.936 ms
+
+
+       ########################################         
+
+iteration 16 with 108 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.508 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0836, -0.0083, 1.1477, 0.1002, -0.0269, 1.0876, 0.1843, -0.0587, 1.2357]
+[xi_0 = -2, xi_1 = 235]
+close alarm signal.
+ranking function : 0.1843 *  x[0]^1.0 - 0.0587 *  x[1]^1.0 + 1.2357 * 1; 0.1002 *  x[0]^1.0 - 0.0269 *  x[1]^1.0 + 1.0876 * 1; 0.0836 *  x[0]^1.0 - 0.0083 *  x[1]^1.0 + 1.1477 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 10.006 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-2, 235]
+
+NUMGX  4
+INDEX:  0 [-2, 235] [-4, 705]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 235] [-4, 705]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 235] [-4, 705]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 235] [-4, 705]
+YIELD SVM POINT
+negtive
+sampling time = 1.929 ms
+
+
+       ########################################         
+
+iteration 17 with 112 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.514 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0022, -0.0008, 1.0203, 0.0147, -0.02, 1.0808, 0.1463, -0.0593, 1.423]
+[xi_0 = -1, xi_1 = 67]
+close alarm signal.
+ranking function : 0.1463 *  x[0]^1.0 - 0.0593 *  x[1]^1.0 + 1.423 * 1; 0.0147 *  x[0]^1.0 - 0.02 *  x[1]^1.0 + 1.0808 * 1;  - 0.0022 *  x[0]^1.0 - 0.0008 *  x[1]^1.0 + 1.0203 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 9.994 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 67]
+
+NUMGX  4
+INDEX:  0 [-1, 67] [-2, 201]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 67] [-2, 201]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 67] [-2, 201]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 67] [-2, 201]
+YIELD SVM POINT
+negtive
+sampling time = 1.948 ms
+
+
+       ########################################         
+
+iteration 18 with 116 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.869 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0023, -0.0038, 1.0528, 0.0447, -0.0248, 1.1564, 0.0985, -0.0552, 1.1092]
+[xi_0 = -16, xi_1 = 44]
+close alarm signal.
+ranking function : 0.0985 *  x[0]^1.0 - 0.0552 *  x[1]^1.0 + 1.1092 * 1; 0.0447 *  x[0]^1.0 - 0.0248 *  x[1]^1.0 + 1.1564 * 1;  - 0.0023 *  x[0]^1.0 - 0.0038 *  x[1]^1.0 + 1.0528 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 10.218 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-16, 44]
+
+NUMGX  4
+INDEX:  0 [-16, 44] [-32, 132]
+YIELD SVM POINT
+positive
+INDEX:  1 [-16, 44] [-32, 132]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-16, 44] [-32, 132]
+YIELD SVM POINT
+positive
+INDEX:  3 [-16, 44] [-32, 132]
+YIELD SVM POINT
+negtive
+sampling time = 1.932 ms
+
+
+       ########################################         
+
+iteration 19 with 120 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.914 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0052, -0.0061, 1.0583, 0.0139, -0.025, 1.1261, 0.0466, -0.0564, 1.0802]
+[xi_0 = -2, xi_1 = 164]
+close alarm signal.
+ranking function : 0.0466 *  x[0]^1.0 - 0.0564 *  x[1]^1.0 + 1.0802 * 1; 0.0139 *  x[0]^1.0 - 0.025 *  x[1]^1.0 + 1.1261 * 1;  - 0.0052 *  x[0]^1.0 - 0.0061 *  x[1]^1.0 + 1.0583 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 10.004 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-2, 164]
+
+NUMGX  4
+INDEX:  0 [-2, 164] [-4, 492]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 164] [-4, 492]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 164] [-4, 492]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 164] [-4, 492]
+YIELD SVM POINT
+negtive
+sampling time = 1.936 ms
+
+
+Failed to prove it is terminating
+
+UNKNOWN
+Time For Template 1 Is--->-389.460000 ms
+
+------Using Template 2 -----------
+15 [3, 3, 3, 3, 3]
+m: 5 h: 1
+*****************************************************
+
+2020-06-20-16-59-34   >>>>   Start fix point
+
+2020-06-20-16-59-34   >>>>   End fix point
+
+sample_points  5 1 2 [0, 0]
+point: [-4, 5]
+NUMGX  6
+INDEX:  0 [-4, 5] [-8, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-4, 5] [-8, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-4, 5] [-8, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-4, 5] [-8, 15]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-4, 5] [-8, 15]
+YIELD SVM POINT
+positive
+INDEX:  5 [-4, 5] [-8, 15]
+YIELD SVM POINT
+negtive
+point: [-3, 4]
+NUMGX  6
+INDEX:  0 [-3, 4] [-6, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-3, 4] [-6, 12]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-3, 4] [-6, 12]
+YIELD SVM POINT
+positive
+INDEX:  3 [-3, 4] [-6, 12]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-3, 4] [-6, 12]
+YIELD SVM POINT
+positive
+INDEX:  5 [-3, 4] [-6, 12]
+YIELD SVM POINT
+negtive
+point: [-3, 5]
+NUMGX  6
+INDEX:  0 [-3, 5] [-6, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-3, 5] [-6, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-3, 5] [-6, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-3, 5] [-6, 15]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-3, 5] [-6, 15]
+YIELD SVM POINT
+positive
+INDEX:  5 [-3, 5] [-6, 15]
+YIELD SVM POINT
+negtive
+point: [-2, 3]
+NUMGX  6
+INDEX:  0 [-2, 3] [-4, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 3] [-4, 9]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 3] [-4, 9]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 3] [-4, 9]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-2, 3] [-4, 9]
+YIELD SVM POINT
+positive
+INDEX:  5 [-2, 3] [-4, 9]
+YIELD SVM POINT
+negtive
+point: [-2, 4]
+NUMGX  6
+INDEX:  0 [-2, 4] [-4, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 4] [-4, 12]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 4] [-4, 12]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 4] [-4, 12]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-2, 4] [-4, 12]
+YIELD SVM POINT
+positive
+INDEX:  5 [-2, 4] [-4, 12]
+YIELD SVM POINT
+negtive
+point: [-2, 5]
+NUMGX  6
+INDEX:  0 [-2, 5] [-4, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 5] [-4, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 5] [-4, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 5] [-4, 15]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-2, 5] [-4, 15]
+YIELD SVM POINT
+positive
+INDEX:  5 [-2, 5] [-4, 15]
+YIELD SVM POINT
+negtive
+point: [-1, 2]
+NUMGX  6
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+point: [-1, 3]
+NUMGX  6
+INDEX:  0 [-1, 3] [-2, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 3] [-2, 9]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 3] [-2, 9]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 3] [-2, 9]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 3] [-2, 9]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 3] [-2, 9]
+YIELD SVM POINT
+negtive
+point: [-1, 4]
+NUMGX  6
+INDEX:  0 [-1, 4] [-2, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 4] [-2, 12]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 4] [-2, 12]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 4] [-2, 12]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 4] [-2, 12]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 4] [-2, 12]
+YIELD SVM POINT
+negtive
+point: [-1, 5]
+NUMGX  6
+INDEX:  0 [-1, 5] [-2, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 5] [-2, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 5] [-2, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 5] [-2, 15]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 5] [-2, 15]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 5] [-2, 15]
+YIELD SVM POINT
+negtive
+NUMGX  6
+INDEX:  0 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+INDEX:  2 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  3 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+INDEX:  4 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  5 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  66
+2020-06-20-16-59-34   >>>>   End sampling point
+
+sampling time = 36.819 ms,
+
+
+       ########################################         
+
+iteration 0 with 66 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.284 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.2, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 22.281 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 12]
+
+NUMGX  6
+INDEX:  0 [-1, 12] [-2, 36]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 12] [-2, 36]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 12] [-2, 36]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 12] [-2, 36]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 12] [-2, 36]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 12] [-2, 36]
+YIELD SVM POINT
+negtive
+sampling time = 3.299 ms
+
+
+       ########################################         
+
+iteration 1 with 72 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.504 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.1, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.662 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 9]
+
+NUMGX  6
+INDEX:  0 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+sampling time = 3.268 ms
+
+
+       ########################################         
+
+iteration 2 with 78 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.516 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 9]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.776 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 9]
+
+NUMGX  6
+INDEX:  0 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+sampling time = 3.290 ms
+
+
+       ########################################         
+
+iteration 3 with 84 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.632 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 9]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.592 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 9]
+
+NUMGX  6
+INDEX:  0 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+sampling time = 3.426 ms
+
+
+       ########################################         
+
+iteration 4 with 90 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.777 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 9]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.754 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 9]
+
+NUMGX  6
+INDEX:  0 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+sampling time = 3.286 ms
+
+
+       ########################################         
+
+iteration 5 with 96 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.821 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 9]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.757 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 9]
+
+NUMGX  6
+INDEX:  0 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+sampling time = 3.290 ms
+
+
+       ########################################         
+
+iteration 6 with 102 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.914 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 9]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.695 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 9]
+
+NUMGX  6
+INDEX:  0 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+sampling time = 3.280 ms
+
+
+       ########################################         
+
+iteration 7 with 108 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.062 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.1, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 9]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.719 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 9]
+
+NUMGX  6
+INDEX:  0 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+sampling time = 3.279 ms
+
+
+       ########################################         
+
+iteration 8 with 114 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.153 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.1, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 9]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.629 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 9]
+
+NUMGX  6
+INDEX:  0 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+sampling time = 3.282 ms
+
+
+       ########################################         
+
+iteration 9 with 120 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.304 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.1, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 9]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.718 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 9]
+
+NUMGX  6
+INDEX:  0 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 9] [-2, 27]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 9] [-2, 27]
+YIELD SVM POINT
+negtive
+sampling time = 3.283 ms
+
+
+       ########################################         
+
+iteration 10 with 126 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.430 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.1, -0.2, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.621 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  6
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 3.264 ms
+
+
+       ########################################         
+
+iteration 11 with 132 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.562 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.1, -0.2, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 21.191 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  6
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 3.294 ms
+
+
+       ########################################         
+
+iteration 12 with 138 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.652 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.1, -0.2, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.708 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  6
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 3.281 ms
+
+
+       ########################################         
+
+iteration 13 with 144 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.755 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.1, -0.2, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 34.274 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  6
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 3.546 ms
+
+
+       ########################################         
+
+iteration 14 with 150 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.918 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.1, -0.2, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.887 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  6
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 3.218 ms
+
+
+       ########################################         
+
+iteration 15 with 156 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+5
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.995 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.1, -0.2, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.2, 0.8, -0.2, -0.3, 0.8]
+[xi_0 = -1, xi_1 = 10]
+close alarm signal.
+ranking function :  - 0.2 *  x[0]^1.0 - 0.3 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.1 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 19.762 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 10]
+
+NUMGX  6
+INDEX:  0 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 10] [-2, 30]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 10] [-2, 30]
+YIELD SVM POINT
+negtive
+sampling time = 3.261 ms
+
+
+       ########################################         
+
+iteration 16 with 162 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.066 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1388, -0.0284, 1.0979, -0.1523, -0.0535, 0.9423, -0.1785, -0.0982, 0.8888, -0.1951, -0.1675, 0.8348, -0.1667, -0.2584, 0.7779]
+close alarm signal.
+ranking function :  - 0.1667 *  x[0]^1.0 - 0.2584 *  x[1]^1.0 + 0.7779 * 1;  - 0.1951 *  x[0]^1.0 - 0.1675 *  x[1]^1.0 + 0.8348 * 1;  - 0.1785 *  x[0]^1.0 - 0.0982 *  x[1]^1.0 + 0.8888 * 1;  - 0.1523 *  x[0]^1.0 - 0.0535 *  x[1]^1.0 + 0.9423 * 1;  - 0.1388 *  x[0]^1.0 - 0.0284 *  x[1]^1.0 + 1.0979 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 21.566 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-71, 386]
+
+NUMGX  6
+INDEX:  0 [-71, 386] [-142, 1158]
+YIELD SVM POINT
+positive
+INDEX:  1 [-71, 386] [-142, 1158]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-71, 386] [-142, 1158]
+YIELD SVM POINT
+positive
+INDEX:  3 [-71, 386] [-142, 1158]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-71, 386] [-142, 1158]
+YIELD SVM POINT
+positive
+INDEX:  5 [-71, 386] [-142, 1158]
+YIELD SVM POINT
+negtive
+sampling time = 3.271 ms
+
+
+       ########################################         
+
+iteration 17 with 168 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.138 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1522, -0.0282, 1.0836, -0.1638, -0.0535, 0.9466, -0.1876, -0.0984, 0.8924, -0.2031, -0.1682, 0.837, -0.1739, -0.2597, 0.779]
+close alarm signal.
+ranking function :  - 0.1739 *  x[0]^1.0 - 0.2597 *  x[1]^1.0 + 0.779 * 1;  - 0.2031 *  x[0]^1.0 - 0.1682 *  x[1]^1.0 + 0.837 * 1;  - 0.1876 *  x[0]^1.0 - 0.0984 *  x[1]^1.0 + 0.8924 * 1;  - 0.1638 *  x[0]^1.0 - 0.0535 *  x[1]^1.0 + 0.9466 * 1;  - 0.1522 *  x[0]^1.0 - 0.0282 *  x[1]^1.0 + 1.0836 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 21.762 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-141, 800]
+
+NUMGX  6
+INDEX:  0 [-141, 800] [-282, 2400]
+YIELD SVM POINT
+positive
+INDEX:  1 [-141, 800] [-282, 2400]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-141, 800] [-282, 2400]
+YIELD SVM POINT
+positive
+INDEX:  3 [-141, 800] [-282, 2400]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-141, 800] [-282, 2400]
+YIELD SVM POINT
+positive
+INDEX:  5 [-141, 800] [-282, 2400]
+YIELD SVM POINT
+negtive
+sampling time = 3.300 ms
+
+
+       ########################################         
+
+iteration 18 with 174 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.165 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1523, -0.0282, 1.0838, -0.1638, -0.0534, 0.9465, -0.1875, -0.0985, 0.8924, -0.2031, -0.1681, 0.837, -0.1739, -0.2597, 0.7791]
+close alarm signal.
+ranking function :  - 0.1739 *  x[0]^1.0 - 0.2597 *  x[1]^1.0 + 0.7791 * 1;  - 0.2031 *  x[0]^1.0 - 0.1681 *  x[1]^1.0 + 0.837 * 1;  - 0.1875 *  x[0]^1.0 - 0.0985 *  x[1]^1.0 + 0.8924 * 1;  - 0.1638 *  x[0]^1.0 - 0.0534 *  x[1]^1.0 + 0.9465 * 1;  - 0.1523 *  x[0]^1.0 - 0.0282 *  x[1]^1.0 + 1.0838 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 21.693 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-282, 1562]
+
+NUMGX  6
+INDEX:  0 [-282, 1562] [-564, 4686]
+YIELD SVM POINT
+positive
+INDEX:  1 [-282, 1562] [-564, 4686]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-282, 1562] [-564, 4686]
+YIELD SVM POINT
+positive
+INDEX:  3 [-282, 1562] [-564, 4686]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-282, 1562] [-564, 4686]
+YIELD SVM POINT
+positive
+INDEX:  5 [-282, 1562] [-564, 4686]
+YIELD SVM POINT
+negtive
+sampling time = 3.223 ms
+
+
+       ########################################         
+
+iteration 19 with 180 examples
+
+2020-06-20-16-59-34   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-34   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.307 ms
+
+
+2020-06-20-16-59-34   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1588, -0.0281, 1.0764, -0.1692, -0.0535, 0.9488, -0.1921, -0.0984, 0.8942, -0.207, -0.1684, 0.8383, -0.1776, -0.2603, 0.7798]
+close alarm signal.
+ranking function :  - 0.1776 *  x[0]^1.0 - 0.2603 *  x[1]^1.0 + 0.7798 * 1;  - 0.207 *  x[0]^1.0 - 0.1684 *  x[1]^1.0 + 0.8383 * 1;  - 0.1921 *  x[0]^1.0 - 0.0984 *  x[1]^1.0 + 0.8942 * 1;  - 0.1692 *  x[0]^1.0 - 0.0535 *  x[1]^1.0 + 0.9488 * 1;  - 0.1588 *  x[0]^1.0 - 0.0281 *  x[1]^1.0 + 1.0764 * 1
+
+2020-06-20-16-59-34   >>>>   End verify ranking function
+
+verifying time = 21.698 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-281, 1627]
+
+NUMGX  6
+INDEX:  0 [-281, 1627] [-562, 4881]
+YIELD SVM POINT
+positive
+INDEX:  1 [-281, 1627] [-562, 4881]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-281, 1627] [-562, 4881]
+YIELD SVM POINT
+positive
+INDEX:  3 [-281, 1627] [-562, 4881]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-281, 1627] [-562, 4881]
+YIELD SVM POINT
+positive
+INDEX:  5 [-281, 1627] [-562, 4881]
+YIELD SVM POINT
+negtive
+sampling time = 3.262 ms
+
+
+Failed to prove it is terminating
+
+UNKNOWN
+Time For Template 2 Is--->-655.438000 ms
+
+------Using Template 3 -----------
+21 [3, 3, 3, 3, 3, 3, 3]
+m: 5 h: 1
+*****************************************************
+
+2020-06-20-16-59-34   >>>>   Start fix point
+
+2020-06-20-16-59-34   >>>>   End fix point
+
+sample_points  5 1 2 [0, 0]
+point: [-4, 5]
+NUMGX  8
+INDEX:  0 [-4, 5] [-8, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-4, 5] [-8, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-4, 5] [-8, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-4, 5] [-8, 15]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-4, 5] [-8, 15]
+YIELD SVM POINT
+positive
+INDEX:  5 [-4, 5] [-8, 15]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-4, 5] [-8, 15]
+YIELD SVM POINT
+positive
+INDEX:  7 [-4, 5] [-8, 15]
+YIELD SVM POINT
+negtive
+point: [-3, 4]
+NUMGX  8
+INDEX:  0 [-3, 4] [-6, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-3, 4] [-6, 12]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-3, 4] [-6, 12]
+YIELD SVM POINT
+positive
+INDEX:  3 [-3, 4] [-6, 12]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-3, 4] [-6, 12]
+YIELD SVM POINT
+positive
+INDEX:  5 [-3, 4] [-6, 12]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-3, 4] [-6, 12]
+YIELD SVM POINT
+positive
+INDEX:  7 [-3, 4] [-6, 12]
+YIELD SVM POINT
+negtive
+point: [-3, 5]
+NUMGX  8
+INDEX:  0 [-3, 5] [-6, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-3, 5] [-6, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-3, 5] [-6, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-3, 5] [-6, 15]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-3, 5] [-6, 15]
+YIELD SVM POINT
+positive
+INDEX:  5 [-3, 5] [-6, 15]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-3, 5] [-6, 15]
+YIELD SVM POINT
+positive
+INDEX:  7 [-3, 5] [-6, 15]
+YIELD SVM POINT
+negtive
+point: [-2, 3]
+NUMGX  8
+INDEX:  0 [-2, 3] [-4, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 3] [-4, 9]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 3] [-4, 9]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 3] [-4, 9]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-2, 3] [-4, 9]
+YIELD SVM POINT
+positive
+INDEX:  5 [-2, 3] [-4, 9]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-2, 3] [-4, 9]
+YIELD SVM POINT
+positive
+INDEX:  7 [-2, 3] [-4, 9]
+YIELD SVM POINT
+negtive
+point: [-2, 4]
+NUMGX  8
+INDEX:  0 [-2, 4] [-4, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 4] [-4, 12]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 4] [-4, 12]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 4] [-4, 12]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-2, 4] [-4, 12]
+YIELD SVM POINT
+positive
+INDEX:  5 [-2, 4] [-4, 12]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-2, 4] [-4, 12]
+YIELD SVM POINT
+positive
+INDEX:  7 [-2, 4] [-4, 12]
+YIELD SVM POINT
+negtive
+point: [-2, 5]
+NUMGX  8
+INDEX:  0 [-2, 5] [-4, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2, 5] [-4, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-2, 5] [-4, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-2, 5] [-4, 15]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-2, 5] [-4, 15]
+YIELD SVM POINT
+positive
+INDEX:  5 [-2, 5] [-4, 15]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-2, 5] [-4, 15]
+YIELD SVM POINT
+positive
+INDEX:  7 [-2, 5] [-4, 15]
+YIELD SVM POINT
+negtive
+point: [-1, 2]
+NUMGX  8
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+point: [-1, 3]
+NUMGX  8
+INDEX:  0 [-1, 3] [-2, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 3] [-2, 9]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 3] [-2, 9]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 3] [-2, 9]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 3] [-2, 9]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 3] [-2, 9]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 3] [-2, 9]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 3] [-2, 9]
+YIELD SVM POINT
+negtive
+point: [-1, 4]
+NUMGX  8
+INDEX:  0 [-1, 4] [-2, 12]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 4] [-2, 12]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 4] [-2, 12]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 4] [-2, 12]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 4] [-2, 12]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 4] [-2, 12]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 4] [-2, 12]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 4] [-2, 12]
+YIELD SVM POINT
+negtive
+point: [-1, 5]
+NUMGX  8
+INDEX:  0 [-1, 5] [-2, 15]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 5] [-2, 15]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 5] [-2, 15]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 5] [-2, 15]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 5] [-2, 15]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 5] [-2, 15]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 5] [-2, 15]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 5] [-2, 15]
+YIELD SVM POINT
+negtive
+NUMGX  8
+INDEX:  0 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+INDEX:  2 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  3 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+INDEX:  4 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  5 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+INDEX:  6 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  7 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  88
+2020-06-20-16-59-35   >>>>   End sampling point
+
+sampling time = 50.728 ms,
+
+
+       ########################################         
+
+iteration 0 with 88 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.429 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.2, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.1, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7, 0.0, -0.2, 0.7]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 31.004 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 12]
+
+NUMGX  8
+INDEX:  0 [-1, 12] [-2, 36]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 12] [-2, 36]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 12] [-2, 36]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 12] [-2, 36]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 12] [-2, 36]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 12] [-2, 36]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 12] [-2, 36]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 12] [-2, 36]
+YIELD SVM POINT
+negtive
+sampling time = 4.505 ms
+
+
+       ########################################         
+
+iteration 1 with 96 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.638 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.2, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+[xi_0 = -7, xi_1 = 8]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 17.388 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  8
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  3 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  5 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  7 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 4.524 ms
+
+
+       ########################################         
+
+iteration 2 with 104 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.671 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.0, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.2, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+[xi_0 = -7, xi_1 = 8]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 17.122 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  8
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  3 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  5 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  7 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 4.533 ms
+
+
+       ########################################         
+
+iteration 3 with 112 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.678 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.2, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+[xi_0 = -7, xi_1 = 8]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 17.233 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  8
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  3 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  5 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  7 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 4.540 ms
+
+
+       ########################################         
+
+iteration 4 with 120 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.685 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.0, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.2, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+[xi_0 = -7, xi_1 = 8]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 17.073 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  8
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  3 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  5 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  7 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 4.983 ms
+
+
+       ########################################         
+
+iteration 5 with 128 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.714 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.2, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+[xi_0 = -7, xi_1 = 8]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 17.103 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  8
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  3 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  5 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  7 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 4.490 ms
+
+
+       ########################################         
+
+iteration 6 with 136 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.691 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.2, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+[xi_0 = -7, xi_1 = 8]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 17.407 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  8
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  3 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  5 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  7 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 4.562 ms
+
+
+       ########################################         
+
+iteration 7 with 144 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.735 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.2, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+[xi_0 = -7, xi_1 = 8]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 17.140 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  8
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  3 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  5 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  7 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 4.527 ms
+
+
+       ########################################         
+
+iteration 8 with 152 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.712 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.2, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+[xi_0 = -7, xi_1 = 8]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 17.253 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  8
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  3 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  5 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  7 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 4.531 ms
+
+
+       ########################################         
+
+iteration 9 with 160 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.715 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.2, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+[xi_0 = -7, xi_1 = 8]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 17.101 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  8
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  3 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  5 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  7 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 4.930 ms
+
+
+       ########################################         
+
+iteration 10 with 168 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+5
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.778 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.0, 1.0, -0.1, -0.1, 0.9, -0.2, -0.1, 0.9, -0.2, -0.1, 0.8, -0.1, -0.2, 0.7, -0.1, -0.2, 0.7, -0.0, -0.2, 0.7]
+[xi_0 = -7, xi_1 = 8]
+close alarm signal.
+ranking function :  - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.1 *  x[0]^1.0 - 0.2 *  x[1]^1.0 + 0.7 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.8 * 1;  - 0.2 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 - 0.1 *  x[1]^1.0 + 0.9 * 1;  - 0.1 *  x[0]^1.0 + 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 17.094 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-7, 8]
+
+NUMGX  8
+INDEX:  0 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  1 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  3 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  5 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-7, 8] [-14, 24]
+YIELD SVM POINT
+positive
+INDEX:  7 [-7, 8] [-14, 24]
+YIELD SVM POINT
+negtive
+sampling time = 4.518 ms
+
+
+       ########################################         
+
+iteration 11 with 176 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.712 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0]
+[xi_0 = -1, xi_1 = 2]
+close alarm signal.
+ranking function : 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 7.702 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 2]
+
+NUMGX  8
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+sampling time = 4.533 ms
+
+
+       ########################################         
+
+iteration 12 with 184 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.815 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0]
+[xi_0 = -1, xi_1 = 2]
+close alarm signal.
+ranking function : 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 7.648 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 2]
+
+NUMGX  8
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+sampling time = 4.562 ms
+
+
+       ########################################         
+
+iteration 13 with 192 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.018 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0]
+[xi_0 = -1, xi_1 = 2]
+close alarm signal.
+ranking function : 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 7.678 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 2]
+
+NUMGX  8
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+sampling time = 4.552 ms
+
+
+       ########################################         
+
+iteration 14 with 200 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.158 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0]
+[xi_0 = -1, xi_1 = 2]
+close alarm signal.
+ranking function : 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 7.659 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 2]
+
+NUMGX  8
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+sampling time = 4.546 ms
+
+
+       ########################################         
+
+iteration 15 with 208 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.372 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0]
+[xi_0 = -1, xi_1 = 2]
+close alarm signal.
+ranking function : 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 7.668 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 2]
+
+NUMGX  8
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+sampling time = 4.526 ms
+
+
+       ########################################         
+
+iteration 16 with 216 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+5
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.617 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0, -0.0, -0.0, 1.0]
+[xi_0 = -1, xi_1 = 2]
+close alarm signal.
+ranking function : 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1; 1.0 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 7.656 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1, 2]
+
+NUMGX  8
+INDEX:  0 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  3 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  5 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-1, 2] [-2, 6]
+YIELD SVM POINT
+positive
+INDEX:  7 [-1, 2] [-2, 6]
+YIELD SVM POINT
+negtive
+sampling time = 4.468 ms
+
+
+       ########################################         
+
+iteration 17 with 224 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.891 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0647, -0.0192, 0.9617, -0.0997, -0.0415, 0.9388, -0.2768, -0.1455, 0.9101, -0.1853, -0.1695, 0.8166, -0.0894, -0.1788, 0.7561, -0.0389, -0.2018, 0.7263, -0.0075, -0.2495, 0.7133]
+[xi_0 = -625, xi_1 = 1786]
+close alarm signal.
+ranking function :  - 0.0075 *  x[0]^1.0 - 0.2495 *  x[1]^1.0 + 0.7133 * 1;  - 0.0389 *  x[0]^1.0 - 0.2018 *  x[1]^1.0 + 0.7263 * 1;  - 0.0894 *  x[0]^1.0 - 0.1788 *  x[1]^1.0 + 0.7561 * 1;  - 0.1853 *  x[0]^1.0 - 0.1695 *  x[1]^1.0 + 0.8166 * 1;  - 0.2768 *  x[0]^1.0 - 0.1455 *  x[1]^1.0 + 0.9101 * 1;  - 0.0997 *  x[0]^1.0 - 0.0415 *  x[1]^1.0 + 0.9388 * 1;  - 0.0647 *  x[0]^1.0 - 0.0192 *  x[1]^1.0 + 0.9617 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 24.434 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-625, 1786]
+
+NUMGX  8
+INDEX:  0 [-625, 1786] [-1250, 5358]
+YIELD SVM POINT
+positive
+INDEX:  1 [-625, 1786] [-1250, 5358]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-625, 1786] [-1250, 5358]
+YIELD SVM POINT
+positive
+INDEX:  3 [-625, 1786] [-1250, 5358]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-625, 1786] [-1250, 5358]
+YIELD SVM POINT
+positive
+INDEX:  5 [-625, 1786] [-1250, 5358]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-625, 1786] [-1250, 5358]
+YIELD SVM POINT
+positive
+INDEX:  7 [-625, 1786] [-1250, 5358]
+YIELD SVM POINT
+negtive
+sampling time = 4.588 ms
+
+
+       ########################################         
+
+iteration 18 with 232 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.915 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0564, -0.0156, 0.9584, -0.0876, -0.0323, 0.9364, -0.3192, -0.1645, 0.915, -0.1762, -0.1712, 0.8005, -0.0802, -0.1784, 0.7499, -0.0343, -0.2014, 0.7231, -0.0053, -0.249, 0.7117]
+[xi_0 = -333, xi_1 = 782]
+close alarm signal.
+ranking function :  - 0.0053 *  x[0]^1.0 - 0.249 *  x[1]^1.0 + 0.7117 * 1;  - 0.0343 *  x[0]^1.0 - 0.2014 *  x[1]^1.0 + 0.7231 * 1;  - 0.0802 *  x[0]^1.0 - 0.1784 *  x[1]^1.0 + 0.7499 * 1;  - 0.1762 *  x[0]^1.0 - 0.1712 *  x[1]^1.0 + 0.8005 * 1;  - 0.3192 *  x[0]^1.0 - 0.1645 *  x[1]^1.0 + 0.915 * 1;  - 0.0876 *  x[0]^1.0 - 0.0323 *  x[1]^1.0 + 0.9364 * 1;  - 0.0564 *  x[0]^1.0 - 0.0156 *  x[1]^1.0 + 0.9584 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 24.671 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-333, 782]
+
+NUMGX  8
+INDEX:  0 [-333, 782] [-666, 2346]
+YIELD SVM POINT
+positive
+INDEX:  1 [-333, 782] [-666, 2346]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-333, 782] [-666, 2346]
+YIELD SVM POINT
+positive
+INDEX:  3 [-333, 782] [-666, 2346]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-333, 782] [-666, 2346]
+YIELD SVM POINT
+positive
+INDEX:  5 [-333, 782] [-666, 2346]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-333, 782] [-666, 2346]
+YIELD SVM POINT
+positive
+INDEX:  7 [-333, 782] [-666, 2346]
+YIELD SVM POINT
+negtive
+sampling time = 4.558 ms
+
+
+       ########################################         
+
+iteration 19 with 240 examples
+
+2020-06-20-16-59-35   >>>>   Start train ranking function
+
+HERE
+training done
+2020-06-20-16-59-35   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.025 ms
+
+
+2020-06-20-16-59-35   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0647, -0.0192, 0.9617, -0.0996, -0.0415, 0.9388, -0.2769, -0.1456, 0.9101, -0.1853, -0.1695, 0.8166, -0.0894, -0.1788, 0.7561, -0.0389, -0.2018, 0.7263, -0.0075, -0.2495, 0.7133]
+[xi_0 = -313, xi_1 = 902]
+close alarm signal.
+ranking function :  - 0.0075 *  x[0]^1.0 - 0.2495 *  x[1]^1.0 + 0.7133 * 1;  - 0.0389 *  x[0]^1.0 - 0.2018 *  x[1]^1.0 + 0.7263 * 1;  - 0.0894 *  x[0]^1.0 - 0.1788 *  x[1]^1.0 + 0.7561 * 1;  - 0.1853 *  x[0]^1.0 - 0.1695 *  x[1]^1.0 + 0.8166 * 1;  - 0.2769 *  x[0]^1.0 - 0.1456 *  x[1]^1.0 + 0.9101 * 1;  - 0.0996 *  x[0]^1.0 - 0.0415 *  x[1]^1.0 + 0.9388 * 1;  - 0.0647 *  x[0]^1.0 - 0.0192 *  x[1]^1.0 + 0.9617 * 1
+
+2020-06-20-16-59-35   >>>>   End verify ranking function
+
+verifying time = 24.341 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-313, 902]
+
+NUMGX  8
+INDEX:  0 [-313, 902] [-626, 2706]
+YIELD SVM POINT
+positive
+INDEX:  1 [-313, 902] [-626, 2706]
+YIELD SVM POINT
+negtive
+INDEX:  2 [-313, 902] [-626, 2706]
+YIELD SVM POINT
+positive
+INDEX:  3 [-313, 902] [-626, 2706]
+YIELD SVM POINT
+negtive
+INDEX:  4 [-313, 902] [-626, 2706]
+YIELD SVM POINT
+positive
+INDEX:  5 [-313, 902] [-626, 2706]
+YIELD SVM POINT
+negtive
+INDEX:  6 [-313, 902] [-626, 2706]
+YIELD SVM POINT
+positive
+INDEX:  7 [-313, 902] [-626, 2706]
+YIELD SVM POINT
+negtive
+sampling time = 4.468 ms
+
+
+Failed to prove it is terminating
+
+UNKNOWN
+Time For Template 3 Is--->-608.834000 ms
+
+Time For ../Program_non/103.bpl Is ---> 1875.052000 ms
+
+UNKNOWN
