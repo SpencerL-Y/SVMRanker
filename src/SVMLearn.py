@@ -160,6 +160,7 @@ if int(Info[0]) == 0:
 		i = (i+1)%numOfTemplate
 rank_newtime=datetime.datetime.now()
 f = open(os.path.join(logFile,'AnalysisTimeForALL.log'),'a')
-f.write('Time For %s Is ---> %f ms\n' %(os.path.join(sourceFilePath,sourceFileName),float((float((rank_newtime-rank_oldtime).total_seconds())*1000 ))
-print('Time For %s Is ---> %f ms\n' %(os.path.join(sourceFilePath,sourceFileName),float((float((rank_newtime-rank_oldtime).total_seconds())*1000 ))
+f.write('Time For %s Is ---> %f ms\n' %(os.path.join(sourceFilePath,sourceFileName),\
+				float((rank_newtime-rank_oldtime).total_seconds())*1000 ))
+print('Time For %s Is ---> %f ms\n' %(os.path.join(sourceFilePath,sourceFileName),float((rank_newtime-rank_oldtime).total_seconds())*1000 ))
 print('Program is terminating' if result=='TERMINATE' else (result if result =='UNKNOWN' else 'Program is non-terminating'))
