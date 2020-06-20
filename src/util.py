@@ -297,6 +297,8 @@ def train_ranking_function(L, rf, x, y,  m=5, h=0.5, n=2):
 	
 	h_t = datetime.datetime.now()
 	print(  str(get_time(h_t))+"   >>>>   " + "End fix point\n")
+
+	print( 'fix point time = %.3f ms\n\n' % ( get_time_interval(ht, h_t)))
 	if Is_inf:
 		print(  "it is not terminating, an  infinity loop with initial condition:\n")
 		print(  inf_model+'\n')
@@ -463,6 +465,8 @@ def train_ranking_function_strategic(L, rf, x, y,  m=5, h=0.5, n=2):
 	
 	h_t = datetime.datetime.now()
 	print(  str(get_time(h_t))+"   >>>>   " + "End fix point\n")
+
+	print( 'fix point time = %.3f ms\n\n' % ( get_time_interval(ht, h_t)))
 	if Is_inf:
 		print(  "it is not terminating, an infinite loop with initial condition:\n")
 		print(  inf_model+'\n')

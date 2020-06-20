@@ -10,6 +10,7 @@ my $example = 0;
 my $time_sampling = 0.0;
 my $time_training = 0.0;
 my $time_Z3 = 0.0;
+my $time_fixpoit = 0.0
 my $result;
 my $phase;
 
@@ -19,6 +20,7 @@ for ($example = 0; $example < 172; $example++) {
 	$time_sampling = 0.0;
 	$time_training = 0.0;
 	$time_Z3 = 0.0;
+	$time_fixpoit = 0.0
 	$result = "T";
 	$phase = "S";
 	if ( -e -s $logfile ) {
@@ -32,6 +34,9 @@ for ($example = 0; $example < 172; $example++) {
 			}
 			if ($_ =~ /verifying time = ([1234567890.]+) ms/) {
 				$time_Z3 = $time_Z3 + $1;
+			}
+			if ($_ =~ /fix point time = ([1234567890.]+) ms/) {
+				$time_fixpoit = $time_fixpoit + $1;
 			}
 			if ($_ =~ /TERMINATE/) {
 				$result = "Y";
@@ -50,6 +55,6 @@ for ($example = 0; $example < 172; $example++) {
 			}
 		}
 		close(RESULT);
-		print "$example,$time_sampling,$time_training,$time_Z3,$result,$phase\n";
+		print "$example,$time_sampling,$time_training,$time_Z3,$time_fixpoit,$result,$phase\n";
 	}
 }
