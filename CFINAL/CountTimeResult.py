@@ -16,5 +16,5 @@ fileList = os.listdir(dirName)
 i = 0
 for name in fileList:
     if name.endswith(".bpl.log"):
-       os.rename(dirName + "name", i+".bpl.log")
+       os.rename(dirName + name, str(i)+".bpl.log")
        i = i + 1

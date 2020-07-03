@@ -10,7 +10,7 @@ my $example = 0;
 my $time_sampling = 0.0;
 my $time_training = 0.0;
 my $time_Z3 = 0.0;
-my $time_fixpoit = 0.0
+my $time_fixpoit = 0.0;
 my $result;
 my $phase;
 
