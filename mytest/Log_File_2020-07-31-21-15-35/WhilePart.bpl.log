@@ -1,0 +1,57 @@
+generate template if
+generate template if end
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 1
+L[3]: 1
+L[4]: [[1, 1], [0, 1]]
+listOfDimension [2]
+Template we used x[0], x[1], ..., b: 
+[[1 1]
+ [0 1]]
+m: 50 h: 1
+*****************************************************
+
+2020-07-31-21-20-51   >>>>   Start fix point
+
+xi_0  =  10
+2020-07-31-21-20-51   >>>>   End fix point
+
+fix point time = 8.923 ms
+
+
+it is not terminating, an infinite loop with initial condition:
+
+['xi_0=10']
+
+-----RESULT: NONTERM -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 1
+L[3]: 1
+L[4]: [[1, 1], [0, 1]]
+listOfDimension [2]
+Template we used x[0], x[1], ..., b: 
+[[1 1]
+ [0 1]]
+m: 50 h: 1
+*****************************************************
+
+2020-07-31-21-20-51   >>>>   Start fix point
+
+xi_0  =  10
+2020-07-31-21-20-51   >>>>   End fix point
+
+fix point time = 6.650 ms
+
+
+it is not terminating, an infinite loop with initial condition:
+
+['xi_0=10']
+
+-----RESULT: NONTERM -------
+--------------------LEARNING MULTIPHASE SUMMARY-------------------
+LEARNING RESULT:  NONTERM
+Time For ../C_Boogies/WhilePart.bpl Is ---> 16.613000 ms
+
+Program is non-terminating
