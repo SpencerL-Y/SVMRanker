@@ -196,7 +196,7 @@ class NestedNoBoundTemplate:
 		multiplied = max(den_upbound, den_coef)
 		ceilings = [int(multiplied * v) for v in coef_vec]
 		return sum(i[0] * i[1] for i in zip(ceilings, gx))
-
+		
 	def get_max_denominator(self, coef_vec, up_bound):
 		den_upbound = z3.z3num.Numeral(up_bound).denominator()
 		den_coef = max ([z3.z3num.Numeral(v).denominator() for v in coef_vec])
