@@ -1,7 +1,7 @@
 //#rNonTerminationDerivable
 /*
- * Date: 2014-03-17
- * Author: heizmann@informatik.uni-freiburg.de
+ * Date: 2020-12-9
+ * Author: Xie Li
  *
  * From Amir M. Ben-Amram and Samir Genaim,
  * Ranking Functions for Linear-Constraint Loops.

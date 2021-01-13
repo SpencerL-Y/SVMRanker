@@ -21,19 +21,19 @@ def generateTemplate(indexOfTemplate, numOfVar):
 	if indexOfTemplate == 0:
 		generateLinearTemplateFile(indexOfTemplate, 1,numOfVar)
 	elif indexOfTemplate == 1:
-		generateLinearTemplateFile(indexOfTemplate, 3,numOfVar)
+		generateLinearTemplateFile(indexOfTemplate, 2,numOfVar)
 	elif indexOfTemplate == 2:
-		generateLinearTemplateFile(indexOfTemplate, 5,numOfVar)
+		generateLinearTemplateFile(indexOfTemplate, 3,numOfVar)
 	elif indexOfTemplate == 3:
-		generateLinearTemplateFile(indexOfTemplate, 7,numOfVar)
+		generateLinearTemplateFile(indexOfTemplate, 4,numOfVar)
 	elif indexOfTemplate == 4:
 		generateNonLinearTemplateFile(indexOfTemplate,1,numOfVar)
 	elif indexOfTemplate == 5:
-		generateNonLinearTemplateFile(indexOfTemplate,3,numOfVar)
+		generateNonLinearTemplateFile(indexOfTemplate,2,numOfVar)
 	elif indexOfTemplate == 6:
-		generateNonLinearTemplateFile(indexOfTemplate,5,numOfVar)
+		generateNonLinearTemplateFile(indexOfTemplate,3,numOfVar)
 	elif indexOfTemplate == 7:
-		generateNonLinearTemplateFile(indexOfTemplate,7,numOfVar)
+		generateNonLinearTemplateFile(indexOfTemplate,4,numOfVar)
 
 		
 
@@ -130,7 +130,7 @@ from  LearnRanker import *
 rank_oldtime=datetime.datetime.now()
 #os.system('rm -f '+os.path.join(path,javaOutputInfo))
 if int(Info[0]) == 0:
-	numOfTemplate = 4
+	numOfTemplate = 2
 	templateFullPath = os.path.join(path,templatePath,templateFileName)
 	if not os.path.exists(templateFullPath):
 		os.makedirs(templateFullPath)
