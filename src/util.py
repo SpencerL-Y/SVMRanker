@@ -24,7 +24,6 @@ from FindMultiphaseUtil import *
 
 #warnings.filterwarnings(action="ignore", category=ConvergenceWarning)
 
-fix_point_checked = False
 
 def get_time_interval(s,e):
 	return float((e-s).total_seconds())*1000
@@ -443,7 +442,7 @@ def train_ranking_function(L, rf, x, y,  m=5, h=0.5, n=2):
 	return "UNKNOWN",x,y
 
 
-def train_ranking_function_strategic(L, rf, x, y,  m=5, h=0.5, n=2):
+def train_ranking_function_strategic(L, rf, x, y, fix_point_checked, m=5, h=0.5, n=2):
 	n=L[2]
 	m = max((100 ** (1/n))*h/2,h )
 	#m = 16
@@ -457,7 +456,7 @@ def train_ranking_function_strategic(L, rf, x, y,  m=5, h=0.5, n=2):
 	print("m:",m,"h:",h)
 
 	if not fix_point_checked:
-		fix_point_checked = False
+		fix_point_checked = True
 		print("*****************************************************\n")
 		ht = datetime.datetime.now()
 		print(  str(get_time(ht))+"   >>>>   " + "Start fix point\n")
