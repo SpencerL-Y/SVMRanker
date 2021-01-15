@@ -1,14 +1,13 @@
 from z3 import *
 
 L = [
-lambda x :(True and (x[0] >= 0)),
-lambda x :[(x[0] - x[1]), x[1], ],
-2,
+lambda x :(True and True),
+lambda x :[(x[0] + 1), ],
+1,
 0,
-lambda x :[( x[0]- x[1]), x[1], ],
-lambda x :(And( True, ( x[0]>= 0))),
+lambda x :[( x[0]+ 1), ],
+lambda x :(And( True, True)),
 False,
 ]
 T = [
-[1, 0, 0], 
-[0, 1, 0]]
+[1, 0]]

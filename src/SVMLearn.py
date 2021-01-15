@@ -150,7 +150,7 @@ def SVMLearnMulti(sourceFilePath, sourceFileName,
 
 
 
-'''
+
 sourceFile = sys.argv[1]
 
 logFile = sys.argv[2]
@@ -223,4 +223,4 @@ f = open(os.path.join(logFile,'AnalysisTimeForALL.log'),'a')
 f.write('Time For %s Is ---> %f ms\n' %(os.path.join(sourceFilePath,sourceFileName),float((parse_newtime-parse_oldtime).total_seconds())*1000  + float((rank_newtime-rank_oldtime).total_seconds())*1000 ))
 print('Time For %s Is ---> %f ms\n' %(os.path.join(sourceFilePath,sourceFileName),float((parse_newtime-parse_oldtime).total_seconds())*1000  + float((rank_newtime-rank_oldtime).total_seconds())*1000 ))
 print('Program is terminating' if result=='FINITE' else (result if result =='UNKNOWN' else 'Program is non-terminating'))
-'''
+

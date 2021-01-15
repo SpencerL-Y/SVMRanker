@@ -1,0 +1,57 @@
+generate template if
+generate template if end
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 1
+L[3]: 1
+L[4]: [[1, 1], [0, 1]]
+listOfDimension [2]
+Template we used x[0], x[1], ..., b: 
+[[1 1]
+ [0 1]]
+m: 50 h: 1
+*****************************************************
+
+2021-01-15-01-12-09   >>>>   Start fix point
+
+xi_0  =  10
+2021-01-15-01-12-09   >>>>   End fix point
+
+fix point time = 7.637 ms
+
+
+it is not terminating, an infinite loop with initial condition:
+
+['xi_0=10']
+
+-----RESULT: NONTERM -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 1
+L[3]: 1
+L[4]: [[1, 1], [0, 1]]
+listOfDimension [2]
+Template we used x[0], x[1], ..., b: 
+[[1 1]
+ [0 1]]
+m: 50 h: 1
+*****************************************************
+
+2021-01-15-01-12-09   >>>>   Start fix point
+
+xi_0  =  10
+2021-01-15-01-12-09   >>>>   End fix point
+
+fix point time = 5.594 ms
+
+
+it is not terminating, an infinite loop with initial condition:
+
+['xi_0=10']
+
+-----RESULT: NONTERM -------
+--------------------LEARNING MULTIPHASE SUMMARY-------------------
+LEARNING RESULT:  NONTERM
+Time For ../C_Boogies/ConvLower.bpl Is ---> 13.811000 ms
+
+Program is non-terminating
