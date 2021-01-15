@@ -455,9 +455,10 @@ def train_ranking_function_strategic(L, rf, x, y, fix_point_checked, m=5, h=0.5,
 		m = int(max((100 ** (1/n))/2,0))
 	print("m:",m,"h:",h)
 
-	if not fix_point_checked:
-		fix_point_checked = True
-		print("*****************************************************\n")
+	if not fix_point_checked[0]:
+
+		fix_point_checked[0] = True
+		print("************************FIX POINT CHECK*****************************\n")
 		ht = datetime.datetime.now()
 		print(  str(get_time(ht))+"   >>>>   " + "Start fix point\n")
 
@@ -474,7 +475,7 @@ def train_ranking_function_strategic(L, rf, x, y, fix_point_checked, m=5, h=0.5,
 			print(  "it is not terminating, an infinite loop with initial condition:\n")
 			print(  inf_model+'\n')
 			return "NONTERM",None,None
-		st = datetime.datetime.now()
+	st = datetime.datetime.now()
 	# print(str(get_time(st)) + "   >>>>   " + "Start sampling point\n")
 	# print(*sample_points(no, m, h, n, rf))
 	result=[]

@@ -145,7 +145,7 @@ def train_multi_ranking_function_backtracking_loopbody(L, x, y, rf_list, templat
 def train_multi_ranking_function_backtracking(L, x, y, templates, depthBound, strategic="MINUS"):
     i = 1
     result = 'UNKNOWN'
-    fix_point_checked = False
+    fix_point_checked = [False]
     while i <= depthBound and result == 'UNKNOWN':
         rf_list = []
         ret, rf_list = train_multi_ranking_function_backtracking_loopbody(L, x, y, rf_list, templates, 0, 1, i, fix_point_checked, strategic)
