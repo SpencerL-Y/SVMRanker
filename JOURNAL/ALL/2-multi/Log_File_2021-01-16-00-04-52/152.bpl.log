@@ -1,0 +1,221 @@
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 2
+L[3]: 1
+L[4]: [[1, 0, 1], [0, 0, 0], [0, 0, 1]]
+listOfDimension [3]
+Template we used x[0], x[1], ..., b: 
+[[1 0 1]
+ [0 0 0]
+ [0 0 1]]
+m: 2.5 h: 0.5
+************************FIX POINT CHECK*****************************
+
+2021-01-16-00-17-01   >>>>   Start fix point
+
+2021-01-16-00-17-01   >>>>   End fix point
+
+fix point time = 6.190 ms
+
+
+sample_points  2.5 0.5 2 [0, 0]
+point: [0.0, 1.0]
+NUMGX  2
+INDEX:  0 [0.0, 1.0] [-3.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.0, 1.0] [-3.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [0.0, 1.5]
+NUMGX  2
+INDEX:  0 [0.0, 1.5] [-8.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.0, 1.5] [-8.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [0.0, 2.0]
+NUMGX  2
+INDEX:  0 [0.0, 2.0] [-15.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.0, 2.0] [-15.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [0.0, 2.5]
+NUMGX  2
+INDEX:  0 [0.0, 2.5] [-24.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.0, 2.5] [-24.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [0.5, 2.0]
+NUMGX  2
+INDEX:  0 [0.5, 2.0] [-15.25, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 2.0] [-15.25, -2.0]
+YIELD SVM POINT
+negtive
+point: [0.5, 2.5]
+NUMGX  2
+INDEX:  0 [0.5, 2.5] [-24.25, -2.25]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 2.5] [-24.25, -2.25]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [1.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [1.0, -1.0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  14
+2021-01-16-00-17-01   >>>>   End sampling point
+
+sampling time = 2.799 ms,
+
+
+       ########################################         
+
+iteration 0 with 14 examples
+
+2021-01-16-00-17-01   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-17-01   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.484 ms
+
+
+2021-01-16-00-17-01   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.1905, 0.4762, 0.4762]
+valid ranking function
+close alarm signal.
+ranking function : 0.1905 *  x[0]^1 + 0.4762 * 1 + 0.4762 * 1
+
+2021-01-16-00-17-01   >>>>   End verify ranking function
+
+verifying time = 6.979 ms
+
+
+Found Ranking Function: 0.1905 *  x[0]^1 + 0.4762 * 1 + 0.4762 * 1
+
+-----RESULT: TERMINATE -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 2
+L[3]: 1
+L[4]: [[1, 0, 1], [0, 0, 0], [0, 0, 1]]
+listOfDimension [3]
+Template we used x[0], x[1], ..., b: 
+[[1 0 1]
+ [0 0 0]
+ [0 0 1]]
+m: 2.5 h: 0.5
+sample_points  2.5 0.5 2 [0, 0]
+point: [0.0, 1.0]
+NUMGX  2
+INDEX:  0 [0.0, 1.0] [-3.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.0, 1.0] [-3.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [0.0, 1.5]
+NUMGX  2
+INDEX:  0 [0.0, 1.5] [-8.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.0, 1.5] [-8.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [0.0, 2.0]
+NUMGX  2
+INDEX:  0 [0.0, 2.0] [-15.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.0, 2.0] [-15.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [0.0, 2.5]
+NUMGX  2
+INDEX:  0 [0.0, 2.5] [-24.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.0, 2.5] [-24.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [0.5, 2.0]
+NUMGX  2
+INDEX:  0 [0.5, 2.0] [-15.25, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 2.0] [-15.25, -2.0]
+YIELD SVM POINT
+negtive
+point: [0.5, 2.5]
+NUMGX  2
+INDEX:  0 [0.5, 2.5] [-24.25, -2.25]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 2.5] [-24.25, -2.25]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [1.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [1.0, -1.0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  14
+2021-01-16-00-17-01   >>>>   End sampling point
+
+sampling time = 2.687 ms,
+
+
+       ########################################         
+
+iteration 0 with 14 examples
+
+2021-01-16-00-17-01   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-17-01   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.275 ms
+
+
+2021-01-16-00-17-01   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.1905, 0.4762, 0.4762]
+valid ranking function
+close alarm signal.
+ranking function : 0.1905 *  x[0]^1 + 0.4762 * 1 + 0.4762 * 1
+
+2021-01-16-00-17-01   >>>>   End verify ranking function
+
+verifying time = 6.796 ms
+
+
+Found Ranking Function: 0.1905 *  x[0]^1 + 0.4762 * 1 + 0.4762 * 1
+
+-----RESULT: TERMINATE -------
+--------------------LEARNING MULTIPHASE SUMMARY-------------------
+MULTIPHASE DEPTH:  1
+LEARNING RESULT:  TERMINATE
+-----------RANKING FUNCTIONS----------
+0.1905 *  x[0]^1 + 0.4762 * 1 + 0.4762 * 1
+Time For ../Program_non/152.bpl Is ---> 29.521000 ms
+
+Program is terminating

@@ -1,0 +1,4931 @@
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 4
+L[3]: 1
+L[4]: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 1, 0, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]
+listOfDimension [5]
+Template we used x[0], x[1], ..., b: 
+[[1 0 0 0 1]
+ [0 1 0 0 1]
+ [0 0 1 0 1]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+m: 1 h: 1
+************************FIX POINT CHECK*****************************
+
+2021-01-16-00-22-24   >>>>   Start fix point
+
+2021-01-16-00-22-24   >>>>   End fix point
+
+fix point time = 5.971 ms
+
+
+sample_points  1 1 4 [0, 0, 0, 0]
+point: [-1, -1, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, -1, 1, -1] [1, -7, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, -1, 1, -1] [1, -7, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, -1, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, -1, 1, 0] [1, -7, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, -1, 1, 0] [1, -7, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, -1, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, -1, 1, 1] [1, -7, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, -1, 1, 1] [1, -7, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, -1] [-3, -4, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, -1] [-3, -4, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 0] [-3, -4, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 0] [-3, -4, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 1] [-3, -4, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 1] [-3, -4, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, -1] [-7, -1, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, -1] [-7, -1, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 0] [-7, -1, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 0] [-7, -1, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 1] [-7, -1, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 1] [-7, -1, -1, -1]
+YIELD SVM POINT
+negtive
+point: [0, -1, 1, -1]
+NUMGX  2
+INDEX:  0 [0, -1, 1, -1] [4, -3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, -1, 1, -1] [4, -3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, -1, 1, 0]
+NUMGX  2
+INDEX:  0 [0, -1, 1, 0] [4, -3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, -1, 1, 0] [4, -3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, -1, 1, 1]
+NUMGX  2
+INDEX:  0 [0, -1, 1, 1] [4, -3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, -1, 1, 1] [4, -3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, -1] [-4, 3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, -1] [-4, 3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 0] [-4, 3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 0] [-4, 3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 1] [-4, 3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 1] [-4, 3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, -1, 1, -1]
+NUMGX  2
+INDEX:  0 [1, -1, 1, -1] [7, 1, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, -1, 1, -1] [7, 1, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, -1, 1, 0]
+NUMGX  2
+INDEX:  0 [1, -1, 1, 0] [7, 1, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, -1, 1, 0] [7, 1, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, -1, 1, 1]
+NUMGX  2
+INDEX:  0 [1, -1, 1, 1] [7, 1, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, -1, 1, 1] [7, 1, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, -1] [3, 4, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, -1] [3, 4, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 0] [3, 4, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 0] [3, 4, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 1] [3, 4, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 1] [3, 4, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, -1] [-1, 7, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, -1] [-1, 7, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 0] [-1, 7, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 0] [-1, 7, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 1] [-1, 7, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 1] [-1, 7, 1, 1]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, 0, -1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, 0, -1, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  56
+2021-01-16-00-22-24   >>>>   End sampling point
+
+sampling time = 16.513 ms,
+
+
+       ########################################         
+
+iteration 0 with 56 examples
+
+2021-01-16-00-22-24   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-24   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.927 ms
+
+
+2021-01-16-00-22-24   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.0, -0.0, 0.7]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.0 *  x[2]^1 + 0.7 * 1
+
+2021-01-16-00-22-24   >>>>   End verify ranking function
+
+verifying time = 10.280 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 9, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 9, 1, 0] [-36, 27, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 9, 1, 0] [-36, 27, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.588 ms
+
+
+       ########################################         
+
+iteration 1 with 58 examples
+
+2021-01-16-00-22-24   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-24   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.976 ms
+
+
+2021-01-16-00-22-24   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.1, -0.1, 0.9]
+[xi_2 = 1, xi_3 = 11]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.1 *  x[2]^1 - 0.1 *  x[3]^1 + 0.9 * 1
+
+2021-01-16-00-22-24   >>>>   End verify ranking function
+
+verifying time = 8.363 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 1, 11]
+
+NUMGX  2
+INDEX:  0 [0, 0, 1, 11] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 11] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.619 ms
+
+
+       ########################################         
+
+iteration 2 with 60 examples
+
+2021-01-16-00-22-24   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-24   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.847 ms
+
+
+2021-01-16-00-22-24   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.1, -0.0, 1.0]
+[xi_2 = 1, xi_0 = 11]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.1 *  x[2]^1 + 1.0 * 1
+
+2021-01-16-00-22-24   >>>>   End verify ranking function
+
+verifying time = 8.153 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[11, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [11, 0, 1, 0] [33, 44, 11, 11]
+YIELD SVM POINT
+positive
+INDEX:  1 [11, 0, 1, 0] [33, 44, 11, 11]
+YIELD SVM POINT
+negtive
+sampling time = 0.801 ms
+
+
+       ########################################         
+
+iteration 3 with 62 examples
+
+2021-01-16-00-22-24   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-24   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.117 ms
+
+
+2021-01-16-00-22-24   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.0, -0.0, 1.2]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.0 *  x[2]^1 + 1.2 * 1
+
+2021-01-16-00-22-24   >>>>   End verify ranking function
+
+verifying time = 9.635 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 12, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 12, 1, 0] [-48, 36, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 12, 1, 0] [-48, 36, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.626 ms
+
+
+       ########################################         
+
+iteration 4 with 64 examples
+
+2021-01-16-00-22-24   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-24   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.070 ms
+
+
+2021-01-16-00-22-24   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.6]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.6 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.064 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.576 ms
+
+
+       ########################################         
+
+iteration 5 with 66 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.028 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.6]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.6 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 7.903 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.647 ms
+
+
+       ########################################         
+
+iteration 6 with 68 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.036 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.6]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.6 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 7.971 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.582 ms
+
+
+       ########################################         
+
+iteration 7 with 70 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.065 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.6]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.6 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 7.896 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.642 ms
+
+
+       ########################################         
+
+iteration 8 with 72 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.071 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.6]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.6 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 7.960 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.581 ms
+
+
+       ########################################         
+
+iteration 9 with 74 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+5
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.037 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.6]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.6 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 7.942 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.591 ms
+
+
+       ########################################         
+
+iteration 10 with 76 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.089 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0908, -0.1831, 0.9295, -0.0082, 1.5913]
+[xi_2 = 1, xi_3 = 0, xi_0 = 128, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0908 *  x[0]^1 - 0.1831 *  x[1]^1 + 0.9295 *  x[2]^1 - 0.0082 *  x[3]^1 + 1.5913 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.262 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[128, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [128, 0, 1, 0] [384, 512, 128, 128]
+YIELD SVM POINT
+positive
+INDEX:  1 [128, 0, 1, 0] [384, 512, 128, 128]
+YIELD SVM POINT
+negtive
+sampling time = 0.594 ms
+
+
+       ########################################         
+
+iteration 11 with 78 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.077 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0203, -0.2219, 0.9566, -0.0249, 1.9372]
+[xi_2 = 1, xi_3 = 0, xi_0 = 0, xi_1 = -3]
+close alarm signal.
+ranking function :  - 0.0203 *  x[0]^1 - 0.2219 *  x[1]^1 + 0.9566 *  x[2]^1 - 0.0249 *  x[3]^1 + 1.9372 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.340 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, -3, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, -3, 1, 0] [12, -9, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, -3, 1, 0] [12, -9, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.576 ms
+
+
+       ########################################         
+
+iteration 12 with 80 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.125 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0378, -0.2015, 0.9369, -0.0324, 1.8267]
+[xi_2 = 1, xi_0 = 0, xi_3 = 0, xi_1 = -4]
+close alarm signal.
+ranking function :  - 0.0378 *  x[0]^1 - 0.2015 *  x[1]^1 + 0.9369 *  x[2]^1 - 0.0324 *  x[3]^1 + 1.8267 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.218 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, -4, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, -4, 1, 0] [16, -12, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, -4, 1, 0] [16, -12, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.601 ms
+
+
+       ########################################         
+
+iteration 13 with 82 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.119 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0436, -0.1909, 0.9061, -0.0253, 1.775]
+[xi_2 = 1, xi_3 = 0, xi_0 = 30, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0436 *  x[0]^1 - 0.1909 *  x[1]^1 + 0.9061 *  x[2]^1 - 0.0253 *  x[3]^1 + 1.775 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.325 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[30, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [30, 0, 1, 0] [90, 120, 30, 30]
+YIELD SVM POINT
+positive
+INDEX:  1 [30, 0, 1, 0] [90, 120, 30, 30]
+YIELD SVM POINT
+negtive
+sampling time = 0.581 ms
+
+
+       ########################################         
+
+iteration 14 with 84 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.243 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0496, -0.1877, 0.898, -0.0238, 1.7857]
+[xi_2 = 1, xi_3 = 0, xi_0 = 38, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0496 *  x[0]^1 - 0.1877 *  x[1]^1 + 0.898 *  x[2]^1 - 0.0238 *  x[3]^1 + 1.7857 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.360 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[38, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [38, 0, 1, 0] [114, 152, 38, 38]
+YIELD SVM POINT
+positive
+INDEX:  1 [38, 0, 1, 0] [114, 152, 38, 38]
+YIELD SVM POINT
+negtive
+sampling time = 0.581 ms
+
+
+       ########################################         
+
+iteration 15 with 86 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.313 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.053, -0.1982, 0.9388, -0.0325, 1.879]
+[xi_2 = 1, xi_0 = 0, xi_3 = 29, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.053 *  x[0]^1 - 0.1982 *  x[1]^1 + 0.9388 *  x[2]^1 - 0.0325 *  x[3]^1 + 1.879 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.256 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 1, 29]
+
+NUMGX  2
+INDEX:  0 [0, 0, 1, 29] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 29] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.702 ms
+
+
+       ########################################         
+
+iteration 16 with 88 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.391 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0262, -0.215, 0.9379, -0.0048, 1.93]
+[xi_2 = 1, xi_0 = 0, xi_3 = 200, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0262 *  x[0]^1 - 0.215 *  x[1]^1 + 0.9379 *  x[2]^1 - 0.0048 *  x[3]^1 + 1.93 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.274 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 1, 200]
+
+NUMGX  2
+INDEX:  0 [0, 0, 1, 200] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 200] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.589 ms
+
+
+       ########################################         
+
+iteration 17 with 90 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.421 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0405, -0.1805, 0.9262, 0.0003, 1.9262]
+[xi_2 = 1, xi_0 = 0, xi_3 = -4627, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0405 *  x[0]^1 - 0.1805 *  x[1]^1 + 0.9262 *  x[2]^1 + 0.0003 *  x[3]^1 + 1.9262 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.211 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 1, -4627]
+
+NUMGX  2
+INDEX:  0 [0, 0, 1, -4627] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -4627] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.581 ms
+
+
+       ########################################         
+
+iteration 18 with 92 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.442 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0557, -0.2047, 0.9306, -0.0012, 1.9409]
+[xi_2 = 1, xi_0 = 0, xi_3 = 0, xi_1 = -5]
+close alarm signal.
+ranking function :  - 0.0557 *  x[0]^1 - 0.2047 *  x[1]^1 + 0.9306 *  x[2]^1 - 0.0012 *  x[3]^1 + 1.9409 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.288 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, -5, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, -5, 1, 0] [20, -15, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, -5, 1, 0] [20, -15, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.582 ms
+
+
+       ########################################         
+
+iteration 19 with 94 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.548 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0624, -0.194, 0.907, 0.0004, 1.9848]
+[xi_2 = 1, xi_3 = 0, xi_0 = 142, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0624 *  x[0]^1 - 0.194 *  x[1]^1 + 0.907 *  x[2]^1 + 0.0004 *  x[3]^1 + 1.9848 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.315 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[142, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [142, 0, 1, 0] [426, 568, 142, 142]
+YIELD SVM POINT
+positive
+INDEX:  1 [142, 0, 1, 0] [426, 568, 142, 142]
+YIELD SVM POINT
+negtive
+sampling time = 0.583 ms
+
+
+Failed to prove it is terminating
+
+-----RESULT: UNKNOWN -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 4
+L[3]: 1
+L[4]: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 1, 0, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]
+listOfDimension [5]
+Template we used x[0], x[1], ..., b: 
+[[1 0 0 0 1]
+ [0 1 0 0 1]
+ [0 0 1 0 1]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+m: 1 h: 1
+sample_points  1 1 4 [0, 0, 0, 0]
+point: [-1, -1, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, -1, 1, -1] [1, -7, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, -1, 1, -1] [1, -7, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, -1, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, -1, 1, 0] [1, -7, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, -1, 1, 0] [1, -7, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, -1, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, -1, 1, 1] [1, -7, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, -1, 1, 1] [1, -7, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, -1] [-3, -4, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, -1] [-3, -4, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 0] [-3, -4, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 0] [-3, -4, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 1] [-3, -4, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 1] [-3, -4, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, -1] [-7, -1, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, -1] [-7, -1, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 0] [-7, -1, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 0] [-7, -1, -1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 1] [-7, -1, -1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 1] [-7, -1, -1, -1]
+YIELD SVM POINT
+negtive
+point: [0, -1, 1, -1]
+NUMGX  2
+INDEX:  0 [0, -1, 1, -1] [4, -3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, -1, 1, -1] [4, -3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, -1, 1, 0]
+NUMGX  2
+INDEX:  0 [0, -1, 1, 0] [4, -3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, -1, 1, 0] [4, -3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, -1, 1, 1]
+NUMGX  2
+INDEX:  0 [0, -1, 1, 1] [4, -3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, -1, 1, 1] [4, -3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, -1] [-4, 3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, -1] [-4, 3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 0] [-4, 3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 0] [-4, 3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 1] [-4, 3, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 1] [-4, 3, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, -1, 1, -1]
+NUMGX  2
+INDEX:  0 [1, -1, 1, -1] [7, 1, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, -1, 1, -1] [7, 1, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, -1, 1, 0]
+NUMGX  2
+INDEX:  0 [1, -1, 1, 0] [7, 1, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, -1, 1, 0] [7, 1, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, -1, 1, 1]
+NUMGX  2
+INDEX:  0 [1, -1, 1, 1] [7, 1, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, -1, 1, 1] [7, 1, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, -1] [3, 4, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, -1] [3, 4, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 0] [3, 4, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 0] [3, 4, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 1] [3, 4, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 1] [3, 4, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, -1] [-1, 7, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, -1] [-1, 7, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 0] [-1, 7, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 0] [-1, 7, 1, 1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 1] [-1, 7, 1, 1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 1] [-1, 7, 1, 1]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, 0, -1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, 0, -1, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  56
+2021-01-16-00-22-25   >>>>   End sampling point
+
+sampling time = 16.547 ms,
+
+
+       ########################################         
+
+iteration 0 with 56 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.753 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.0, -0.0, 0.7]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.0 *  x[2]^1 + 0.7 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 9.334 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 9, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 9, 1, 0] [-36, 27, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 9, 1, 0] [-36, 27, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.579 ms
+
+
+       ########################################         
+
+iteration 1 with 58 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.775 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.1, -0.1, 0.9]
+[xi_2 = 1, xi_3 = 11]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.1 *  x[2]^1 - 0.1 *  x[3]^1 + 0.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.260 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 1, 11]
+
+NUMGX  2
+INDEX:  0 [0, 0, 1, 11] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 11] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.581 ms
+
+
+       ########################################         
+
+iteration 2 with 60 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.819 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.1, -0.0, 1.0]
+[xi_2 = 1, xi_0 = 11]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.1 *  x[2]^1 + 1.0 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 7.921 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[11, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [11, 0, 1, 0] [33, 44, 11, 11]
+YIELD SVM POINT
+positive
+INDEX:  1 [11, 0, 1, 0] [33, 44, 11, 11]
+YIELD SVM POINT
+negtive
+sampling time = 0.650 ms
+
+
+       ########################################         
+
+iteration 3 with 62 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.103 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.0, -0.0, 1.2]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.0 *  x[2]^1 + 1.2 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 9.333 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[23, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [23, 0, 1, 0] [69, 92, 23, 23]
+YIELD SVM POINT
+positive
+INDEX:  1 [23, 0, 1, 0] [69, 92, 23, 23]
+YIELD SVM POINT
+negtive
+sampling time = 0.577 ms
+
+
+       ########################################         
+
+iteration 4 with 64 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.042 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.0, -0.0, 1.4]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.0 *  x[2]^1 + 1.4 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 9.249 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[25, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [25, 0, 1, 0] [75, 100, 25, 25]
+YIELD SVM POINT
+positive
+INDEX:  1 [25, 0, 1, 0] [75, 100, 25, 25]
+YIELD SVM POINT
+negtive
+sampling time = 0.579 ms
+
+
+       ########################################         
+
+iteration 5 with 66 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.013 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 1.0, -0.0, 1.5]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.0 *  x[2]^1 + 1.5 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 9.344 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 13, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 13, 1, 0] [-52, 39, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 13, 1, 0] [-52, 39, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.647 ms
+
+
+       ########################################         
+
+iteration 6 with 68 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.282 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.9]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.012 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.623 ms
+
+
+       ########################################         
+
+iteration 7 with 70 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.252 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.9]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 7.962 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.649 ms
+
+
+       ########################################         
+
+iteration 8 with 72 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.291 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.9]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 7.989 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.584 ms
+
+
+       ########################################         
+
+iteration 9 with 74 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.256 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.9]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 7.980 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.591 ms
+
+
+       ########################################         
+
+iteration 10 with 76 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.255 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.9]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.002 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.582 ms
+
+
+       ########################################         
+
+iteration 11 with 78 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+5
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.297 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.1, -0.2, 0.9, -0.0, 1.9]
+[xi_2 = 1, xi_0 = -9]
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 0.9 *  x[2]^1 + 1.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.056 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-9, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+positive
+INDEX:  1 [-9, 0, 1, 0] [-27, -36, -9, -9]
+YIELD SVM POINT
+negtive
+sampling time = 0.587 ms
+
+
+       ########################################         
+
+iteration 12 with 80 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.262 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0803, -0.186, 0.9136, -0.011, 1.8666]
+[xi_2 = 1, xi_0 = 0, xi_3 = 83, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0803 *  x[0]^1 - 0.186 *  x[1]^1 + 0.9136 *  x[2]^1 - 0.011 *  x[3]^1 + 1.8666 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.277 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 1, 83]
+
+NUMGX  2
+INDEX:  0 [0, 0, 1, 83] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 83] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.657 ms
+
+
+       ########################################         
+
+iteration 13 with 82 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.366 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0836, -0.1892, 0.9209, 0.0007, 1.9071]
+[xi_2 = 1, xi_0 = 0, xi_3 = -1315, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0836 *  x[0]^1 - 0.1892 *  x[1]^1 + 0.9209 *  x[2]^1 + 0.0007 *  x[3]^1 + 1.9071 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.295 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 1, -1315]
+
+NUMGX  2
+INDEX:  0 [0, 0, 1, -1315] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -1315] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.587 ms
+
+
+       ########################################         
+
+iteration 14 with 84 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.342 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0823, -0.188, 0.9148, 0.0006, 1.8961]
+[xi_2 = 1, xi_0 = 0, xi_3 = -1828, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0823 *  x[0]^1 - 0.188 *  x[1]^1 + 0.9148 *  x[2]^1 + 0.0006 *  x[3]^1 + 1.8961 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.311 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 1, -1828]
+
+NUMGX  2
+INDEX:  0 [0, 0, 1, -1828] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -1828] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.579 ms
+
+
+       ########################################         
+
+iteration 15 with 86 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.348 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0822, -0.1881, 0.9139, 0.0007, 1.8962]
+[xi_2 = 1, xi_0 = 0, xi_3 = -1305, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0822 *  x[0]^1 - 0.1881 *  x[1]^1 + 0.9139 *  x[2]^1 + 0.0007 *  x[3]^1 + 1.8962 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.293 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 1, -1305]
+
+NUMGX  2
+INDEX:  0 [0, 0, 1, -1305] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -1305] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.643 ms
+
+
+       ########################################         
+
+iteration 16 with 88 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.424 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0835, -0.1892, 0.9249, 0.0007, 1.9094]
+[xi_2 = 1, xi_0 = 0, xi_3 = -1320, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0835 *  x[0]^1 - 0.1892 *  x[1]^1 + 0.9249 *  x[2]^1 + 0.0007 *  x[3]^1 + 1.9094 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.337 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 1, -1320]
+
+NUMGX  2
+INDEX:  0 [0, 0, 1, -1320] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -1320] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.587 ms
+
+
+       ########################################         
+
+iteration 17 with 90 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.368 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0813, -0.1881, 0.9122, 0.0008, 1.8871]
+[xi_2 = 1, xi_3 = 0, xi_0 = -456, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0813 *  x[0]^1 - 0.1881 *  x[1]^1 + 0.9122 *  x[2]^1 + 0.0008 *  x[3]^1 + 1.8871 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.265 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-456, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-456, 0, 1, 0] [-1368, -1824, -456, -456]
+YIELD SVM POINT
+positive
+INDEX:  1 [-456, 0, 1, 0] [-1368, -1824, -456, -456]
+YIELD SVM POINT
+negtive
+sampling time = 0.633 ms
+
+
+       ########################################         
+
+iteration 18 with 92 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.396 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0824, -0.1888, 0.9189, 0.0006, 1.8985]
+[xi_2 = 1, xi_3 = 0, xi_0 = -1530, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0824 *  x[0]^1 - 0.1888 *  x[1]^1 + 0.9189 *  x[2]^1 + 0.0006 *  x[3]^1 + 1.8985 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.281 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[-1530, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [-1530, 0, 1, 0] [-4590, -6120, -1530, -1530]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1530, 0, 1, 0] [-4590, -6120, -1530, -1530]
+YIELD SVM POINT
+negtive
+sampling time = 0.585 ms
+
+
+       ########################################         
+
+iteration 19 with 94 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.403 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0833, -0.1879, 0.9216, -0.0001, 1.9078]
+[xi_2 = 1, xi_3 = 0, xi_0 = 279, xi_1 = 0]
+close alarm signal.
+ranking function :  - 0.0833 *  x[0]^1 - 0.1879 *  x[1]^1 + 0.9216 *  x[2]^1 - 0.0001 *  x[3]^1 + 1.9078 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 8.314 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[279, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [279, 0, 1, 0] [837, 1116, 279, 279]
+YIELD SVM POINT
+positive
+INDEX:  1 [279, 0, 1, 0] [837, 1116, 279, 279]
+YIELD SVM POINT
+negtive
+sampling time = 0.581 ms
+
+
+Failed to prove it is terminating
+
+-----RESULT: UNKNOWN -------
+--------------------- Depth:  1 templateNum: 0  Learn unbound ---------------------
+L: 4
+1
+[[1, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 1, 0, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]
+listOfDimension [5]
+Template we used x[0], x[1], ..., b: 
+[[1 0 0 0 1]
+ [0 1 0 0 1]
+ [0 0 1 0 1]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Last coef array: [1 1 1 1 1]
+m: 1 h: 1
+sample_points  1 1 4 [0, 0, 0, 0]
+point: [-1, -1, 1, -1]
+INDEX:  0 1
+point: [-1, -1, 1, 0]
+INDEX:  0 1
+point: [-1, -1, 1, 1]
+INDEX:  0 1
+point: [-1, 0, 1, -1]
+INDEX:  0 1
+point: [-1, 0, 1, 0]
+INDEX:  0 1
+point: [-1, 0, 1, 1]
+INDEX:  0 1
+point: [-1, 1, 1, -1]
+INDEX:  0 1
+point: [-1, 1, 1, 0]
+INDEX:  0 1
+point: [-1, 1, 1, 1]
+INDEX:  0 1
+point: [0, -1, 1, -1]
+INDEX:  0 1
+point: [0, -1, 1, 0]
+INDEX:  0 1
+point: [0, -1, 1, 1]
+INDEX:  0 1
+point: [0, 0, 1, -1]
+INDEX:  0 1
+point: [0, 0, 1, 0]
+INDEX:  0 1
+point: [0, 0, 1, 1]
+INDEX:  0 1
+point: [0, 1, 1, -1]
+INDEX:  0 1
+point: [0, 1, 1, 0]
+INDEX:  0 1
+point: [0, 1, 1, 1]
+INDEX:  0 1
+point: [1, -1, 1, -1]
+INDEX:  0 1
+point: [1, -1, 1, 0]
+INDEX:  0 1
+point: [1, -1, 1, 1]
+INDEX:  0 1
+point: [1, 0, 1, -1]
+INDEX:  0 1
+point: [1, 0, 1, 0]
+INDEX:  0 1
+point: [1, 0, 1, 1]
+INDEX:  0 1
+point: [1, 1, 1, -1]
+INDEX:  0 1
+point: [1, 1, 1, 0]
+INDEX:  0 1
+point: [1, 1, 1, 1]
+INDEX:  0 1
+INDEX:  0 1
+SAMPLE NUM:  56
+2021-01-16-00-22-25   >>>>   End sampling point
+
+sampling time = 10.828 ms,
+
+
+       ########################################         
+
+iteration 0 with 56 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.174 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+-----constraint system CS:  [And(True, xi_2 > 0),
+ 0 +
+ -100*(1*xi_0*1 - 1*(3*xi_0 - 4*xi_1)*1) +
+ -200*(1*xi_1*1 - 1*(4*xi_0 + 3*xi_1)*1) +
+ 1000*(1*xi_2*1 - 1*(xi_2 + xi_0 - 1)*1) +
+ 0*(1*xi_3*1 - 1*xi_0*1) +
+ 0 <
+ 1]
+True unsat
+valid no bound ranking function
+close alarm signal.
+ranking function :  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.0 *  x[2]^1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 100.741 ms
+
+
+Found Ranking Function:  - 0.1 *  x[0]^1 - 0.2 *  x[1]^1 + 1.0 *  x[2]^1
+
+---------DIVIDE CONSTANT: -1
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  2 templateNum: 0  Learn bounded ---------------------
+L[2]: 4
+L[3]: 1
+L[4]: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 1, 0, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]
+listOfDimension [5]
+Template we used x[0], x[1], ..., b: 
+[[1 0 0 0 1]
+ [0 1 0 0 1]
+ [0 0 1 0 1]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+m: 0.7905694150420949 h: 0.5
+sample_points  0.7905694150420949 0.5 4 [0, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  2
+sample_points  1.5811388300841898 0.75 4 [0, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  4
+sample_points  3.1622776601683795 1.125 4 [0, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  6
+sample_points  6.324555320336759 1.6875 4 [0, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  8
+sample_points  12.649110640673518 2.53125 4 [0, 0, 0, 0]
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-5.055360640673518, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-65.81963935932649, 17.768725515285375, -6.048221281347036, -5.055360640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+positive
+INDEX:  1 [-2.524110640673518, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-58.22588935932648, 27.893725515285375, -3.516971281347036, -2.524110640673518]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-40.50713935932648, 30.424975515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.007139359326481909, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-50.63213935932648, 38.018725515285375, -0.9857212813470362, 0.007139359326481909]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-32.91338935932648, 40.549975515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [2.538389359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.538389359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-43.03838935932648, 48.143725515285375, 1.5455287186529638, 2.538389359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482] [-15.194639359326482, 43.081225515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-25.31963935932648, 50.674975515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [5.069639359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [5.069639359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-35.44463935932648, 58.268725515285375, 4.076778718652964, 5.069639359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482] [-7.60088935932648, 53.206225515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-17.72588935932648, 60.799975515285375, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [7.600889359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [7.600889359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-27.85088935932648, 68.39372551528538, 6.608028718652964, 7.600889359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, -12.649110640673518] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, -12.649110640673518] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, -10.117860640673518] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, -10.117860640673518] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, -7.586610640673518] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, -7.586610640673518] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, -5.055360640673518] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, -5.055360640673518] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, -2.524110640673518] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, -2.524110640673518] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 0.007139359326481909] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 0.007139359326481909] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 2.538389359326482] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 2.538389359326482] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 5.069639359326482] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 5.069639359326482] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 7.600889359326482] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 7.600889359326482] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 10.132139359326482] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 10.132139359326482] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 5.069639359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 12.663389359326482] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 5.069639359326482, 0.007139359326481909, 12.663389359326482] [10.11786064067352, 55.737475515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482] [-0.0071393593264801325, 63.331225515285375, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-10.13213935932648, 70.92497551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [10.132139359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [10.132139359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-20.25713935932648, 78.51872551528538, 9.139278718652964, 10.132139359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, -12.649110640673518] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, -12.649110640673518] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, -10.117860640673518] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, -10.117860640673518] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, -7.586610640673518] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, -7.586610640673518] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, -5.055360640673518] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, -5.055360640673518] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, -2.524110640673518] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, -2.524110640673518] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 0.007139359326481909] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 0.007139359326481909] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 2.538389359326482] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 2.538389359326482] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 5.069639359326482] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 5.069639359326482] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 7.600889359326482] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 7.600889359326482] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 10.132139359326482] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 10.132139359326482] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 5.069639359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 12.663389359326482] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 5.069639359326482, 0.007139359326481909, 12.663389359326482] [17.71161064067352, 65.86247551528537, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, -12.649110640673518] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, -10.117860640673518] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, -7.586610640673518] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, -5.055360640673518] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, -2.524110640673518] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 0.007139359326481909] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 2.538389359326482] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 5.069639359326482] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 7.600889359326482] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 10.132139359326482] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 7.600889359326482, 0.007139359326481909, 12.663389359326482] [7.58661064067352, 73.45622551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, -12.649110640673518] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, -10.117860640673518] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, -7.586610640673518] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, -5.055360640673518] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, -2.524110640673518] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 0.007139359326481909] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 2.538389359326482] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 5.069639359326482] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 7.600889359326482] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 10.132139359326482] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 10.132139359326482, 0.007139359326481909, 12.663389359326482] [-2.53838935932648, 81.04997551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, -12.649110640673518] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, -10.117860640673518] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, -7.586610640673518] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, -5.055360640673518] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, -2.524110640673518] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 0.007139359326481909] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 2.538389359326482] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 5.069639359326482] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 7.600889359326482] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 10.132139359326482] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+point: [12.663389359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482]
+NUMGX  2
+INDEX:  0 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+positive
+INDEX:  1 [12.663389359326482, 12.663389359326482, 0.007139359326481909, 12.663389359326482] [-12.66338935932648, 88.64372551528538, 11.670528718652964, 12.663389359326482]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  450
+2021-01-16-00-22-25   >>>>   End sampling point
+
+sampling time = 189.486 ms,
+
+
+       ########################################         
+
+iteration 0 with 450 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.859 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0416, 0.0224, -0.2334, -0.0001, 0.9221]
+[xr_1 = 20, xr_3 = 31976, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function : 0.0416 *  x[0]^1 + 0.0224 *  x[1]^1 - 0.2334 *  x[2]^1 - 0.0001 *  x[3]^1 + 0.9221 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.739 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 31976]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 31976] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 31976] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.660 ms
+
+
+       ########################################         
+
+iteration 1 with 452 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 2.932 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0416, 0.0224, -0.2334, -0.0001, 0.9221]
+[xr_1 = 0, xr_3 = 31936, xr_2 = 1, xr_0 = 40]
+close alarm signal.
+ranking function : 0.0416 *  x[0]^1 + 0.0224 *  x[1]^1 - 0.2334 *  x[2]^1 - 0.0001 *  x[3]^1 + 0.9221 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.312 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[40, 0, 1, 31936]
+
+NUMGX  2
+INDEX:  0 [40, 0, 1, 31936] [120, 160, 40, 40]
+YIELD SVM POINT
+positive
+INDEX:  1 [40, 0, 1, 31936] [120, 160, 40, 40]
+YIELD SVM POINT
+negtive
+sampling time = 0.593 ms
+
+
+       ########################################         
+
+iteration 2 with 454 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.127 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0416, 0.0224, -0.2335, -0.0, 0.9221]
+[xr_1 = -31935/2, xr_2 = 1, xr_0 = 31975]
+close alarm signal.
+ranking function : 0.0416 *  x[0]^1 + 0.0224 *  x[1]^1 - 0.2335 *  x[2]^1 + 0.9221 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.317 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[31975, -15967.5, 1, 0]
+
+NUMGX  2
+INDEX:  0 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+positive
+INDEX:  1 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+negtive
+sampling time = 0.596 ms
+
+
+       ########################################         
+
+iteration 3 with 456 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.289 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0416, 0.0224, -0.2335, -0.0, 0.9221]
+[xr_1 = -31935/2, xr_2 = 1, xr_0 = 31975]
+close alarm signal.
+ranking function : 0.0416 *  x[0]^1 + 0.0224 *  x[1]^1 - 0.2335 *  x[2]^1 + 0.9221 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.307 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[31975, -15967.5, 1, 0]
+
+NUMGX  2
+INDEX:  0 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+positive
+INDEX:  1 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+negtive
+sampling time = 0.600 ms
+
+
+       ########################################         
+
+iteration 4 with 458 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.348 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0416, 0.0224, -0.2335, -0.0, 0.9221]
+[xr_1 = -31935/2, xr_2 = 1, xr_0 = 31975]
+close alarm signal.
+ranking function : 0.0416 *  x[0]^1 + 0.0224 *  x[1]^1 - 0.2335 *  x[2]^1 + 0.9221 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.219 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[31975, -15967.5, 1, 0]
+
+NUMGX  2
+INDEX:  0 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+positive
+INDEX:  1 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+negtive
+sampling time = 0.607 ms
+
+
+       ########################################         
+
+iteration 5 with 460 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.303 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0416, 0.0224, -0.2335, -0.0, 0.9221]
+[xr_1 = -31935/2, xr_2 = 1, xr_0 = 31975]
+close alarm signal.
+ranking function : 0.0416 *  x[0]^1 + 0.0224 *  x[1]^1 - 0.2335 *  x[2]^1 + 0.9221 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.186 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[31975, -15967.5, 1, 0]
+
+NUMGX  2
+INDEX:  0 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+positive
+INDEX:  1 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+negtive
+sampling time = 0.676 ms
+
+
+       ########################################         
+
+iteration 6 with 462 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.319 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0416, 0.0224, -0.2335, -0.0, 0.9221]
+[xr_1 = -31935/2, xr_2 = 1, xr_0 = 31975]
+close alarm signal.
+ranking function : 0.0416 *  x[0]^1 + 0.0224 *  x[1]^1 - 0.2335 *  x[2]^1 + 0.9221 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.190 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[31975, -15967.5, 1, 0]
+
+NUMGX  2
+INDEX:  0 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+positive
+INDEX:  1 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+negtive
+sampling time = 0.598 ms
+
+
+       ########################################         
+
+iteration 7 with 464 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+5
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.708 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0416, 0.0224, -0.2335, -0.0, 0.9221]
+[xr_1 = -31935/2, xr_2 = 1, xr_0 = 31975]
+close alarm signal.
+ranking function : 0.0416 *  x[0]^1 + 0.0224 *  x[1]^1 - 0.2335 *  x[2]^1 + 0.9221 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.167 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[31975, -15967.5, 1, 0]
+
+NUMGX  2
+INDEX:  0 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+positive
+INDEX:  1 [31975, -15967.5, 1, 0] [159795.0, 79997.5, 31975, 31975]
+YIELD SVM POINT
+negtive
+sampling time = 0.597 ms
+
+
+       ########################################         
+
+iteration 8 with 466 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 4.615 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.2, -0.0, 0.9]
+[xr_1 = 20, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function :  - 0.2 *  x[2]^1 + 0.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.411 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.597 ms
+
+
+       ########################################         
+
+iteration 9 with 468 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.547 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.2, -0.0, 0.9]
+[xr_1 = 20, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function :  - 0.2 *  x[2]^1 + 0.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.233 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.587 ms
+
+
+       ########################################         
+
+iteration 10 with 470 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.529 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.2, -0.0, 0.9]
+[xr_1 = 20, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function :  - 0.2 *  x[2]^1 + 0.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.763 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.655 ms
+
+
+       ########################################         
+
+iteration 11 with 472 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 4.236 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.2, -0.0, 0.9]
+[xr_1 = 20, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function :  - 0.2 *  x[2]^1 + 0.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.186 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.593 ms
+
+
+       ########################################         
+
+iteration 12 with 474 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.922 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.2, -0.0, 0.9]
+[xr_1 = 20, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function :  - 0.2 *  x[2]^1 + 0.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.093 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.587 ms
+
+
+       ########################################         
+
+iteration 13 with 476 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+5
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 4.137 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.2, -0.0, 0.9]
+[xr_1 = 20, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function :  - 0.2 *  x[2]^1 + 0.9 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.226 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.592 ms
+
+
+       ########################################         
+
+iteration 14 with 478 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.685 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.0, -0.0, 1.0]
+[xr_1 = 20, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function : 1.0 * 1
+
+2021-01-16-00-22-25   >>>>   End verify ranking function
+
+verifying time = 14.064 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.665 ms
+
+
+       ########################################         
+
+iteration 15 with 480 examples
+
+2021-01-16-00-22-25   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-25   >>>>   End train ranking function
+
+train_ranking_functioning time = 4.708 ms
+
+
+2021-01-16-00-22-25   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.0, -0.0, 1.0]
+[xr_1 = 20, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function : 1.0 * 1
+
+2021-01-16-00-22-26   >>>>   End verify ranking function
+
+verifying time = 14.081 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.590 ms
+
+
+       ########################################         
+
+iteration 16 with 482 examples
+
+2021-01-16-00-22-26   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-26   >>>>   End train ranking function
+
+train_ranking_functioning time = 4.133 ms
+
+
+2021-01-16-00-22-26   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.0, -0.0, 1.0]
+[xr_1 = 20, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function : 1.0 * 1
+
+2021-01-16-00-22-26   >>>>   End verify ranking function
+
+verifying time = 14.017 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.724 ms
+
+
+       ########################################         
+
+iteration 17 with 484 examples
+
+2021-01-16-00-22-26   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-26   >>>>   End train ranking function
+
+train_ranking_functioning time = 3.496 ms
+
+
+2021-01-16-00-22-26   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.0, -0.0, 1.0]
+[xr_1 = 0, xr_2 = 1, xr_0 = 40]
+close alarm signal.
+ranking function : 1.0 * 1
+
+2021-01-16-00-22-26   >>>>   End verify ranking function
+
+verifying time = 14.083 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[40, 0, 1, 0]
+
+NUMGX  2
+INDEX:  0 [40, 0, 1, 0] [120, 160, 40, 40]
+YIELD SVM POINT
+positive
+INDEX:  1 [40, 0, 1, 0] [120, 160, 40, 40]
+YIELD SVM POINT
+negtive
+sampling time = 0.591 ms
+
+
+       ########################################         
+
+iteration 18 with 486 examples
+
+2021-01-16-00-22-26   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-16-00-22-26   >>>>   End train ranking function
+
+train_ranking_functioning time = 4.936 ms
+
+
+2021-01-16-00-22-26   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 0.0, -0.0, -0.0, 1.0]
+[xr_1 = 20, xr_2 = 1, xr_0 = 0]
+close alarm signal.
+ranking function : 1.0 * 1
+
+2021-01-16-00-22-26   >>>>   End verify ranking function
+
+verifying time = 13.988 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 20, 1, 0]
+
+NUMGX  2
+INDEX:  0 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 20, 1, 0] [-80, 60, 0, 0]
+YIELD SVM POINT
+negtive
+sampling time = 0.665 ms
+
+
+       ########################################         
+
+iteration 19 with 488 examples
+
+2021-01-16-00-22-26   >>>>   Start train ranking function
+
+HERE
+5
+the coefficient is convergent
+
+Failed to prove it is terminating
+
+-----RESULT: UNKNOWN -------
+-----RESULT: UNKNOWN -------
+--------------------LEARNING MULTIPHASE SUMMARY-------------------
+LEARNING RESULT:  UNKNOWN
+Time For ../C_Boogies/4NestedWith3Variables-2.bpl Is ---> 1151.046000 ms
+
+UNKNOWN
