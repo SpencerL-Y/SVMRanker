@@ -1,0 +1,745 @@
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 2
+L[3]: 1
+L[4]: [[1, 0, 1], [0, 0, 0], [0, 0, 1]]
+listOfDimension [3]
+Template we used x[0], x[1], ..., b: 
+[[1 0 1]
+ [0 0 0]
+ [0 0 1]]
+m: 2.5 h: 0.5
+************************FIX POINT CHECK*****************************
+
+2021-01-17-16-36-24   >>>>   Start fix point
+
+2021-01-17-16-36-24   >>>>   End fix point
+
+fix point time = 5.544 ms
+
+
+sample_points  2.5 0.5 2 [0, 0]
+point: [1.0, 1.0]
+NUMGX  2
+INDEX:  0 [1.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 1.5]
+NUMGX  2
+INDEX:  0 [1.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.0]
+NUMGX  2
+INDEX:  0 [1.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.5]
+NUMGX  2
+INDEX:  0 [1.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.0]
+NUMGX  2
+INDEX:  0 [1.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.5]
+NUMGX  2
+INDEX:  0 [1.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.0]
+NUMGX  2
+INDEX:  0 [1.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.5]
+NUMGX  2
+INDEX:  0 [1.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.0]
+NUMGX  2
+INDEX:  0 [2.0, 1.0] [1.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.0] [1.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.5]
+NUMGX  2
+INDEX:  0 [2.0, 1.5] [0.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.5] [0.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.0]
+NUMGX  2
+INDEX:  0 [2.0, 2.0] [0.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.0] [0.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.5]
+NUMGX  2
+INDEX:  0 [2.0, 2.5] [-0.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.5] [-0.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.0]
+NUMGX  2
+INDEX:  0 [2.5, 1.0] [1.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.0] [1.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.5]
+NUMGX  2
+INDEX:  0 [2.5, 1.5] [1.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.5] [1.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.0]
+NUMGX  2
+INDEX:  0 [2.5, 2.0] [0.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.0] [0.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.5]
+NUMGX  2
+INDEX:  0 [2.5, 2.5] [0.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.5] [0.0, 2.5]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  34
+2021-01-17-16-36-24   >>>>   End sampling point
+
+sampling time = 6.635 ms,
+
+
+       ########################################         
+
+iteration 0 with 34 examples
+
+2021-01-17-16-36-24   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-36-24   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.498 ms
+
+
+2021-01-17-16-36-24   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.8889, 0.4, 0.4]
+valid ranking function
+close alarm signal.
+ranking function : 0.8889 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+2021-01-17-16-36-24   >>>>   End verify ranking function
+
+verifying time = 6.375 ms
+
+
+Found Ranking Function: 0.8889 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+-----RESULT: TERMINATE -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 2
+L[3]: 1
+L[4]: [[1, 0, 1], [0, 0, 0], [0, 0, 1]]
+listOfDimension [3]
+Template we used x[0], x[1], ..., b: 
+[[1 0 1]
+ [0 0 0]
+ [0 0 1]]
+m: 2.5 h: 0.5
+sample_points  2.5 0.5 2 [0, 0]
+point: [1.0, 1.0]
+NUMGX  2
+INDEX:  0 [1.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 1.5]
+NUMGX  2
+INDEX:  0 [1.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.0]
+NUMGX  2
+INDEX:  0 [1.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.5]
+NUMGX  2
+INDEX:  0 [1.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.0]
+NUMGX  2
+INDEX:  0 [1.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.5]
+NUMGX  2
+INDEX:  0 [1.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.0]
+NUMGX  2
+INDEX:  0 [1.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.5]
+NUMGX  2
+INDEX:  0 [1.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.0]
+NUMGX  2
+INDEX:  0 [2.0, 1.0] [1.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.0] [1.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.5]
+NUMGX  2
+INDEX:  0 [2.0, 1.5] [0.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.5] [0.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.0]
+NUMGX  2
+INDEX:  0 [2.0, 2.0] [0.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.0] [0.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.5]
+NUMGX  2
+INDEX:  0 [2.0, 2.5] [-0.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.5] [-0.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.0]
+NUMGX  2
+INDEX:  0 [2.5, 1.0] [1.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.0] [1.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.5]
+NUMGX  2
+INDEX:  0 [2.5, 1.5] [1.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.5] [1.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.0]
+NUMGX  2
+INDEX:  0 [2.5, 2.0] [0.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.0] [0.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.5]
+NUMGX  2
+INDEX:  0 [2.5, 2.5] [0.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.5] [0.0, 2.5]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  34
+2021-01-17-16-36-24   >>>>   End sampling point
+
+sampling time = 6.540 ms,
+
+
+       ########################################         
+
+iteration 0 with 34 examples
+
+2021-01-17-16-36-24   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-36-24   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.278 ms
+
+
+2021-01-17-16-36-24   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.8889, 0.4, 0.4]
+valid ranking function
+close alarm signal.
+ranking function : 0.8889 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+2021-01-17-16-36-24   >>>>   End verify ranking function
+
+verifying time = 6.185 ms
+
+
+Found Ranking Function: 0.8889 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+-----RESULT: TERMINATE -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 2
+L[3]: 1
+L[4]: [[1, 0, 1], [0, 0, 0], [0, 0, 1]]
+listOfDimension [3]
+Template we used x[0], x[1], ..., b: 
+[[1 0 1]
+ [0 0 0]
+ [0 0 1]]
+m: 2.5 h: 0.5
+sample_points  2.5 0.5 2 [0, 0]
+point: [1.0, 1.0]
+NUMGX  2
+INDEX:  0 [1.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 1.5]
+NUMGX  2
+INDEX:  0 [1.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.0]
+NUMGX  2
+INDEX:  0 [1.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.5]
+NUMGX  2
+INDEX:  0 [1.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.0]
+NUMGX  2
+INDEX:  0 [1.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.5]
+NUMGX  2
+INDEX:  0 [1.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.0]
+NUMGX  2
+INDEX:  0 [1.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.5]
+NUMGX  2
+INDEX:  0 [1.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.0]
+NUMGX  2
+INDEX:  0 [2.0, 1.0] [1.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.0] [1.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.5]
+NUMGX  2
+INDEX:  0 [2.0, 1.5] [0.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.5] [0.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.0]
+NUMGX  2
+INDEX:  0 [2.0, 2.0] [0.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.0] [0.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.5]
+NUMGX  2
+INDEX:  0 [2.0, 2.5] [-0.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.5] [-0.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.0]
+NUMGX  2
+INDEX:  0 [2.5, 1.0] [1.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.0] [1.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.5]
+NUMGX  2
+INDEX:  0 [2.5, 1.5] [1.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.5] [1.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.0]
+NUMGX  2
+INDEX:  0 [2.5, 2.0] [0.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.0] [0.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.5]
+NUMGX  2
+INDEX:  0 [2.5, 2.5] [0.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.5] [0.0, 2.5]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  34
+2021-01-17-16-36-24   >>>>   End sampling point
+
+sampling time = 6.645 ms,
+
+
+       ########################################         
+
+iteration 0 with 34 examples
+
+2021-01-17-16-36-24   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-36-24   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.278 ms
+
+
+2021-01-17-16-36-24   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.8889, 0.4, 0.4]
+valid ranking function
+close alarm signal.
+ranking function : 0.8889 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+2021-01-17-16-36-24   >>>>   End verify ranking function
+
+verifying time = 6.193 ms
+
+
+Found Ranking Function: 0.8889 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+-----RESULT: TERMINATE -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 2
+L[3]: 1
+L[4]: [[1, 0, 1], [0, 0, 0], [0, 0, 1]]
+listOfDimension [3]
+Template we used x[0], x[1], ..., b: 
+[[1 0 1]
+ [0 0 0]
+ [0 0 1]]
+m: 2.5 h: 0.5
+sample_points  2.5 0.5 2 [0, 0]
+point: [1.0, 1.0]
+NUMGX  2
+INDEX:  0 [1.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 1.5]
+NUMGX  2
+INDEX:  0 [1.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.0]
+NUMGX  2
+INDEX:  0 [1.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.5]
+NUMGX  2
+INDEX:  0 [1.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.0]
+NUMGX  2
+INDEX:  0 [1.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.5]
+NUMGX  2
+INDEX:  0 [1.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.0]
+NUMGX  2
+INDEX:  0 [1.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.5]
+NUMGX  2
+INDEX:  0 [1.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.0]
+NUMGX  2
+INDEX:  0 [2.0, 1.0] [1.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.0] [1.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.5]
+NUMGX  2
+INDEX:  0 [2.0, 1.5] [0.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.5] [0.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.0]
+NUMGX  2
+INDEX:  0 [2.0, 2.0] [0.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.0] [0.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.5]
+NUMGX  2
+INDEX:  0 [2.0, 2.5] [-0.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.5] [-0.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.0]
+NUMGX  2
+INDEX:  0 [2.5, 1.0] [1.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.0] [1.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.5]
+NUMGX  2
+INDEX:  0 [2.5, 1.5] [1.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.5] [1.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.0]
+NUMGX  2
+INDEX:  0 [2.5, 2.0] [0.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.0] [0.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.5]
+NUMGX  2
+INDEX:  0 [2.5, 2.5] [0.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.5] [0.0, 2.5]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  34
+2021-01-17-16-36-24   >>>>   End sampling point
+
+sampling time = 6.518 ms,
+
+
+       ########################################         
+
+iteration 0 with 34 examples
+
+2021-01-17-16-36-24   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-36-24   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.276 ms
+
+
+2021-01-17-16-36-24   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.8889, 0.4, 0.4]
+valid ranking function
+close alarm signal.
+ranking function : 0.8889 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+2021-01-17-16-36-24   >>>>   End verify ranking function
+
+verifying time = 6.195 ms
+
+
+Found Ranking Function: 0.8889 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+-----RESULT: TERMINATE -------
+--------------------LEARNING MULTIPHASE SUMMARY-------------------
+MULTIPHASE DEPTH:  1
+LEARNING RESULT:  TERMINATE
+-----------RANKING FUNCTIONS----------
+0.8889 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+Time For ../Program_non/165.bpl Is ---> 63.829000 ms
+
+Program is terminating

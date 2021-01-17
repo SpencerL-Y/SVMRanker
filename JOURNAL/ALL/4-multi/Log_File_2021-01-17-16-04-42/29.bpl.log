@@ -1,0 +1,1561 @@
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 4
+L[3]: 1
+L[4]: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 1, 0, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]
+listOfDimension [5]
+Template we used x[0], x[1], ..., b: 
+[[1 0 0 0 1]
+ [0 1 0 0 1]
+ [0 0 1 0 1]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+m: 1 h: 1
+************************FIX POINT CHECK*****************************
+
+2021-01-17-16-43-00   >>>>   Start fix point
+
+2021-01-17-16-43-00   >>>>   End fix point
+
+fix point time = 5.735 ms
+
+
+sample_points  1 1 4 [0, 0, 0, 0]
+point: [-1, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, -1] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, -1] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, 0] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, 0] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, 1] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, 1] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, -1] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, -1] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 0] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 0] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 1] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 1] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, -1] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, -1] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, 0] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, 0] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, 1] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, 1] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, -1] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, -1] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 0] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 0] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 1] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 1] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [0, 0, 0, -1] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, -1] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 1] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 1] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [0, 1, 0, -1] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, -1] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 1, 0, 0] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, 0] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [0, 1, 0, 1] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, 1] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, -1] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, -1] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 0] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 0] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 1] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 1] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [1, 0, 0, -1] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, -1] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [1, 0, 0, 0] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, 0] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [1, 0, 0, 1] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, 1] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, -1] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, -1] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 0] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 0] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 1] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 1] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [1, 1, 0, -1] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, -1] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [1, 1, 0, 0] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, 0] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [1, 1, 0, 1] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, 1] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, -1] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, -1] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 0] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 0] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 1] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 1] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  74
+2021-01-17-16-43-00   >>>>   End sampling point
+
+sampling time = 21.764 ms,
+
+
+       ########################################         
+
+iteration 0 with 74 examples
+
+2021-01-17-16-43-00   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-43-00   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.584 ms
+
+
+2021-01-17-16-43-00   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [-0.0, 1.0, 0.9, 0.0, 1.0]
+[xi_2 = 10, xi_1 = 0]
+close alarm signal.
+ranking function : 1.0 *  x[1]^1 + 0.9 *  x[2]^1 + 1.0 * 1
+
+2021-01-17-16-43-00   >>>>   End verify ranking function
+
+verifying time = 8.998 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 10, 0]
+
+NUMGX  2
+INDEX:  0 [0, 0, 10, 0] [0, 9, 0, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 10, 0] [0, 9, 0, 9]
+YIELD SVM POINT
+negtive
+sampling time = 0.588 ms
+
+
+       ########################################         
+
+iteration 1 with 76 examples
+
+2021-01-17-16-43-00   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-43-00   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.730 ms
+
+
+2021-01-17-16-43-00   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 1.0, 1.0, 0.0, 1.0]
+valid ranking function
+close alarm signal.
+ranking function : 1.0 *  x[1]^1 + 1.0 *  x[2]^1 + 1.0 * 1
+
+2021-01-17-16-43-00   >>>>   End verify ranking function
+
+verifying time = 7.920 ms
+
+
+Found Ranking Function: 1.0 *  x[1]^1 + 1.0 *  x[2]^1 + 1.0 * 1
+
+-----RESULT: TERMINATE -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 4
+L[3]: 1
+L[4]: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 1, 0, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]
+listOfDimension [5]
+Template we used x[0], x[1], ..., b: 
+[[1 0 0 0 1]
+ [0 1 0 0 1]
+ [0 0 1 0 1]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+m: 1 h: 1
+sample_points  1 1 4 [0, 0, 0, 0]
+point: [-1, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, -1] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, -1] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, 0] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, 0] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, 1] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, 1] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, -1] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, -1] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 0] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 0] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 1] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 1] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, -1] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, -1] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, 0] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, 0] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, 1] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, 1] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, -1] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, -1] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 0] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 0] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 1] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 1] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [0, 0, 0, -1] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, -1] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 1] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 1] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [0, 1, 0, -1] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, -1] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 1, 0, 0] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, 0] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [0, 1, 0, 1] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, 1] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, -1] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, -1] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 0] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 0] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 1] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 1] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [1, 0, 0, -1] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, -1] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [1, 0, 0, 0] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, 0] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [1, 0, 0, 1] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, 1] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, -1] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, -1] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 0] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 0] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 1] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 1] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [1, 1, 0, -1] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, -1] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [1, 1, 0, 0] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, 0] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [1, 1, 0, 1] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, 1] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, -1] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, -1] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 0] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 0] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 1] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 1] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  74
+2021-01-17-16-43-00   >>>>   End sampling point
+
+sampling time = 22.415 ms,
+
+
+       ########################################         
+
+iteration 0 with 74 examples
+
+2021-01-17-16-43-00   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-43-00   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.396 ms
+
+
+2021-01-17-16-43-00   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 1.0, 0.9, 0.0, 1.0]
+[xi_2 = 10, xi_1 = 0]
+close alarm signal.
+ranking function : 1.0 *  x[1]^1 + 0.9 *  x[2]^1 + 1.0 * 1
+
+2021-01-17-16-43-00   >>>>   End verify ranking function
+
+verifying time = 9.302 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 10, 0]
+
+NUMGX  2
+INDEX:  0 [0, 0, 10, 0] [0, 9, 0, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 10, 0] [0, 9, 0, 9]
+YIELD SVM POINT
+negtive
+sampling time = 0.646 ms
+
+
+       ########################################         
+
+iteration 1 with 76 examples
+
+2021-01-17-16-43-00   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-43-00   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.232 ms
+
+
+2021-01-17-16-43-00   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 1.0, 1.0, 0.0, 1.0]
+valid ranking function
+close alarm signal.
+ranking function : 1.0 *  x[1]^1 + 1.0 *  x[2]^1 + 1.0 * 1
+
+2021-01-17-16-43-00   >>>>   End verify ranking function
+
+verifying time = 8.187 ms
+
+
+Found Ranking Function: 1.0 *  x[1]^1 + 1.0 *  x[2]^1 + 1.0 * 1
+
+-----RESULT: TERMINATE -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 4
+L[3]: 1
+L[4]: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 1, 0, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]
+listOfDimension [5]
+Template we used x[0], x[1], ..., b: 
+[[1 0 0 0 1]
+ [0 1 0 0 1]
+ [0 0 1 0 1]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+m: 1 h: 1
+sample_points  1 1 4 [0, 0, 0, 0]
+point: [-1, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, -1] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, -1] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, 0] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, 0] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, 1] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, 1] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, -1] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, -1] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 0] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 0] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 1] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 1] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, -1] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, -1] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, 0] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, 0] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, 1] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, 1] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, -1] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, -1] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 0] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 0] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 1] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 1] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [0, 0, 0, -1] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, -1] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 1] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 1] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [0, 1, 0, -1] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, -1] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 1, 0, 0] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, 0] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [0, 1, 0, 1] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, 1] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, -1] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, -1] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 0] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 0] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 1] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 1] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [1, 0, 0, -1] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, -1] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [1, 0, 0, 0] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, 0] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [1, 0, 0, 1] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, 1] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, -1] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, -1] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 0] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 0] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 1] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 1] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [1, 1, 0, -1] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, -1] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [1, 1, 0, 0] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, 0] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [1, 1, 0, 1] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, 1] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, -1] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, -1] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 0] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 0] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 1] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 1] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  74
+2021-01-17-16-43-00   >>>>   End sampling point
+
+sampling time = 22.243 ms,
+
+
+       ########################################         
+
+iteration 0 with 74 examples
+
+2021-01-17-16-43-00   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-43-00   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.386 ms
+
+
+2021-01-17-16-43-00   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 1.0, 0.9, 0.0, 1.0]
+[xi_2 = 10, xi_1 = 0]
+close alarm signal.
+ranking function : 1.0 *  x[1]^1 + 0.9 *  x[2]^1 + 1.0 * 1
+
+2021-01-17-16-43-00   >>>>   End verify ranking function
+
+verifying time = 8.964 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 10, 0]
+
+NUMGX  2
+INDEX:  0 [0, 0, 10, 0] [0, 9, 0, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 10, 0] [0, 9, 0, 9]
+YIELD SVM POINT
+negtive
+sampling time = 0.601 ms
+
+
+       ########################################         
+
+iteration 1 with 76 examples
+
+2021-01-17-16-43-00   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-43-00   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.703 ms
+
+
+2021-01-17-16-43-00   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 1.0, 1.0, 0.0, 1.0]
+valid ranking function
+close alarm signal.
+ranking function : 1.0 *  x[1]^1 + 1.0 *  x[2]^1 + 1.0 * 1
+
+2021-01-17-16-43-00   >>>>   End verify ranking function
+
+verifying time = 8.030 ms
+
+
+Found Ranking Function: 1.0 *  x[1]^1 + 1.0 *  x[2]^1 + 1.0 * 1
+
+-----RESULT: TERMINATE -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 4
+L[3]: 1
+L[4]: [[1, 0, 0, 0, 1], [0, 1, 0, 0, 1], [0, 0, 1, 0, 1], [0, 0, 0, 1, 1], [0, 0, 0, 0, 1]]
+listOfDimension [5]
+Template we used x[0], x[1], ..., b: 
+[[1 0 0 0 1]
+ [0 1 0 0 1]
+ [0 0 1 0 1]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+m: 1 h: 1
+sample_points  1 1 4 [0, 0, 0, 0]
+point: [-1, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, -1] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, -1] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, 0] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, 0] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [-1, 0, 0, 1] [-1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 0, 1] [-1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, -1] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, -1] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 0] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 0] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 0, 1, 1] [-1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 0, 1, 1] [-1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, -1] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, -1] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, 0] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, 0] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [-1, 1, 0, 1] [-1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 0, 1] [-1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, -1] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, -1] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 0] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 0] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [-1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [-1, 1, 1, 1] [-1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [-1, 1, 1, 1] [-1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [0, 0, 0, -1] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, -1] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [0, 0, 0, 1] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 1] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, -1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 0] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 1, 1] [0, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [0, 1, 0, -1] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, -1] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [0, 1, 0, 0] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, 0] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [0, 1, 0, 1] [0, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 0, 1] [0, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, -1] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, -1] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 0] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 0] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [0, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [0, 1, 1, 1] [0, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 1, 1, 1] [0, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, -1]
+NUMGX  2
+INDEX:  0 [1, 0, 0, -1] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, -1] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, 0]
+NUMGX  2
+INDEX:  0 [1, 0, 0, 0] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, 0] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 0, 1]
+NUMGX  2
+INDEX:  0 [1, 0, 0, 1] [1, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 0, 1] [1, -1, 0, -1]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, -1] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, -1] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 0] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 0] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 0, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 0, 1, 1] [1, 0, 0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 0, 1, 1] [1, 0, 0, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, -1]
+NUMGX  2
+INDEX:  0 [1, 1, 0, -1] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, -1] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, 0]
+NUMGX  2
+INDEX:  0 [1, 1, 0, 0] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, 0] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 0, 1]
+NUMGX  2
+INDEX:  0 [1, 1, 0, 1] [1, -1, 1, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 0, 1] [1, -1, 1, -1]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, -1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, -1] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, -1] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 0]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 0] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 0] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+point: [1, 1, 1, 1]
+NUMGX  2
+INDEX:  0 [1, 1, 1, 1] [1, 0, 1, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1, 1, 1, 1] [1, 0, 1, 0]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 0, 0] [0, -1, 0, -1]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  74
+2021-01-17-16-43-00   >>>>   End sampling point
+
+sampling time = 21.727 ms,
+
+
+       ########################################         
+
+iteration 0 with 74 examples
+
+2021-01-17-16-43-00   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-43-00   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.383 ms
+
+
+2021-01-17-16-43-00   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 1.0, 0.9, 0.0, 1.0]
+[xi_2 = 10, xi_1 = 0]
+close alarm signal.
+ranking function : 1.0 *  x[1]^1 + 0.9 *  x[2]^1 + 1.0 * 1
+
+2021-01-17-16-43-00   >>>>   End verify ranking function
+
+verifying time = 8.396 ms
+
+
+Not Found Ranking Function
+
+Counterexample is 
+
+[0, 0, 10, 0]
+
+NUMGX  2
+INDEX:  0 [0, 0, 10, 0] [0, 9, 0, 9]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0, 10, 0] [0, 9, 0, 9]
+YIELD SVM POINT
+negtive
+sampling time = 0.583 ms
+
+
+       ########################################         
+
+iteration 1 with 76 examples
+
+2021-01-17-16-43-00   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-16-43-00   >>>>   End train ranking function
+
+train_ranking_functioning time = 1.699 ms
+
+
+2021-01-17-16-43-00   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.0, 1.0, 1.0, 0.0, 1.0]
+valid ranking function
+close alarm signal.
+ranking function : 1.0 *  x[1]^1 + 1.0 *  x[2]^1 + 1.0 * 1
+
+2021-01-17-16-43-00   >>>>   End verify ranking function
+
+verifying time = 7.893 ms
+
+
+Found Ranking Function: 1.0 *  x[1]^1 + 1.0 *  x[2]^1 + 1.0 * 1
+
+-----RESULT: TERMINATE -------
+--------------------LEARNING MULTIPHASE SUMMARY-------------------
+MULTIPHASE DEPTH:  1
+LEARNING RESULT:  TERMINATE
+-----------RANKING FUNCTIONS----------
+1.0 *  x[1]^1 + 1.0 *  x[2]^1 + 1.0 * 1
+Time For ../Program_non/29.bpl Is ---> 182.093000 ms
+
+Program is terminating

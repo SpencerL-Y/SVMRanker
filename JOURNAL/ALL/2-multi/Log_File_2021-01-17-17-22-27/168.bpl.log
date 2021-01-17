@@ -1,0 +1,1007 @@
+generate template if
+generate template if end
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 2
+L[3]: 1
+L[4]: [[1, 0, 1], [0, 0, 0], [0, 0, 1]]
+listOfDimension [3]
+Template we used x[0], x[1], ..., b: 
+[[1 0 1]
+ [0 0 0]
+ [0 0 1]]
+m: 2.5 h: 0.5
+************************FIX POINT CHECK*****************************
+
+2021-01-17-17-34-54   >>>>   Start fix point
+
+2021-01-17-17-34-54   >>>>   End fix point
+
+fix point time = 6.614 ms
+
+
+sample_points  2.5 0.5 2 [0, 0]
+point: [0.5, -2.5]
+NUMGX  2
+INDEX:  0 [0.5, -2.5] [-3.0, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, -2.5] [-3.0, -2.5]
+YIELD SVM POINT
+negtive
+point: [0.5, -2.0]
+NUMGX  2
+INDEX:  0 [0.5, -2.0] [-2.5, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, -2.0] [-2.5, -2.0]
+YIELD SVM POINT
+negtive
+point: [0.5, -1.5]
+NUMGX  2
+INDEX:  0 [0.5, -1.5] [-2.0, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, -1.5] [-2.0, -1.5]
+YIELD SVM POINT
+negtive
+point: [0.5, -1.0]
+NUMGX  2
+INDEX:  0 [0.5, -1.0] [-1.5, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, -1.0] [-1.5, -1.0]
+YIELD SVM POINT
+negtive
+point: [0.5, -0.5]
+NUMGX  2
+INDEX:  0 [0.5, -0.5] [-1.0, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, -0.5] [-1.0, -0.5]
+YIELD SVM POINT
+negtive
+point: [0.5, 0.0]
+NUMGX  2
+INDEX:  0 [0.5, 0.0] [-0.5, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 0.0] [-0.5, 0.0]
+YIELD SVM POINT
+negtive
+point: [0.5, 0.5]
+NUMGX  2
+INDEX:  0 [0.5, 0.5] [-1.0, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 0.5] [-1.0, 0.5]
+YIELD SVM POINT
+negtive
+point: [0.5, 1.0]
+NUMGX  2
+INDEX:  0 [0.5, 1.0] [-1.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 1.0] [-1.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [0.5, 1.5]
+NUMGX  2
+INDEX:  0 [0.5, 1.5] [-2.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 1.5] [-2.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [0.5, 2.0]
+NUMGX  2
+INDEX:  0 [0.5, 2.0] [-2.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 2.0] [-2.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [0.5, 2.5]
+NUMGX  2
+INDEX:  0 [0.5, 2.5] [-3.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 2.5] [-3.0, 2.5]
+YIELD SVM POINT
+negtive
+point: [1.0, -2.5]
+NUMGX  2
+INDEX:  0 [1.0, -2.5] [-2.5, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, -2.5] [-2.5, -2.5]
+YIELD SVM POINT
+negtive
+point: [1.0, -2.0]
+NUMGX  2
+INDEX:  0 [1.0, -2.0] [-2.0, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, -2.0] [-2.0, -2.0]
+YIELD SVM POINT
+negtive
+point: [1.0, -1.5]
+NUMGX  2
+INDEX:  0 [1.0, -1.5] [-1.5, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, -1.5] [-1.5, -1.5]
+YIELD SVM POINT
+negtive
+point: [1.0, -1.0]
+NUMGX  2
+INDEX:  0 [1.0, -1.0] [-1.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, -1.0] [-1.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [1.0, -0.5]
+NUMGX  2
+INDEX:  0 [1.0, -0.5] [-0.5, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, -0.5] [-0.5, -0.5]
+YIELD SVM POINT
+negtive
+point: [1.0, 0.0]
+NUMGX  2
+INDEX:  0 [1.0, 0.0] [0.0, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 0.0] [0.0, 0.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 0.5]
+NUMGX  2
+INDEX:  0 [1.0, 0.5] [-0.5, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 0.5] [-0.5, 0.5]
+YIELD SVM POINT
+negtive
+point: [1.0, 1.0]
+NUMGX  2
+INDEX:  0 [1.0, 1.0] [-1.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.0] [-1.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 1.5]
+NUMGX  2
+INDEX:  0 [1.0, 1.5] [-1.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.5] [-1.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.0]
+NUMGX  2
+INDEX:  0 [1.0, 2.0] [-2.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.0] [-2.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.5]
+NUMGX  2
+INDEX:  0 [1.0, 2.5] [-2.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.5] [-2.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [1.5, -2.5]
+NUMGX  2
+INDEX:  0 [1.5, -2.5] [-2.0, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -2.5] [-2.0, -2.5]
+YIELD SVM POINT
+negtive
+point: [1.5, -2.0]
+NUMGX  2
+INDEX:  0 [1.5, -2.0] [-1.5, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -2.0] [-1.5, -2.0]
+YIELD SVM POINT
+negtive
+point: [1.5, -1.5]
+NUMGX  2
+INDEX:  0 [1.5, -1.5] [-1.0, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -1.5] [-1.0, -1.5]
+YIELD SVM POINT
+negtive
+point: [1.5, -1.0]
+NUMGX  2
+INDEX:  0 [1.5, -1.0] [-0.5, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -1.0] [-0.5, -1.0]
+YIELD SVM POINT
+negtive
+point: [1.5, -0.5]
+NUMGX  2
+INDEX:  0 [1.5, -0.5] [0.0, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -0.5] [0.0, -0.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 0.0]
+NUMGX  2
+INDEX:  0 [1.5, 0.0] [0.5, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 0.0] [0.5, 0.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 0.5]
+NUMGX  2
+INDEX:  0 [1.5, 0.5] [0.0, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 0.5] [0.0, 0.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.0]
+NUMGX  2
+INDEX:  0 [1.5, 1.0] [-0.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.0] [-0.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.5]
+NUMGX  2
+INDEX:  0 [1.5, 1.5] [-1.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.5] [-1.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.0]
+NUMGX  2
+INDEX:  0 [1.5, 2.0] [-1.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.0] [-1.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.5]
+NUMGX  2
+INDEX:  0 [1.5, 2.5] [-2.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.5] [-2.0, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.0, -2.5]
+NUMGX  2
+INDEX:  0 [2.0, -2.5] [-1.5, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -2.5] [-1.5, -2.5]
+YIELD SVM POINT
+negtive
+point: [2.0, -2.0]
+NUMGX  2
+INDEX:  0 [2.0, -2.0] [-1.0, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -2.0] [-1.0, -2.0]
+YIELD SVM POINT
+negtive
+point: [2.0, -1.5]
+NUMGX  2
+INDEX:  0 [2.0, -1.5] [-0.5, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -1.5] [-0.5, -1.5]
+YIELD SVM POINT
+negtive
+point: [2.0, -1.0]
+NUMGX  2
+INDEX:  0 [2.0, -1.0] [0.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -1.0] [0.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [2.0, -0.5]
+NUMGX  2
+INDEX:  0 [2.0, -0.5] [0.5, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -0.5] [0.5, -0.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 0.0]
+NUMGX  2
+INDEX:  0 [2.0, 0.0] [1.0, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 0.0] [1.0, 0.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 0.5]
+NUMGX  2
+INDEX:  0 [2.0, 0.5] [0.5, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 0.5] [0.5, 0.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.0]
+NUMGX  2
+INDEX:  0 [2.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.5]
+NUMGX  2
+INDEX:  0 [2.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.0]
+NUMGX  2
+INDEX:  0 [2.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.5]
+NUMGX  2
+INDEX:  0 [2.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.5, -2.5]
+NUMGX  2
+INDEX:  0 [2.5, -2.5] [-1.0, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -2.5] [-1.0, -2.5]
+YIELD SVM POINT
+negtive
+point: [2.5, -2.0]
+NUMGX  2
+INDEX:  0 [2.5, -2.0] [-0.5, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -2.0] [-0.5, -2.0]
+YIELD SVM POINT
+negtive
+point: [2.5, -1.5]
+NUMGX  2
+INDEX:  0 [2.5, -1.5] [0.0, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -1.5] [0.0, -1.5]
+YIELD SVM POINT
+negtive
+point: [2.5, -1.0]
+NUMGX  2
+INDEX:  0 [2.5, -1.0] [0.5, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -1.0] [0.5, -1.0]
+YIELD SVM POINT
+negtive
+point: [2.5, -0.5]
+NUMGX  2
+INDEX:  0 [2.5, -0.5] [1.0, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -0.5] [1.0, -0.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 0.0]
+NUMGX  2
+INDEX:  0 [2.5, 0.0] [1.5, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 0.0] [1.5, 0.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 0.5]
+NUMGX  2
+INDEX:  0 [2.5, 0.5] [1.0, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 0.5] [1.0, 0.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.0]
+NUMGX  2
+INDEX:  0 [2.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.5]
+NUMGX  2
+INDEX:  0 [2.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.0]
+NUMGX  2
+INDEX:  0 [2.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.5]
+NUMGX  2
+INDEX:  0 [2.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [-1.0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [-1.0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  112
+2021-01-17-17-34-54   >>>>   End sampling point
+
+sampling time = 20.915 ms,
+
+
+       ########################################         
+
+iteration 0 with 112 examples
+
+2021-01-17-17-34-54   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-17-34-54   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.534 ms
+
+
+2021-01-17-17-34-54   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.9231, 0.4, 0.4]
+valid ranking function
+close alarm signal.
+ranking function : 0.9231 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+2021-01-17-17-34-54   >>>>   End verify ranking function
+
+verifying time = 7.426 ms
+
+
+Found Ranking Function: 0.9231 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+-----RESULT: TERMINATE -------
+-------------------START BACKTRACK LEARNING--------------------
+--------------------- Depth:  1 templateNum: 0  Learn bounded ---------------------
+L[2]: 2
+L[3]: 1
+L[4]: [[1, 0, 1], [0, 0, 0], [0, 0, 1]]
+listOfDimension [3]
+Template we used x[0], x[1], ..., b: 
+[[1 0 1]
+ [0 0 0]
+ [0 0 1]]
+m: 2.5 h: 0.5
+sample_points  2.5 0.5 2 [0, 0]
+point: [0.5, -2.5]
+NUMGX  2
+INDEX:  0 [0.5, -2.5] [-3.0, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, -2.5] [-3.0, -2.5]
+YIELD SVM POINT
+negtive
+point: [0.5, -2.0]
+NUMGX  2
+INDEX:  0 [0.5, -2.0] [-2.5, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, -2.0] [-2.5, -2.0]
+YIELD SVM POINT
+negtive
+point: [0.5, -1.5]
+NUMGX  2
+INDEX:  0 [0.5, -1.5] [-2.0, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, -1.5] [-2.0, -1.5]
+YIELD SVM POINT
+negtive
+point: [0.5, -1.0]
+NUMGX  2
+INDEX:  0 [0.5, -1.0] [-1.5, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, -1.0] [-1.5, -1.0]
+YIELD SVM POINT
+negtive
+point: [0.5, -0.5]
+NUMGX  2
+INDEX:  0 [0.5, -0.5] [-1.0, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, -0.5] [-1.0, -0.5]
+YIELD SVM POINT
+negtive
+point: [0.5, 0.0]
+NUMGX  2
+INDEX:  0 [0.5, 0.0] [-0.5, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 0.0] [-0.5, 0.0]
+YIELD SVM POINT
+negtive
+point: [0.5, 0.5]
+NUMGX  2
+INDEX:  0 [0.5, 0.5] [-1.0, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 0.5] [-1.0, 0.5]
+YIELD SVM POINT
+negtive
+point: [0.5, 1.0]
+NUMGX  2
+INDEX:  0 [0.5, 1.0] [-1.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 1.0] [-1.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [0.5, 1.5]
+NUMGX  2
+INDEX:  0 [0.5, 1.5] [-2.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 1.5] [-2.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [0.5, 2.0]
+NUMGX  2
+INDEX:  0 [0.5, 2.0] [-2.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 2.0] [-2.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [0.5, 2.5]
+NUMGX  2
+INDEX:  0 [0.5, 2.5] [-3.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [0.5, 2.5] [-3.0, 2.5]
+YIELD SVM POINT
+negtive
+point: [1.0, -2.5]
+NUMGX  2
+INDEX:  0 [1.0, -2.5] [-2.5, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, -2.5] [-2.5, -2.5]
+YIELD SVM POINT
+negtive
+point: [1.0, -2.0]
+NUMGX  2
+INDEX:  0 [1.0, -2.0] [-2.0, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, -2.0] [-2.0, -2.0]
+YIELD SVM POINT
+negtive
+point: [1.0, -1.5]
+NUMGX  2
+INDEX:  0 [1.0, -1.5] [-1.5, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, -1.5] [-1.5, -1.5]
+YIELD SVM POINT
+negtive
+point: [1.0, -1.0]
+NUMGX  2
+INDEX:  0 [1.0, -1.0] [-1.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, -1.0] [-1.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [1.0, -0.5]
+NUMGX  2
+INDEX:  0 [1.0, -0.5] [-0.5, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, -0.5] [-0.5, -0.5]
+YIELD SVM POINT
+negtive
+point: [1.0, 0.0]
+NUMGX  2
+INDEX:  0 [1.0, 0.0] [0.0, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 0.0] [0.0, 0.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 0.5]
+NUMGX  2
+INDEX:  0 [1.0, 0.5] [-0.5, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 0.5] [-0.5, 0.5]
+YIELD SVM POINT
+negtive
+point: [1.0, 1.0]
+NUMGX  2
+INDEX:  0 [1.0, 1.0] [-1.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.0] [-1.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 1.5]
+NUMGX  2
+INDEX:  0 [1.0, 1.5] [-1.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 1.5] [-1.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.0]
+NUMGX  2
+INDEX:  0 [1.0, 2.0] [-2.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.0] [-2.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.0, 2.5]
+NUMGX  2
+INDEX:  0 [1.0, 2.5] [-2.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.0, 2.5] [-2.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [1.5, -2.5]
+NUMGX  2
+INDEX:  0 [1.5, -2.5] [-2.0, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -2.5] [-2.0, -2.5]
+YIELD SVM POINT
+negtive
+point: [1.5, -2.0]
+NUMGX  2
+INDEX:  0 [1.5, -2.0] [-1.5, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -2.0] [-1.5, -2.0]
+YIELD SVM POINT
+negtive
+point: [1.5, -1.5]
+NUMGX  2
+INDEX:  0 [1.5, -1.5] [-1.0, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -1.5] [-1.0, -1.5]
+YIELD SVM POINT
+negtive
+point: [1.5, -1.0]
+NUMGX  2
+INDEX:  0 [1.5, -1.0] [-0.5, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -1.0] [-0.5, -1.0]
+YIELD SVM POINT
+negtive
+point: [1.5, -0.5]
+NUMGX  2
+INDEX:  0 [1.5, -0.5] [0.0, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, -0.5] [0.0, -0.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 0.0]
+NUMGX  2
+INDEX:  0 [1.5, 0.0] [0.5, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 0.0] [0.5, 0.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 0.5]
+NUMGX  2
+INDEX:  0 [1.5, 0.5] [0.0, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 0.5] [0.0, 0.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.0]
+NUMGX  2
+INDEX:  0 [1.5, 1.0] [-0.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.0] [-0.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 1.5]
+NUMGX  2
+INDEX:  0 [1.5, 1.5] [-1.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 1.5] [-1.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.0]
+NUMGX  2
+INDEX:  0 [1.5, 2.0] [-1.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.0] [-1.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [1.5, 2.5]
+NUMGX  2
+INDEX:  0 [1.5, 2.5] [-2.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [1.5, 2.5] [-2.0, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.0, -2.5]
+NUMGX  2
+INDEX:  0 [2.0, -2.5] [-1.5, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -2.5] [-1.5, -2.5]
+YIELD SVM POINT
+negtive
+point: [2.0, -2.0]
+NUMGX  2
+INDEX:  0 [2.0, -2.0] [-1.0, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -2.0] [-1.0, -2.0]
+YIELD SVM POINT
+negtive
+point: [2.0, -1.5]
+NUMGX  2
+INDEX:  0 [2.0, -1.5] [-0.5, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -1.5] [-0.5, -1.5]
+YIELD SVM POINT
+negtive
+point: [2.0, -1.0]
+NUMGX  2
+INDEX:  0 [2.0, -1.0] [0.0, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -1.0] [0.0, -1.0]
+YIELD SVM POINT
+negtive
+point: [2.0, -0.5]
+NUMGX  2
+INDEX:  0 [2.0, -0.5] [0.5, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, -0.5] [0.5, -0.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 0.0]
+NUMGX  2
+INDEX:  0 [2.0, 0.0] [1.0, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 0.0] [1.0, 0.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 0.5]
+NUMGX  2
+INDEX:  0 [2.0, 0.5] [0.5, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 0.5] [0.5, 0.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.0]
+NUMGX  2
+INDEX:  0 [2.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.0] [0.0, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 1.5]
+NUMGX  2
+INDEX:  0 [2.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 1.5] [-0.5, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.0]
+NUMGX  2
+INDEX:  0 [2.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.0] [-1.0, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.0, 2.5]
+NUMGX  2
+INDEX:  0 [2.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.0, 2.5] [-1.5, 2.5]
+YIELD SVM POINT
+negtive
+point: [2.5, -2.5]
+NUMGX  2
+INDEX:  0 [2.5, -2.5] [-1.0, -2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -2.5] [-1.0, -2.5]
+YIELD SVM POINT
+negtive
+point: [2.5, -2.0]
+NUMGX  2
+INDEX:  0 [2.5, -2.0] [-0.5, -2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -2.0] [-0.5, -2.0]
+YIELD SVM POINT
+negtive
+point: [2.5, -1.5]
+NUMGX  2
+INDEX:  0 [2.5, -1.5] [0.0, -1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -1.5] [0.0, -1.5]
+YIELD SVM POINT
+negtive
+point: [2.5, -1.0]
+NUMGX  2
+INDEX:  0 [2.5, -1.0] [0.5, -1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -1.0] [0.5, -1.0]
+YIELD SVM POINT
+negtive
+point: [2.5, -0.5]
+NUMGX  2
+INDEX:  0 [2.5, -0.5] [1.0, -0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, -0.5] [1.0, -0.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 0.0]
+NUMGX  2
+INDEX:  0 [2.5, 0.0] [1.5, 0.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 0.0] [1.5, 0.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 0.5]
+NUMGX  2
+INDEX:  0 [2.5, 0.5] [1.0, 0.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 0.5] [1.0, 0.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.0]
+NUMGX  2
+INDEX:  0 [2.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.0] [0.5, 1.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 1.5]
+NUMGX  2
+INDEX:  0 [2.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 1.5] [0.0, 1.5]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.0]
+NUMGX  2
+INDEX:  0 [2.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.0] [-0.5, 2.0]
+YIELD SVM POINT
+negtive
+point: [2.5, 2.5]
+NUMGX  2
+INDEX:  0 [2.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+positive
+INDEX:  1 [2.5, 2.5] [-1.0, 2.5]
+YIELD SVM POINT
+negtive
+NUMGX  2
+INDEX:  0 [0, 0] [-1.0, 0]
+YIELD SVM POINT
+positive
+INDEX:  1 [0, 0] [-1.0, 0]
+YIELD SVM POINT
+negtive
+SAMPLE NUM:  112
+2021-01-17-17-34-54   >>>>   End sampling point
+
+sampling time = 20.993 ms,
+
+
+       ########################################         
+
+iteration 0 with 112 examples
+
+2021-01-17-17-34-54   >>>>   Start train ranking function
+
+HERE
+training done
+2021-01-17-17-34-54   >>>>   End train ranking function
+
+train_ranking_functioning time = 0.348 ms
+
+
+2021-01-17-17-34-54   >>>>   Start verify ranking function
+
+start alarm signal.
+coefficient: [0.9231, 0.4, 0.4]
+valid ranking function
+close alarm signal.
+ranking function : 0.9231 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+2021-01-17-17-34-54   >>>>   End verify ranking function
+
+verifying time = 7.183 ms
+
+
+Found Ranking Function: 0.9231 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+
+-----RESULT: TERMINATE -------
+--------------------LEARNING MULTIPHASE SUMMARY-------------------
+MULTIPHASE DEPTH:  1
+LEARNING RESULT:  TERMINATE
+-----------RANKING FUNCTIONS----------
+0.9231 *  x[0]^1 + 0.4 * 1 + 0.4 * 1
+Time For ../Program_non/168.bpl Is ---> 67.329000 ms
+
+Program is terminating
