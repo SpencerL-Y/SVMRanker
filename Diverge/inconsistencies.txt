@@ -1,0 +1,163 @@
+
+- 151(Checked):
+
+ORIGIN BOOGIE:
+
+procedure main() returns () {
+    var x0, x1: real;
+    while (x0*x0 + x1*x1 <=1.0) {
+        x0, x1 := x0 - x1*x1 +1.0, x1 + x0*x0 -1.0;
+    }
+}
+
+TRANSLATED C:
+
+int main(){
+	int x0, x1;
+    int old_x0 = 0;
+    while(x0*x0 + x1*x1 <= 1.0){
+        old_x0 = x0;
+        x0 = x0 - x1*x1 + 1.0;
+        x1 = x1 + old_x0*old_x0 - 1.0;
+    }
+}
+
+
+- 152: 
+ORIGIN BOOGIE:
+
+procedure main() returns () {
+    var x0, x1: real;
+    while (x0 >=0.0 && x1-2.0*x0 >=1.0) {
+        x0, x1 := 0.0-x0*x0 - 4.0*x1*x1 +1.0, 0.0-x0*x1-1.0;
+    }
+}
+TRANSLATED C:
+int main() {
+    double x0, x1;
+    double oldx0 = 0.0;
+    while (x0 >= 0.0 && x1-2.0*x0 >= 1.0) {
+    	oldx0 = x0;
+        x0 = 0.0 - x0*x0 -4.0*x1*x1 + 1.0;
+        x1 = 0.0 - oldx0*x1 - 1.0;
+    }
+}
+RF:
+Found Ranking Function: 0.1905 *  x[0]^1 + 0.4762 * 1 + 0.4762 * 1
+
+- 153: 
+ORIGIN BOOGIE:
+procedure main() returns () {
+    var x0, x1, x2: real;
+    while (x0 + x1 >= x2 * x2*x2*x2 - x2*x2 +1.0 && x0 *x0 >= x2) {
+        x0, x1, x2:= x0 +x1, -x2-1.0, x2*x2 - 2.0 * x2;
+    }
+}
+
+TRANSLATED C:
+int main() {
+    double x0, x1, x2;
+    while (x0 + x1 >= x2 * x2*x2*x2 - x2*x2 +1.0 && x0 *x0 >= x2) {
+        x0 = x0 +x1; x1 = -x2-1.0; x2 =  x2*x2 - 2.0 * x2;
+    }
+}
+
+RF:
+Found Ranking Function: 0.9331 *  x[0]^1 + 0.9331 *  x[1]^1 - 0.3005 *  x[2]^1 + 0.6667 * 1
+
+
+
+- 155:
+ORIGIN BOOGIE:
+procedure main() returns () {
+    var x0, x1: real;
+    while (x1*x1 >= x0*x0 - x0 + 1.0) {
+        x0, x1 := x0*x0 + x1 + 1.0, -x1+1.0;
+    }
+}
+
+TRANSLATED C:
+int main() {
+    double x0, x1;
+    while (x1*x1 >= x0*x0 - x0 + 1.0) {
+        x0 = x0*x0 + x1 + 1.0; x1 = -x1+1.0;
+    }
+}
+RF:
+MULTIPHASE DEPTH:  3
+LEARNING RESULT:  TERMINATE
+-----------RANKING FUNCTIONS----------
+ - 0.8 *  x[0]^1 - 0.4 *  x[1]^1 + 3.0 * 1
+ - 0.0246 *  x[0]^1 + 0.033 *  x[1]^1 + 1.0 * 1
+0.4762 * 1 - 0.0132 *  x[1]^1 + 0.4762 * 1
+
+- 159:
+
+ORIGIN BOOGIE:
+//Loops.py 12
+procedure main() returns () {
+    var x0, x1: real;
+    while (1.0 <= x0 && x1 *x1 + 2.0 *x0 <=3.0*x1) {
+        x0, x1 := 1.0+1.0/(x0*x0), 0.0 - x1*x0 - 3.0 *x1 +x1*x1 + 1.0;
+    }
+}
+
+TRANSLATED C:
+
+int main() {
+    double x0, x1, oldx0;
+    while (1.0 <= x0 && x1 *x1 + 2.0 *x0 <=3.0*x1) {
+    	oldx0 = x0;
+        x0 = 1.0+1.0/(x0*x0); x1 = 0.0 - x1*oldx0 - 3.0 *x1 +x1*x1 + 1.0;
+    }
+}
+RF:
+0.2388 *  x[0]^1.0 + 0.4094 *  x[1]^1.0 + 0.2814 * 1
+
+- 162:
+
+ORIGIN BOOGIE:
+procedure main() returns () {
+    var x0, x1, x2: real;
+    while (5.0*x0*x0 + 4.0*x2*x2 <=40.0*x1 && x1+x2<= 0.0-1.0) {
+        x0, x1, x2 := x0 +x1, x0+x2,x2-x2*x2-1.0/(x2*x2);
+    }
+}
+TRANSLATED C:
+int main(){
+    double x0, x1, x2, oldx0;
+    while (5.0*x0*x0 + 4.0*x2*x2 <=40.0*x1 && x1+x2<= 0.0-1.0) {
+    	oldx0 = x0;
+        x0 = x0 +x1; x1 = oldx0+x2; x2 = x2-x2*x2-1.0/(x2*x2);
+    }
+}
+
+RF:
+Found Ranking Function: - 0.0408 *  x[0]^1.0 + 0.5766 *  x[1]^1.0 - 0.0745 *  x[2]^1.0 + 0.3707 * 1
+
+- 163:
+
+ORIGIN BOOGIE:
+procedure main() returns () {
+    var x0, x1, x2: real;
+    while (0.0<=x0 && x1-2.0*x0>=x2 && x2>=1.0) {
+        x0, x1, x2 := 0.0 - x0*x0 - 4.0*x1*x1 + x2*x2, 0.0 - x0*x1 - x2*x2, x2*x2;
+    }
+}
+
+TRANSLATED C:
+
+//Loops.py 18
+int main() {
+    double x0, x1, x2;
+    double oldx0 = 0;
+    while (0.0<=x0 && x1-2.0*x0>=x2 && x2>=1.0) {
+    	oldx0 = x0;
+        x0 = 0.0 - x0*x0 - 4.0*x1*x1 + x2*x2; x1 = 0.0 - oldx0*x1 - x2*x2; x2 = x2*x2;
+    }
+}
+
+RF:
+Found Ranking Function:  - 0.7187 *  x[0]^1 + 0.9531 * 1 + 0.9531 * 1 + 0.9531 * 1
+
+
