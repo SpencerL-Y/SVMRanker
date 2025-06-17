@@ -11,7 +11,7 @@ if __name__ == "__main__":
     time_str = datetime.now().strftime("%Y-%m-%d%H:%M:%S")
     folder_name = "result_" + time_str.strip().replace(" ", "")
     template_folder_name = "templates"
-    RESULT_FOLDER = os.path.join(CLEXMA_PATH, folder_name)
+    RESULT_FOLDER = os.path.join(CLEXMA_PATH, "Nested", folder_name)
     TEMPLATE_FOLDER = os.path.join(RESULT_FOLDER, template_folder_name)
     os.makedirs(RESULT_FOLDER)
     for file in os.listdir(BOOGIE_PROGRAM_FOLDER):
