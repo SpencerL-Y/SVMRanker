@@ -1,13 +1,11 @@
 from z3 import *
 
 L = [
-lambda x :(True and ((3.0 >= x[0]) and ((x[0] >= (1.0 - x[1])) and ((x[1] * x[1]) <= 1.0)))),
-lambda x :[((5.0 * x[0]) - (x[0] * x[0])), ((x[1] * x[1]) + x[1]), ],
+lambda x :(True and True),
+lambda x :[(x[0] + 1), (x[1] + 2), ],
 2,
 0,
-lambda x :[( ( 5.0* x[0])- ( x[0]* x[0])), ( ( x[1]* x[1])+ x[1]), ],
-lambda x :(And( True, (And( ( 3.0>= x[0]), (And( ( x[0]>= ( 1.0- x[1])), ( ( x[1]* x[1])<= 1.0))))))),
+lambda x :[( x[0]+ 1), ( x[1]+ 2), ],
+lambda x :(And( True, True)),
+False,
 ]
-T = [
-[1, 0, 0], 
-[0, 1, 0]]

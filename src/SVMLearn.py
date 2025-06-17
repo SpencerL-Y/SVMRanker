@@ -10,11 +10,14 @@ def generateTemplate(templateFullPath, indexOfTemplate, numOfVar):
 	if indexOfTemplate == 0:
 		generateLinearTemplateFile(templateFullPath, indexOfTemplate, 1,numOfVar)
 	elif indexOfTemplate == 1:
-		generateLinearTemplateFile(templateFullPath, indexOfTemplate, 3,numOfVar)
+		generateLinearTemplateFile(templateFullPath, indexOfTemplate, 2,numOfVar)
+		# generateLinearTemplateFile(templateFullPath, indexOfTemplate, 3,numOfVar)
 	elif indexOfTemplate == 2:
-		generateLinearTemplateFile(templateFullPath, indexOfTemplate, 5,numOfVar)
+		generateLinearTemplateFile(templateFullPath, indexOfTemplate, 3,numOfVar)
+		# generateLinearTemplateFile(templateFullPath, indexOfTemplate, 5,numOfVar)
 	elif indexOfTemplate == 3:
-		generateLinearTemplateFile(templateFullPath, indexOfTemplate, 7,numOfVar)
+		generateLinearTemplateFile(templateFullPath, indexOfTemplate, 4,numOfVar)
+		# generateLinearTemplateFile(templateFullPath, indexOfTemplate, 7,numOfVar)
 	elif indexOfTemplate == 4:
 		generateNonLinearTemplateFile(templateFullPath, indexOfTemplate,1,numOfVar)
 	elif indexOfTemplate == 5:
