@@ -1,0 +1,51 @@
+generate template if
+generate template if
+generate template if
+generate template if end
+generate template if
+generate template if end
+generate template if end
+generate template if
+generate template if
+generate template if end
+generate template if
+generate template if end
+generate template if end
+generate template if end
+SVMRanker --- Version 1.0
+Traceback (most recent call last):
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/CLIMain.py", line 134, in <module>
+    cli()
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/CLIMain.py", line 67, in lMulti
+    result, rf_list = SVMLearnMulti(sourceFilePath, sourceFileName, 
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/SVMLearn.py", line 134, in SVMLearnMulti
+    result, rf_list = LearnMultiRanker(L, depth_bound, sample_strategy, cutting_strategy, template_strategy, print_level, 1, (), ())
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/LearnMultiRanker.py", line 148, in LearnMultiRanker
+    result, rf_list = train_multi_ranking_function_backtracking(L, x, y, templatesLib, db, sample_strategy, cuttingStrategy, print_level)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/LearnMultiRanker.py", line 131, in train_multi_ranking_function_backtracking
+    ret, rf_list = train_multi_ranking_function_backtracking_loopbody(L, x, y, rf_list, templates, 0, 1, i, sample_strategy, cutting_strategy, print_level)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/LearnMultiRanker.py", line 112, in train_multi_ranking_function_backtracking_loopbody
+    result, rf = LearnRankerBoundedLoopBody(L, sample_strategy, print_level, (), ())
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/LearnMultiRanker.py", line 64, in LearnRankerBoundedLoopBody
+    ret, new_x, new_y = train_ranking_function_strategic(L_test, rf, sample_strategy, print_level, x, y)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/Util.py", line 572, in train_ranking_function_strategic
+    Is_inf,inf_model =rf.check_infinite_loop (n, L[-2], L[-3],False)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/NestedTemplate.py", line 170, in check_infinite_loop
+    s.add(cond(x))  # condition
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/OneLoop.py", line 9, in <lambda>
+    lambda x :And(If(( x[0]< 20), And(And(If(( ( x[0]- 1)> 10), And(And(If((And( ( 30<= ( ( x[0]- 1)+ 1)), ( ( ( x[0]- 1)+ 1)<= 40))), And(True, (And( True, (And( ( 30<= ( ( x[0]- 1)+ 1)), ( ( ( x[0]- 1)+ 1)<= 40))))) ), And(True, (And( True, (Not((30 <= ((x[0] - 1) + 1)) and (((x[0] - 1) + 1) <= 40))))) ) ), True ), (And( True, ( ( x[0]- 1)> 10))) ), And(And(If((And( ( 30<= ( x[0]- 1)), ( ( x[0]- 1)<= 40))), And(True, (And( True, (And( ( 30<= ( x[0]- 1)), ( ( x[0]- 1)<= 40))))) ), And(True, (And( True, (Not((30 <= (x[0] - 1)) and ((x[0] - 1) <= 40))))) ) ), True ), (And( True, (Not((x[0] - 1) > 10)))) ) ), True ), (And( True, ( x[0]< 20))) ), And(And(If(( x[0]> 10), And(And(If((And( ( 30<= ( x[0]+ 1)), ( ( x[0]+ 1)<= 40))), And(True, (And( True, (And( ( 30<= ( x[0]+ 1)), ( ( x[0]+ 1)<= 40))))) ), And(True, (And( True, (Not((30 <= (x[0] + 1)) and ((x[0] + 1) <= 40))))) ) ), True ), (And( True, ( x[0]> 10))) ), And(And(If((And( ( 30<= x[0]), ( x[0]<= 40))), And(True, (And( True, (And( ( 30<= x[0]), ( x[0]<= 40))))) ), And(True, (And( True, (Not((30 <= x[0]) and (x[0] <= 40))))) ) ), True ), (And( True, (Not(x[0] > 10)))) ) ), True ), (And( True, (Not(x[0] < 20)))) ) ), (And( True, (And( ( x[0]> 0), ( x[0]< 50))))) ),
+  File "/home/clexma/.local/lib/python3.10/site-packages/z3/z3.py", line 391, in __bool__
+    raise Z3Exception("Symbolic expressions cannot be cast to concrete Boolean values.")
+z3.z3types.Z3Exception: Symbolic expressions cannot be cast to concrete Boolean values.
+
+Running time: 0.770548 s

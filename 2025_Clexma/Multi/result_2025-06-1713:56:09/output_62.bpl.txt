@@ -1,0 +1,43 @@
+SVMRanker --- Version 1.0
+Traceback (most recent call last):
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/CLIMain.py", line 134, in <module>
+    cli()
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/lib/python3/dist-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/CLIMain.py", line 67, in lMulti
+    result, rf_list = SVMLearnMulti(sourceFilePath, sourceFileName, 
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/SVMLearn.py", line 134, in SVMLearnMulti
+    result, rf_list = LearnMultiRanker(L, depth_bound, sample_strategy, cutting_strategy, template_strategy, print_level, 1, (), ())
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/LearnMultiRanker.py", line 148, in LearnMultiRanker
+    result, rf_list = train_multi_ranking_function_backtracking(L, x, y, templatesLib, db, sample_strategy, cuttingStrategy, print_level)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/LearnMultiRanker.py", line 131, in train_multi_ranking_function_backtracking
+    ret, rf_list = train_multi_ranking_function_backtracking_loopbody(L, x, y, rf_list, templates, 0, 1, i, sample_strategy, cutting_strategy, print_level)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/LearnMultiRanker.py", line 92, in train_multi_ranking_function_backtracking_loopbody
+    result, rf_list = train_multi_ranking_function_backtracking_loopbody(L_new, x, y, rf_list, templates, 0, currentDepth + 1, depthBound, sample_strategy, cutting_strategy, print_level)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/LearnMultiRanker.py", line 112, in train_multi_ranking_function_backtracking_loopbody
+    result, rf = LearnRankerBoundedLoopBody(L, sample_strategy, print_level, (), ())
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/LearnMultiRanker.py", line 64, in LearnRankerBoundedLoopBody
+    ret, new_x, new_y = train_ranking_function_strategic(L_test, rf, sample_strategy, print_level, x, y)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/Util.py", line 570, in train_ranking_function_strategic
+    Is_inf,inf_model = rf.check_infinite_loop (n, L[-1], L[-2])
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/NestedTemplate.py", line 170, in check_infinite_loop
+    s.add(cond(x))  # condition
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/FindMultiphaseUtil.py", line 100, in <lambda>
+    L_new.append(lambda x: And(coefDotExprZ3Constraint(x, coef, rf.last_coef_array, NumOfVars, divideConstant), L_old[6](x)))
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/OneLoop.py", line 9, in <lambda>
+    lambda x :(And( True, ( ( x[0]% 2)== 0))),
+  File "/home/clexma/.local/lib/python3.10/site-packages/z3/z3.py", line 2658, in __mod__
+    _z3_assert(a.is_int(), "Z3 integer expression expected")
+  File "/home/clexma/.local/lib/python3.10/site-packages/z3/z3.py", line 115, in _z3_assert
+    raise Z3Exception(msg)
+z3.z3types.Z3Exception: Z3 integer expression expected
+
+Running time: 0.918432 s

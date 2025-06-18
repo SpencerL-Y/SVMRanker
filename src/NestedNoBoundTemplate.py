@@ -192,18 +192,43 @@ class NestedNoBoundTemplate:
 		else:
 			return False,''
 
-	def int_coef_dot(self, coef_vec, gx, up_bound):
-		den_upbound = z3.z3num.Numeral(up_bound).denominator()
-		den_coef = max([z3.z3num.Numeral(v).denominator() for v in coef_vec])
-		multiplied = max(den_upbound, den_coef)
-		ceilings = [int(multiplied * v) for v in coef_vec]
-		return sum(i[0] * i[1] for i in zip(ceilings, gx))
+	# def int_coef_dot(self, coef_vec, gx, up_bound):
+	# 	den_upbound = z3.z3num.Numeral(up_bound).denominator()
+	# 	den_coef = max([z3.z3num.Numeral(v).denominator() for v in coef_vec])
+	# 	multiplied = max(den_upbound, den_coef)
+	# 	ceilings = [int(multiplied * v) for v in coef_vec]
+	# 	return sum(i[0] * i[1] for i in zip(ceilings, gx))
 
+	# def get_max_denominator(self, coef_vec, up_bound):
+	# 	den_upbound = z3.z3num.Numeral(up_bound).denominator()
+	# 	den_coef = max ([z3.z3num.Numeral(v).denominator() for v in coef_vec])
+	# 	multiplied = max(den_upbound, den_coef)
+	# 	return multiplied.as_long()
+	
 	def get_max_denominator(self, coef_vec, up_bound):
-		den_upbound = z3.z3num.Numeral(up_bound).denominator()
-		den_coef = max ([z3.z3num.Numeral(v).denominator() for v in coef_vec])
+		def get_den(x):
+			if is_rational_value(x):
+				return x.denominator()
+			else:
+				return Fraction(x).limit_denominator().denominator	
+		den_upbound = get_den(up_bound)
+		den_coef = max([get_den(v) for v in coef_vec])
 		multiplied = max(den_upbound, den_coef)
-		return multiplied.as_long()
+		return multiplied  # 返回的是 int
+
+	def int_coef_dot(self, coef_vec, gx, up_bound):
+		def get_den(x):
+			if is_rational_value(x):
+				return x.denominator()
+			else:
+				return Fraction(x).limit_denominator().denominator
+
+		den_upbound = get_den(up_bound)
+		den_coef = max([get_den(v) for v in coef_vec])
+		multiplied = max(den_upbound, den_coef)
+
+		ceilings = [int(multiplied * float(v)) for v in coef_vec]
+		return sum(c * g for c, g in zip(ceilings, gx))
 	
 	@set_timeout(4, z3_verify_fail)
 	def z3_verify(self, n, coef, cond, prime, tr=True):  # Check if every condition satisfied.

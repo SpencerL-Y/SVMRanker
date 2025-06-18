@@ -1,0 +1,12 @@
+2025-06-17 14:06:34,914 ERROR (main) [root] - Type check failed for UnaryExpression[ARITHNEGATIVE,RealLiteral[5.0]]
+2025-06-17 14:06:34,915 ERROR (main) [root] - Type check failed for BinaryExpression[COMPGEQ,BinaryExpression[ARITHMINUS,BinaryExpression[ARITHMUL,RealLiteral[1.0],IdentifierExpression[a]],IdentifierExpression[b]],UnaryExpression[ARITHNEGATIVE,RealLiteral[5.0]]]
+2025-06-17 14:06:34,915 ERROR (main) [root] - Type check failed for UnaryExpression[ARITHNEGATIVE,IdentifierExpression[a]]
+2025-06-17 14:06:34,915 ERROR (main) [root] - Type check failed for BinaryExpression[ARITHPLUS,UnaryExpression[ARITHNEGATIVE,IdentifierExpression[a]],BinaryExpression[ARITHMUL,RealLiteral[4.0],IdentifierExpression[b]]]
+SVMRanker --- Version 1.0
+--------------------LEARNING MULTIPHASE SUMMARY-------------------
+MULTIPHASE DEPTH:  1
+LEARNING RESULT:  TERMINATE
+-----------RANKING FUNCTIONS----------
+0.1635 *  x0^1 - 0.6462 *  x1^1 + 1.4831 * 1
+
+Running time: 1.269452 s
