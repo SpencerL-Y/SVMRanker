@@ -4,6 +4,9 @@ import fractions as Frac
 import math
 import signal
 import time
+
+from z3 import is_rational_value
+from fractions import Fraction
 from FindMultiphaseUtil import *
 
 '''

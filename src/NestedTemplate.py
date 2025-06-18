@@ -4,7 +4,8 @@ import fractions as Frac
 import math
 import signal
 import time
-
+from z3 import is_rational_value
+from fractions import Fraction
 '''
 nested ranking function <f_1, f_2, ..., f_k>; this is a template more expressive than traditional ranking function.
 Let f_i = a^T_i U_i(x) for every  1 <= i <= k such that for a list positive numbers {C_1, C_2, ..., C_n} and a number delta
