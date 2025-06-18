@@ -10,7 +10,7 @@ RUNNING_TEMPLATE_FOLDER = os.path.join(PROJECT_ROOT, "src", "template")
 
 if __name__ == "__main__":
     # Prepare result directory with timestamp
-    time_str = datetime.now().strftime("%Y-%m-%d%H:%M:%S")
+    time_str = datetime.now().strftime("%Y-%m-%d%H_%M_%S")
     folder_name = "result_" + time_str.strip().replace(" ", "")
     template_folder_name = "templates"
     RESULT_FOLDER = os.path.join(CLEXMA_PATH, "Nested", folder_name)
