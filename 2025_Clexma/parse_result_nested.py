@@ -6,8 +6,8 @@ import re
 import argparse
 import json
 
-PROGRAM_NON_FOLDER = os.path.join(os.getcwd(), "Program_non")
-SIFTED_TERMINATE_FOLDER = os.path.join(os.getcwd(), "2025_Clexma", "4-nested-terminate")
+PROGRAM_NON_FOLDER = os.path.join(os.getcwd(), "Program_Boogie_Total")
+SIFTED_TERMINATE_FOLDER = os.path.join(os.getcwd(), "2025_Clexma", "Nested", "4-nested-terminate")
 
 def sift_terminate_files(terminate_list):
     for item in terminate_list:

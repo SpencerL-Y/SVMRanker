@@ -9,6 +9,3 @@ lambda x :[( x[0]+ 1), ( x[1]+ 2), ],
 lambda x :(And( True, True)),
 False,
 ]
-T = [
-[1, 0, 0], 
-[0, 1, 0]]

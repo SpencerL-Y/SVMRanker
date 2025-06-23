@@ -5,7 +5,7 @@ import time
 
 PROJECT_ROOT = os.getcwd()
 CLEXMA_PATH = os.path.join(PROJECT_ROOT, "2025_Clexma")
-BOOGIE_PROGRAM_FOLDER = os.path.join(PROJECT_ROOT, "Program_non")
+BOOGIE_PROGRAM_FOLDER = os.path.join(PROJECT_ROOT, "Program_Boogie_Total")
 RUNNING_TEMPLATE_FOLDER = os.path.join(PROJECT_ROOT, "src", "template")
 
 if __name__ == "__main__":
@@ -14,7 +14,7 @@ if __name__ == "__main__":
     folder_name = "result_" + time_str.strip().replace(" ", "")
     template_folder_name = "templates"
     RESULT_FOLDER = os.path.join(CLEXMA_PATH, "Nested", folder_name)
-    TEMPLATE_FOLDER = os.path.join(RESULT_FOLDER, template_folder_name)
+    TEMPLATE_FOLDER = os.path.join(RESULT_FOLDER,  "Nested", template_folder_name)
     os.makedirs(RESULT_FOLDER, exist_ok=True)
 
     # Helper: run command with 300s timeout and log output
