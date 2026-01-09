@@ -1,12 +1,17 @@
 procedure main()
 {
-  var x: int;
-  var y: int;
-  var oldx: int;
-  while ((((4*x)+y)>=1))
+  var a: int;
+  var b: int;
+  var q: int;
+  var olda: int;
+  q := 0;
+  a := 0;
+  b := 0;
+  while ((q>0))
   {
-  oldx := x;
-  x := ((4*y)-(2*x));
-  y := (4*oldx);  }
+  q := ((q+a)-1);
+  olda := a;
+  a := ((3*olda)-(4*b));
+  b := ((4*olda)+(3*b));  }
 
 }

@@ -20,7 +20,8 @@ def translate_FunDecl(c_ast):
             args.append(translate_Decl(a))
 
     subst = unify(c_ast.type, TypeDecl(Var("declname"),
-                                       [],
+                                       Var("quals", True),
+                                       Var("align", True),
                                        IdentifierType(Var("ret_type"))))
 
     name = subst.lookup("declname")
@@ -32,7 +33,10 @@ def translate_typ(c_ast):
     if isinstance(c_ast, FuncDecl):
         return translate_FunDecl(c_ast)
     elif isinstance(c_ast, TypeDecl):
-        pat = TypeDecl(Var("declname"), [], IdentifierType(Var("names")))
+        pat = TypeDecl(Var("declname"),
+                       Var("quals", True),
+                       Var("align", True),
+                       IdentifierType(Var("names")))
         t = unify(pat, c_ast)
         return t.lookup("names")
     elif isinstance(c_ast, ArrayDecl):
@@ -90,7 +94,14 @@ def translate_exp(c_ast):
 
 
 def translate_Decl(c_ast):
-    pat = Decl(Var("name"), [], [], [], Var("type"), Var("init", True), None)
+    pat = Decl(Var("name"),
+               Var("quals", True),
+               Var("align", True),
+               Var("storage", True),
+               Var("funcspec", True),
+               Var("type"),
+               Var("init", True),
+               Var("bitsize", True))
     subst = unify(pat, c_ast)
     if subst is None:
         pat.show()

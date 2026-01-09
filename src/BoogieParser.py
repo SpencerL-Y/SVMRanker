@@ -22,6 +22,11 @@ def getLoopInfo():
 
 def parseBoogieProgramMulti(sourceFile, outFile):
     path = os.path.split(os.path.realpath(__file__))[0]
+    bpl_input = sourceFile if os.path.isabs(sourceFile) else os.path.abspath(sourceFile)
+    jar = os.path.abspath(os.path.join(path, '..', 'Boogie2python', 'boogie2python.jar'))
+    out_py = os.path.abspath(os.path.join(path, outFile))
+    info_tmp = os.path.abspath(os.path.join(path, 'info.tmp'))
+
     (sourceFilePath, sourceFileName) = os.path.split(sourceFile)
     
     version = '.'.join(sys.version.strip().split(' ')[0].split('.')[0:2])
@@ -29,12 +34,13 @@ def parseBoogieProgramMulti(sourceFile, outFile):
     generatePythonLoopCommand = [
     	'java', 
     	'-jar', 
-    	os.path.join(path,'../Boogie2python/boogie2pythonMulti.jar'), 
-    	os.path.join(path,sourceFilePath,sourceFileName), 
+    	jar, 
+    	bpl_input, 
     	'0', 
-    	os.path.join(path,outFile), 
-    	os.path.join(path,'info.tmp')
-    	]
+    	out_py, 
+    	info_tmp
+    ]
+    parse_oldtime=datetime.datetime.now()
     os.system(' '.join(generatePythonLoopCommand))
     # parsing_boogie(
     # 	os.path.abspath(os.path.join(path,'../Boogie2python/boogie2python.jar')),
@@ -50,6 +56,11 @@ def parseBoogieProgramMulti(sourceFile, outFile):
 
 def parseBoogieProgramNested(sourceFile, outFile):
     path = os.path.split(os.path.realpath(__file__))[0]
+    bpl_input = sourceFile if os.path.isabs(sourceFile) else os.path.abspath(sourceFile)
+    jar = os.path.abspath(os.path.join(path, '..', 'Boogie2python', 'boogie2python.jar'))
+    out_py = os.path.abspath(os.path.join(path, outFile))
+    info_tmp = os.path.abspath(os.path.join(path, 'info.tmp'))
+
     (sourceFilePath, sourceFileName) = os.path.split(sourceFile)
     
     version = '.'.join(sys.version.strip().split(' ')[0].split('.')[0:2])
@@ -57,12 +68,12 @@ def parseBoogieProgramNested(sourceFile, outFile):
     generatePythonLoopCommand = [
     	'java', 
     	'-jar', 
-    	os.path.join(path,'../Boogie2python/boogie2python.jar'), 
-    	os.path.join(path,sourceFilePath,sourceFileName), 
+    	jar, 
+    	bpl_input, 
     	'0', 
-    	os.path.join(path,outFile), 
-    	os.path.join(path,'info.tmp')
-    	]
+    	out_py, 
+    	info_tmp
+    ]
     os.system(' '.join(generatePythonLoopCommand))
     # parsing_boogie(
     # 	os.path.abspath(os.path.join(path,'../Boogie2python/boogie2python.jar')),

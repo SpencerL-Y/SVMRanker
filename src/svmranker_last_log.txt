@@ -1,0 +1,15 @@
+command: /home/clexma/Desktop/fox3/TermDB/EvolveTerm/.venv_evolve/bin/python3 /home/clexma/Desktop/fox3/TermDB/SVMRanker/src/CLIMain.py parsectoboogie /tmp/tmptg2g10yz.c /tmp/tmpc_a8pmvq.bpl
+returncode: 0
+stdout:
+SVMRanker --- Version 1.0
+
+stderr:
+Traceback (most recent call last):
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/./C2Boogie.py", line 281, in <module>
+    t = translate_FuncDef(x, ctx)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/./C2Boogie.py", line 209, in translate_FuncDef
+    decl = translate_Decl(c_ast.decl)
+  File "/home/clexma/Desktop/fox3/TermDB/SVMRanker/src/./C2Boogie.py", line 93, in translate_Decl
+    pat = Decl(Var("name"), [], [], [], Var("type"), Var("init", True), None)
+TypeError: Decl.__init__() missing 1 required positional argument: 'bitsize'
+
