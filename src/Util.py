@@ -3,6 +3,7 @@ some functions for convenience
 @author xuechao
 '''
 import os
+import sys
 import numpy as np
 import random
 import datetime
@@ -157,8 +158,29 @@ def get_statement(L, x):
         return None
     return result # e.g. [x[0]-x[1]**2+1, x[1]+x[0]**2-1] # [5*x[0]-x[0]**2]
 
+def _is_finite_value(value):
+    if value is None:
+        return False
+    try:
+        if isinstance(value, (int, float, np.integer, np.floating)):
+            return np.isfinite(value)
+    except Exception:
+        return False
+    return True
+
+def _is_finite_list(values):
+    try:
+        return all(_is_finite_value(item) for item in values)
+    except TypeError:
+        return _is_finite_value(values)
 
 def is_type_real(L): 
+    try:
+        module = sys.modules.get("OneLoop")
+        if module and getattr(module, "ONELOOP_FORCE_INT_ARITH", False):
+            return False
+    except Exception:
+        pass
     return len(L) <= 6 + L[3]
 
 '''
@@ -293,19 +315,23 @@ def sample_points_same_interval(L, m, h, n, rf,base_point):
             
             if condition:  # must satisfy the guard condition
                 p_ = get_statement(L,p)
-                if p_ is None:
+                if p_ is None or not _is_finite_list(p_):
                     continue
                 #print("point:", p)
                 #print("point:", p_)
                 rf.sample_points_list.append(p)
                 for x, y in rf.get_example(p, p_):  # by ranking function to generate dataset for SVM
+                    if not _is_finite_list(x):
+                        continue
                     yield ('UNKNOWN',x, y)
         #print(rf.get_zero_vec())
         base_point_ = get_statement(L,base_point)
-        if base_point_ is None:
+        if base_point_ is None or not _is_finite_list(base_point_):
             
             return 
         for x,y in rf.get_example(base_point,base_point_):
+            if not _is_finite_list(x):
+                continue
             yield('UNKNOWN',x,y)
     # yield (rf.get_zero_vec(), -1)
     # print("sample example down!!")
@@ -347,10 +373,12 @@ def sample_points_bisection(L,n,rf):
 					#print(s_p,u_p)
 					if np.all(s_p == u_p):
 						s_p_ = get_statement(L,s_p)
-						if s_p_ is None:
+						if s_p_ is None or not _is_finite_list(s_p_):
 							break
 						for x,y in rf.get_example(s_p,s_p_):
 							#print("sample: ", x, y)
+							if not _is_finite_list(x):
+								continue
 							yield('UNKNOWN',x,y)
 					m = (s_p+u_p)/2
 					# print(m)
@@ -364,9 +392,11 @@ def sample_points_bisection(L,n,rf):
 		else:
 			yield('TERMINATE',None,None)
 		m_ = get_statement(L,m)
-		if m_ is None:
+		if m_ is None or not _is_finite_list(m_):
 			continue
 		for x,y in rf.get_example(m,m_):
+			if not _is_finite_list(x):
+				continue
 			yield('UNKNOWN', x,y)
 
 def get_xpoints( m, h, n,base_point):
@@ -532,6 +562,9 @@ def train_ranking_function(L, rf, x, y,  m=5, h=0.5, n=2):
 			print(  str(p)+"\n")
 			# print('model = ', p)
 			p_ = get_statement(L, p)
+			if p_ is None or not _is_finite_list(p_):
+				count += 1
+				continue
 			# print(p, p_)
 			# tp = rf.get_example(p, p_)
 			# print(tp)
@@ -541,6 +574,8 @@ def train_ranking_function(L, rf, x, y,  m=5, h=0.5, n=2):
 			st = datetime.datetime.now()
 			for new_x,new_y  in rf.get_example(p, p_):
 			# for new_x,new_y  in sample_points(L, m, h, n, rf,p):
+			    if not _is_finite_list(new_x):
+			        continue
 			    x = x+(np.array(new_x),)
 			    y = y+(new_y,)
 			s_t = datetime.datetime.now()
@@ -744,6 +779,9 @@ def train_ranking_function_strategic(L, rf, sample_strategy, print_level, x, y, 
 				print(  str(p)+"\n")
 			# print('model = ', p)
 			p_ = get_statement(L, p)
+			if p_ is None or not _is_finite_list(p_):
+				count += 1
+				continue
 			# print(p, p_)
 			# tp = rf.get_example(p, p_)
 			# print(tp)
@@ -753,6 +791,8 @@ def train_ranking_function_strategic(L, rf, sample_strategy, print_level, x, y, 
 			st = datetime.datetime.now()
 			for new_x,new_y  in rf.get_example(p, p_):
 			# for new_x,new_y  in sample_points(L, m, h, n, rf,p):
+			    if not _is_finite_list(new_x):
+			        continue
 			    x = x+(np.array(new_x),)
 			    y = y+(new_y,)
 			s_t = datetime.datetime.now()
@@ -764,5 +804,3 @@ def train_ranking_function_strategic(L, rf, sample_strategy, print_level, x, y, 
 	if print_level > 0:
 		print(  "Failed to prove it is terminating\n")
 	return "UNKNOWN",x,y
-
-

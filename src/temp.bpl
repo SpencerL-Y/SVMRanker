@@ -1,17 +1,34 @@
+function unknown_uint() returns (int);
+const SIZE: int;
+axiom SIZE == 20000001;
 procedure main()
 {
-  var a: int;
-  var b: int;
-  var q: int;
-  var olda: int;
-  q := 0;
-  a := 0;
-  b := 0;
-  while ((q>0))
+  var n: int;
+  var i: int;
+  var k: int;
+  var j: int;
+  var l: int;
+  l := 0;
+  n := unknown_uint();
+  if (!((n <= SIZE)))
   {
-  q := ((q+a)-1);
-  olda := a;
-  a := ((3*olda)-(4*b));
-  b := ((4*olda)+(3*b));  }
+  }
+
+  i := 0;
+  j := 0;
+  k := 0;
+  l := 0;
+  while ((l < n))
+  {
+  if (((l mod 3) == 0))
+  {
+    i := (i + 1);  } else {
+    if (((l mod 2) == 0))
+    {
+      j := (j + 1);    } else {
+      k := (k + 1);    }
+  }
+
+  l := (l + 1);  }
 
 }

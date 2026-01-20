@@ -53,10 +53,10 @@ def parseBoogie(source, parseoutfile):
                                                                                                                      --template_strategy FULL: template is combination of all variables\n\
                                                                                                                      default set to SINGLEFULL")
 
-@click.option("--print_level", type = click.Choice(["DEBUG", "INFO", "NONE"], False),  default="NONE", help="--print_level DEBUG: print all the information of the learning and debugging\n\
+@click.option("--print_level", type = click.Choice(["DEBUG", "INFO", "NONE"], False),  default="DEBUG", help="--print_level DEBUG: print all the information of the learning and debugging\n\
                                                                                            --print_level INFO: print the information of the learning\n\
                                                                                            --print_level NONE: only print the result information of the learning\n\
-                                                                                           default set to NONE")
+                                                                                           default set to DEBUG")
 def lMulti(source, depth_bound, filetype, sample_strategy, cutting_strategy, template_strategy, print_level):
     print_level = 0 if print_level == "NONE" else 1 if print_level == "INFO" else 2 if print_level == "DEBUG" else "NONE"
     if filetype == "BOOGIE":
@@ -93,10 +93,10 @@ def lMulti(source, depth_bound, filetype, sample_strategy, cutting_strategy, tem
 @click.option("--sample_strategy", type = click.Choice(["ENLARGE", "CONSTRAINT"], False), default="ENLARGE", help="--sample_strategy ENLARGE: enlarge the sample zone when sample num not enough.\n\
                                                                                                                    --sample_strategy CONSTRAINT: find feasible points by constraint if sample num not enough\n\
                                                                                                                    default set to ENLARGE")
-@click.option("--print_level", type = click.Choice(["DEBUG", "INFO", "NONE"], False),  default="NONE", help="--print_level DEBUG: print all the information of the learning and debugging\n\
+@click.option("--print_level", type = click.Choice(["DEBUG", "INFO", "NONE"], False),  default="DEBUG", help="--print_level DEBUG: print all the information of the learning and debugging\n\
                                                                                            --print_level INFO: print the information of the learning\n\
                                                                                            --print_level NONE: only print the result information of the learning\n\
-                                                                                           default set to NONE")
+                                                                                           default set to DEBUG")
 def lNested(source, depth_bound, filetype, sample_strategy, print_level):
     print_level = 0 if print_level == "NONE" else 1 if print_level == "INFO" else 2 if print_level == "DEBUG" else "NONE"
     if filetype == "BOOGIE":
