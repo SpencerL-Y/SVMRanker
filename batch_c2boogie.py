@@ -43,7 +43,10 @@ def run_c2boogie(c2boogie_path, c_path, out_path, pointer_log):
         "--input-name",
         c_path,
     ]
-    result = subprocess.run(cmd, input=src, text=True)
+    result = subprocess.run(cmd, input=src, text=True, capture_output=True)
+    if result.returncode != 0:
+        detail = (result.stderr or result.stdout or "").strip()
+        return result.returncode, detail
     return result.returncode, None
 
 
@@ -52,6 +55,8 @@ def main():
     parser.add_argument("--src-dir", default="../EvolveTerm/data")
     parser.add_argument("--out-dir", default="../Boogie_data")
     parser.add_argument("--pointer-log", default=None)
+    parser.add_argument("--failure-log", default=None,
+                        help="write failed C file paths (and errors) to this file")
     args = parser.parse_args()
 
     repo_root = os.path.dirname(os.path.abspath(__file__))
@@ -79,11 +84,24 @@ def main():
         if code != 0:
             failures.append((c_path, err))
 
+    failure_log = args.failure_log
+    if failure_log is None:
+        failure_log = os.path.join(out_dir, "failed_c2boogie.txt")
+    else:
+        failure_log = os.path.abspath(failure_log)
+
     if failures:
         sys.stderr.write("Failed: {}\n".format(len(failures)))
         for path, err in failures:
             msg = err.strip() if err else ""
             sys.stderr.write("- {} {}\n".format(path, msg))
+        try:
+            with open(failure_log, "w", encoding="utf-8") as f:
+                for path, err in failures:
+                    msg = err.strip() if err else ""
+                    f.write("{}\t{}\n".format(path, msg))
+        except OSError:
+            sys.stderr.write("Could not write failure log: {}\n".format(failure_log))
     sys.stderr.write("Total processed: {}\n".format(total))
 
 
