@@ -6,6 +6,9 @@ import click
 
 from BoogieParser import *
 from SVMLearn import *
+from SVMLearnExt import SVMLearnMultiExt
+from SVMLearnLexiExt import SVMLearnLexiExt
+from SVMLearnPiecewiseExt import SVMLearnPiecewiseExt
 
 #from SVMLearnMulti import *
 
@@ -93,6 +96,136 @@ def lMulti(source, depth_bound, filetype, sample_strategy, cutting_strategy, tem
 @click.option("--sample_strategy", type = click.Choice(["ENLARGE", "CONSTRAINT"], False), default="ENLARGE", help="--sample_strategy ENLARGE: enlarge the sample zone when sample num not enough.\n\
                                                                                                                    --sample_strategy CONSTRAINT: find feasible points by constraint if sample num not enough\n\
                                                                                                                    default set to ENLARGE")
+@click.option("--cutting_strategy", type = click.Choice(["NEG", "MINI", "POS"], False), default="MINI", help="use f(x) < b to cut\n\
+                                                                                                                --cutting_strategy POS:  b is a postive number\n\
+                                                                                                                --cutting_strategy NEG: b is a negative number\n\
+                                                                                                                --cutting_strategy MINI: b is the minimum value of sampled points\n\
+                                                                                                                default set to MINI")
+@click.option("--template_strategy", type = click.Choice(["LINEAR", "QUAD", "PAIRWISE"], False), default="LINEAR", help="templates used for learning\n\
+                                                                                                                     --template_strategy LINEAR: linear monomials\n\
+                                                                                                                     --template_strategy QUAD: linear + squares + cross terms\n\
+                                                                                                                     --template_strategy PAIRWISE: linear + cross terms\n\
+                                                                                                                     default set to LINEAR")
+@click.option("--print_level", type = click.Choice(["DEBUG", "INFO", "NONE"], False),  default="DEBUG", help="--print_level DEBUG: print all the information of the learning and debugging\n\
+                                                                                           --print_level INFO: print the information of the learning\n\
+                                                                                           --print_level NONE: only print the result information of the learning\n\
+                                                                                           default set to DEBUG")
+def lMultiExt(source, depth_bound, filetype, sample_strategy, cutting_strategy, template_strategy, print_level):
+    print_level = 0 if print_level == "NONE" else 1 if print_level == "INFO" else 2 if print_level == "DEBUG" else "NONE"
+    if filetype == "BOOGIE":
+        sourceFilePath, sourceFileName,\
+        templatePath, templateFileName, Info, \
+        parse_oldtime, parse_newtime = parseBoogieProgramMulti(source, "OneLoop.py")
+        result, rf_list = SVMLearnMultiExt(sourceFilePath, sourceFileName,
+                                           depth_bound,
+                                           parse_oldtime, parse_newtime,
+                                           sample_strategy, cutting_strategy, template_strategy,
+                                           print_level)
+        if print_level == 0:
+            printSummary(len(rf_list), result, rf_list, True)
+    elif filetype == "C":
+        os.system("python3 ./CPreprocess.py " + source)
+        os.system("cpp " + source + " | grep -v '^#' | python3 ./C2Boogie.py stdin " + "temp.bpl" + " --skip-methods __VERIFIER_error __VERIFIER_assert __VERIFIER_assume --assert-method __VERIFIER_assert --assume-method __VERIFIER_assume --add-trivial-invariants")
+        sourceFilePath, sourceFileName,\
+        templatePath, templateFileName, Info, \
+        parse_oldtime, parse_newtime = parseBoogieProgramMulti("temp.bpl", "OneLoop.py")
+        result, rf_list = SVMLearnMultiExt(sourceFilePath, sourceFileName,
+                                           depth_bound,
+                                           parse_oldtime, parse_newtime,
+                                           sample_strategy, cutting_strategy, template_strategy,
+                                           print_level)
+        if print_level == 0:
+            printSummary(len(rf_list), result, rf_list, True)
+
+@click.command()
+@click.argument("source")
+@click.option("--depth_bound", default=2, help="lexicographic depth bound, default set to 2")
+@click.option("--filetype", type = click.Choice(["C", "BOOGIE"], False), default="BOOGIE", help="--file C: input is c file.\n --file BOOGIE: input is boogie file.\n default set to BOOGIE")
+@click.option("--sample_strategy", type = click.Choice(["ENLARGE", "CONSTRAINT"], False), default="ENLARGE", help="--sample_strategy ENLARGE: enlarge the sample zone when sample num not enough.\n\
+                                                                                                                   --sample_strategy CONSTRAINT: find feasible points by constraint if sample num not enough\n\
+                                                                                                                   default set to ENLARGE")
+@click.option("--template_strategy", type = click.Choice(["LINEAR", "QUAD", "PAIRWISE"], False), default="LINEAR", help="templates used for learning\n\
+                                                                                                                     --template_strategy LINEAR: linear monomials\n\
+                                                                                                                     --template_strategy QUAD: linear + squares + cross terms\n\
+                                                                                                                     --template_strategy PAIRWISE: linear + cross terms\n\
+                                                                                                                     default set to LINEAR")
+@click.option("--print_level", type = click.Choice(["DEBUG", "INFO", "NONE"], False),  default="DEBUG", help="--print_level DEBUG: print all the information of the learning and debugging\n\
+                                                                                           --print_level INFO: print the information of the learning\n\
+                                                                                           --print_level NONE: only print the result information of the learning\n\
+                                                                                           default set to DEBUG")
+def lLexiExt(source, depth_bound, filetype, sample_strategy, template_strategy, print_level):
+    print_level = 0 if print_level == "NONE" else 1 if print_level == "INFO" else 2 if print_level == "DEBUG" else "NONE"
+    if filetype == "BOOGIE":
+        sourceFilePath, sourceFileName,\
+        templatePath, templateFileName, Info, \
+        parse_oldtime, parse_newtime = parseBoogieProgramMulti(source, "OneLoop.py")
+        result, _coeffs = SVMLearnLexiExt(sourceFilePath, sourceFileName,
+                                          depth_bound,
+                                          parse_oldtime, parse_newtime,
+                                          sample_strategy, template_strategy,
+                                          print_level)
+    elif filetype == "C":
+        os.system("python3 ./CPreprocess.py " + source)
+        os.system("cpp " + source + " | grep -v '^#' | python3 ./C2Boogie.py stdin " + "temp.bpl" + " --skip-methods __VERIFIER_error __VERIFIER_assert __VERIFIER_assume --assert-method __VERIFIER_assert --assume-method __VERIFIER_assume --add-trivial-invariants")
+        sourceFilePath, sourceFileName,\
+        templatePath, templateFileName, Info, \
+        parse_oldtime, parse_newtime = parseBoogieProgramMulti("temp.bpl", "OneLoop.py")
+        result, _coeffs = SVMLearnLexiExt(sourceFilePath, sourceFileName,
+                                          depth_bound,
+                                          parse_oldtime, parse_newtime,
+                                          sample_strategy, template_strategy,
+                                          print_level)
+
+
+@click.command()
+@click.argument("source")
+@click.option("--filetype", type=click.Choice(["C", "BOOGIE"], False), default="BOOGIE", help="--file C: input is c file.\n --file BOOGIE: input is boogie file.\n default set to BOOGIE")
+@click.option("--sample_strategy", type=click.Choice(["ENLARGE", "CONSTRAINT"], False), default="ENLARGE", help="--sample_strategy ENLARGE: enlarge the sample zone when sample num not enough.\n\
+                                                                                                                   --sample_strategy CONSTRAINT: find feasible points by constraint if sample num not enough\n\
+                                                                                                                   default set to ENLARGE")
+@click.option("--template_strategy", type=click.Choice(["LINEAR", "QUAD", "PAIRWISE"], False), default="LINEAR", help="templates used for learning\n\
+                                                                                                                     --template_strategy LINEAR: linear monomials\n\
+                                                                                                                     --template_strategy QUAD: linear + squares + cross terms\n\
+                                                                                                                     --template_strategy PAIRWISE: linear + cross terms\n\
+                                                                                                                     default set to LINEAR")
+@click.option("--pred", "predicates", multiple=True, help="piecewise predicate, e.g. \"x0 < 10\". Use multiple times for a partition.")
+@click.option("--max_iters", default=60, help="max CEGIS iterations for piecewise learning")
+@click.option("--print_rf/--no-print_rf", default=False, help="print learned piecewise ranking function")
+@click.option("--save_rf", default=None, help="save learned piecewise ranking function to file")
+@click.option("--print_level", type=click.Choice(["DEBUG", "INFO", "NONE"], False),  default="DEBUG", help="--print_level DEBUG: print all the information of the learning and debugging\n\
+                                                                                           --print_level INFO: print the information of the learning\n\
+                                                                                           --print_level NONE: only print the result information of the learning\n\
+                                                                                           default set to DEBUG")
+def lPiecewiseExt(source, filetype, sample_strategy, template_strategy, predicates, max_iters, print_rf, save_rf, print_level):
+    print_level = 0 if print_level == "NONE" else 1 if print_level == "INFO" else 2 if print_level == "DEBUG" else "NONE"
+    if filetype == "BOOGIE":
+        sourceFilePath, sourceFileName,\
+        templatePath, templateFileName, Info, \
+        parse_oldtime, parse_newtime = parseBoogieProgramMulti(source, "OneLoop.py")
+        SVMLearnPiecewiseExt(sourceFilePath, sourceFileName,
+                             parse_oldtime, parse_newtime,
+                             sample_strategy, template_strategy,
+                             print_level, list(predicates), max_iters,
+                             print_rf, save_rf)
+    elif filetype == "C":
+        os.system("python3 ./CPreprocess.py " + source)
+        os.system("cpp " + source + " | grep -v '^#' | python3 ./C2Boogie.py stdin " + "temp.bpl" + " --skip-methods __VERIFIER_error __VERIFIER_assert __VERIFIER_assume --assert-method __VERIFIER_assert --assume-method __VERIFIER_assume --add-trivial-invariants")
+        sourceFilePath, sourceFileName,\
+        templatePath, templateFileName, Info, \
+        parse_oldtime, parse_newtime = parseBoogieProgramMulti("temp.bpl", "OneLoop.py")
+        SVMLearnPiecewiseExt(sourceFilePath, sourceFileName,
+                             parse_oldtime, parse_newtime,
+                             sample_strategy, template_strategy,
+                             print_level, list(predicates), max_iters,
+                             print_rf, save_rf)
+
+@click.command()
+@click.argument("source")
+@click.option("--depth_bound", default=2, help="depth bound default set to 2")
+@click.option("--filetype", type = click.Choice(["C", "BOOGIE"], False), default="BOOGIE", help="--file C: input is c file.\n --file BOOGIE: input is boogie file.\n default set to BOOGIE")
+@click.option("--sample_strategy", type = click.Choice(["ENLARGE", "CONSTRAINT"], False), default="ENLARGE", help="--sample_strategy ENLARGE: enlarge the sample zone when sample num not enough.\n\
+                                                                                                                   --sample_strategy CONSTRAINT: find feasible points by constraint if sample num not enough\n\
+                                                                                                                   default set to ENLARGE")
 @click.option("--print_level", type = click.Choice(["DEBUG", "INFO", "NONE"], False),  default="DEBUG", help="--print_level DEBUG: print all the information of the learning and debugging\n\
                                                                                            --print_level INFO: print the information of the learning\n\
                                                                                            --print_level NONE: only print the result information of the learning\n\
@@ -126,10 +259,12 @@ def lNested(source, depth_bound, filetype, sample_strategy, print_level):
 cli.add_command(parseBoogie)
 cli.add_command(lNested)
 cli.add_command(lMulti)
+cli.add_command(lMultiExt)
+cli.add_command(lLexiExt)
+cli.add_command(lPiecewiseExt)
 cli.add_command(parseCtoBoogie)
 cli.add_command(parseCtoPy)
 
 if __name__ == '__main__':
     print("SVMRanker --- Version 1.0")
     cli()
-
